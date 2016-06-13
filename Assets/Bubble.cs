@@ -46,13 +46,11 @@ public class Bubble : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (isPopped){
-			
-		}
+
 	}
 
 	public void Pop (){
-
+		audiosource.Play();
 		popParticles.Play();
 		ourImage.sprite = poppedImages[Random.Range(0,poppedImages.Length)];
 		isPopped = true;
@@ -61,7 +59,7 @@ public class Bubble : MonoBehaviour {
 		grid.CheckPopped();
 		OnPop(value);
 
-		audiosource.Play();
+
 	}
 
 	public void Kill (float fadeTime) {

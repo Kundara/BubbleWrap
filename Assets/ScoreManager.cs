@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using GS;
 
 public class ScoreManager : MonoBehaviour {
 
@@ -19,6 +20,7 @@ public class ScoreManager : MonoBehaviour {
 	public int minScoreToCompliment;
 	public int maxScoreToCompliment;
 	public float complimentShowTimePerChar;
+	FBManager fbManager;
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +30,7 @@ public class ScoreManager : MonoBehaviour {
 
 		UpdateScoreUI();
 		CalculateNextCompliment ();
+		fbManager = FindObjectOfType<FBManager>();
 	}
 	
 	// Update is called once per frame
@@ -48,6 +51,7 @@ public class ScoreManager : MonoBehaviour {
 			CalculateNextCompliment ();
 		}
 		PlayerPrefs.SetInt(ScoreTypes.highScore , score);
+		fbManager.PostScore(score);
 	}
 
 	void CalculateNextCompliment () {

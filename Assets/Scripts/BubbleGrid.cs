@@ -133,6 +133,7 @@ public class BubbleGrid : MonoBehaviour {
 
 		CreateRow();
 		CheckPopped();
+
 	}
 
 
@@ -141,7 +142,5 @@ public class BubbleGrid : MonoBehaviour {
 	}
 
 
-	void ClearRow(int clearRow){
-		
-	}
+
 }

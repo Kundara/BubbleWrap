@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9922BEC8-8D19-9D29-9D9D-C0D37312587D}") = "Bubble Wrap", "Assembly-CSharp-firstpass.csproj", "{FAC41557-66A7-99A7-2C1C-A8BB4A50A771}"
+EndProject
+Project("{9922BEC8-8D19-9D29-9D9D-C0D37312587D}") = "Bubble Wrap", "Assembly-CSharp.csproj", "{B5757188-BEAB-8023-4C06-8401CBD8CB6F}"
+EndProject
+Project("{9922BEC8-8D19-9D29-9D9D-C0D37312587D}") = "Bubble Wrap", "Assembly-CSharp-Editor.csproj", "{B2C1B826-6045-F917-8E97-8CF2F23AB783}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC41557-66A7-99A7-2C1C-A8BB4A50A771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC41557-66A7-99A7-2C1C-A8BB4A50A771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC41557-66A7-99A7-2C1C-A8BB4A50A771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC41557-66A7-99A7-2C1C-A8BB4A50A771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5757188-BEAB-8023-4C06-8401CBD8CB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5757188-BEAB-8023-4C06-8401CBD8CB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5757188-BEAB-8023-4C06-8401CBD8CB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5757188-BEAB-8023-4C06-8401CBD8CB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C1B826-6045-F917-8E97-8CF2F23AB783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C1B826-6045-F917-8E97-8CF2F23AB783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C1B826-6045-F917-8E97-8CF2F23AB783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C1B826-6045-F917-8E97-8CF2F23AB783}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
