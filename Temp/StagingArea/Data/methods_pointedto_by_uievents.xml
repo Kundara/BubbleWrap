@@ -1,0 +1,22 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Bubble">
+			<method name="Swiped"/>
+			<method name="Pop"/>
+			<method name="Release"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

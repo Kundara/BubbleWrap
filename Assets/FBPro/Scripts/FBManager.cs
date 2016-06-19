@@ -59,17 +59,25 @@ namespace GS
         public Text logTxt;
         delegate void LoadPictureCallback(Texture2D texture, int index);
 
+		public GameObject playerInfo;
+		public GameObject leaderboardStripe;
+
         public GameObject[] dialogs;
         public GameObject[] loaders;
 
         public InputField inpInvSearcher, inpLeadSearcher, inpSubmitScore, inpPostGraph;
+
+		public float updateTime = 2f;
+		float lastUpdate = 0f;
+		int lastScore;
+		bool isLogged = false;
 
         void Awake()
         {
             //print(logTxt.text.Length);
             SetButtonsListeners();
             SetFBItems(false);
-            btnLogin.interactable = false;
+            //btnLogin.interactable = false;
 			InitFB();
         }
 
@@ -231,8 +239,12 @@ namespace GS
         #region Get and Post Current User Score- User's All games' Score
 		public void PostScore(int scoreInt)
         {
-			if (FB.IsInitialized)
+			
+			if (FB.IsLoggedIn && lastUpdate + updateTime < Time.time && lastScore != scoreInt)
 			{
+				lastUpdate = Time.time;
+				lastScore = scoreInt;
+
 				/*
 	            If you don't have facebook publish permission already, Ask for it
 	            Note! this is not going to work if your publish_actions permission is not approved by facebook.
@@ -250,6 +262,10 @@ namespace GS
 	            {
 					PostOnlyIfPermitted(scoreInt);
 	            }
+				if (isLogged = false){
+					SetUILoggedIn();
+				}
+				LoadLeaderboard();
 			}
         }
 
@@ -421,6 +437,7 @@ namespace GS
             if (string.IsNullOrEmpty(result.Error) && !result.Cancelled)
             {
                 //Dictionary<string, object> JSON = Json.Deserialize(result.RawResult) as Dictionary<string, object>;
+				leaderboardStripe.gameObject.SetActive(true);
 
                 List<object> data = result.ResultDictionary["data"] as List<object>;//JSON["data"] as List<object>;
                 for (int i = 0; i < data.Count; i++)
@@ -751,6 +768,11 @@ namespace GS
                 btnInit.interactable = false;
                 btnLogin.interactable = true;
             }
+			if (FB.IsLoggedIn){
+				SetUILoggedIn();
+			} else {
+				SetUILoggedOut();
+			}
         }
         // Perform Unity Tasks When App is Connecting To Facebook 
         private void onHideUnity(bool isGameShown)
@@ -786,7 +808,7 @@ namespace GS
         {
             if (FB.IsLoggedIn)
             {
-                SetFBItems(true);
+				SetUILoggedIn();
                 PrintLog("Logged In !");
             }
             else
@@ -808,20 +830,55 @@ namespace GS
                     PrintLog(perm);
                 }
                 PrintLog("Logged In Successfully!");
-                SetFBItems(true);
+                
+
+				SetUILoggedIn();
+
+
             }
             else
             {
                 PrintLog("User cancelled login");
             }
         }
+
+		void SetUILoggedIn(){
+			SetFBItems(true);
+
+			playerInfo.SetActive(true);
+			LoadPlayerName();
+			LoadPlayerPic();
+			btnLogin.gameObject.SetActive(false);
+
+			btnCustomInvite.gameObject.SetActive(true);
+
+			LoadLeaderboard();
+			isLogged = true;
+		}
+
+		void SetUILoggedOut(){
+			SetFBItems(false);
+			ClearOldData();
+
+			playerInfo.SetActive(false);
+			btnLogin.gameObject.SetActive(true);
+			btnLeaderboard.gameObject.SetActive(false);
+			btnCustomInvite.gameObject.SetActive(false);
+			isLogged = false;
+		}
+
+
         public void LogoutFB()
         {
             FB.LogOut();
             PrintLog("Logged Out !");
-            SetFBItems(false);
-            ClearOldData();
+            
+			SetUILoggedOut();
+
         }
+
+
+
         void ClearOldData()
         {
             ClearLeaderboard();

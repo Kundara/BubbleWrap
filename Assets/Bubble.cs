@@ -25,6 +25,7 @@ public class Bubble : MonoBehaviour {
 	AudioSource audiosource;
 	AudioClip clip;
 	SoundLibrary soundLibrary;
+	float timeOfPop;
 
 
 	// Use this for initialization
@@ -50,17 +51,27 @@ public class Bubble : MonoBehaviour {
 	}
 
 	public void Pop (){
-		audiosource.Play();
-		popParticles.Play();
-		ourImage.sprite = poppedImages[Random.Range(0,poppedImages.Length)];
-		isPopped = true;
-		ourImage.raycastTarget = false;
+		if (!isPopped){
+			audiosource.Play();
+			popParticles.Play();
+			ourImage.sprite = poppedImages[Random.Range(0,poppedImages.Length)];
+			isPopped = true;
 
-		grid.CheckPopped();
-		OnPop(value);
+
+			grid.CheckPopped();
+			OnPop(value);
+			timeOfPop = Time.time;
+		}
 
 
 	}
+
+	public void Swiped(){
+
+		if (scoreManager.isSuperActive)
+			Pop();
+	}
+
 
 	public void Kill (float fadeTime) {
 		ourImage.CrossFadeAlpha( 0f , fadeOutTime , true );
@@ -70,5 +81,19 @@ public class Bubble : MonoBehaviour {
 	void OnDestroy (){
 		if (scoreManager != null)
 			OnPop -= scoreManager.IncreaseScore;
+	}
+
+	public void Release () {
+
+		ourImage.raycastTarget = false;
+
+		if (!audiosource.isPlaying){
+			clip = soundLibrary.releaseSounds[Random.Range(0,soundLibrary.releaseSounds.Length)];
+
+			audiosource.clip = clip;
+			audiosource.Play();
+		}
+
+
 	}
 }
