@@ -16,10 +16,14 @@
 struct Dictionary_2_t2121839362;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t3161373071;
+// System.Collections.Generic.IDictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>
+struct IDictionary_2_t3297505149;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2995724695;
 // System.Collections.Generic.ICollection`1<System.Object>
 struct ICollection_1_t1302937806;
+// System.Collections.Generic.ICollection`1<UnityEngine.TextEditor/TextEditOp>
+struct ICollection_1_t3895319314;
 // System.Collections.ICollection
 struct ICollection_t3761522009;
 // System.Object
@@ -55,15 +59,24 @@ extern "C"  void Dictionary_2__ctor_m3596022519_gshared (Dictionary_2_t212183936
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
 extern "C"  void Dictionary_2__ctor_m200690670_gshared (Dictionary_2_t2121839362 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
 #define Dictionary_2__ctor_m200690670(__this, ___comparer0, method) ((  void (*) (Dictionary_2_t2121839362 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m200690670_gshared)(__this, ___comparer0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+extern "C"  void Dictionary_2__ctor_m1942169345_gshared (Dictionary_2_t2121839362 * __this, Il2CppObject* ___dictionary0, const MethodInfo* method);
+#define Dictionary_2__ctor_m1942169345(__this, ___dictionary0, method) ((  void (*) (Dictionary_2_t2121839362 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m1942169345_gshared)(__this, ___dictionary0, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::.ctor(System.Int32)
 extern "C"  void Dictionary_2__ctor_m410316232_gshared (Dictionary_2_t2121839362 * __this, int32_t ___capacity0, const MethodInfo* method);
 #define Dictionary_2__ctor_m410316232(__this, ___capacity0, method) ((  void (*) (Dictionary_2_t2121839362 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m410316232_gshared)(__this, ___capacity0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
+extern "C"  void Dictionary_2__ctor_m3966678940_gshared (Dictionary_2_t2121839362 * __this, Il2CppObject* ___dictionary0, Il2CppObject* ___comparer1, const MethodInfo* method);
+#define Dictionary_2__ctor_m3966678940(__this, ___dictionary0, ___comparer1, method) ((  void (*) (Dictionary_2_t2121839362 *, Il2CppObject*, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m3966678940_gshared)(__this, ___dictionary0, ___comparer1, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C"  void Dictionary_2__ctor_m1696986040_gshared (Dictionary_2_t2121839362 * __this, SerializationInfo_t2995724695 * ___info0, StreamingContext_t986364934  ___context1, const MethodInfo* method);
 #define Dictionary_2__ctor_m1696986040(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t2121839362 *, SerializationInfo_t2995724695 *, StreamingContext_t986364934 , const MethodInfo*))Dictionary_2__ctor_m1696986040_gshared)(__this, ___info0, ___context1, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
 extern "C"  Il2CppObject* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m1679073015_gshared (Dictionary_2_t2121839362 * __this, const MethodInfo* method);
 #define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m1679073015(__this, method) ((  Il2CppObject* (*) (Dictionary_2_t2121839362 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m1679073015_gshared)(__this, method)
+// System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
+extern "C"  Il2CppObject* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m3816547191_gshared (Dictionary_2_t2121839362 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m3816547191(__this, method) ((  Il2CppObject* (*) (Dictionary_2_t2121839362 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m3816547191_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>::System.Collections.IDictionary.get_Keys()
 extern "C"  Il2CppObject * Dictionary_2_System_Collections_IDictionary_get_Keys_m3937643261_gshared (Dictionary_2_t2121839362 * __this, const MethodInfo* method);
 #define Dictionary_2_System_Collections_IDictionary_get_Keys_m3937643261(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t2121839362 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m3937643261_gshared)(__this, method)

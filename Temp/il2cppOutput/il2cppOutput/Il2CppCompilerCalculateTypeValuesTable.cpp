@@ -46,6 +46,7 @@
 #include "mscorlib_System_ObsoleteAttribute699313272.h"
 #include "mscorlib_System_Runtime_InteropServices_DllImportA2977516789.h"
 #include "mscorlib_System_Runtime_InteropServices_MarshalAsA1016163854.h"
+#include "mscorlib_System_Diagnostics_ConditionalAttribute204404245.h"
 #include "mscorlib_System_Runtime_InteropServices_GuidAttrib4178726869.h"
 #include "mscorlib_System_Runtime_CompilerServices_Internals1035815915.h"
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeCo4174703210.h"
@@ -132,6 +133,7 @@
 #include "mscorlib_System_Collections_Stack_Enumerator1072804836.h"
 #include "mscorlib_System_Configuration_Assemblies_AssemblyH3110870100.h"
 #include "mscorlib_System_Configuration_Assemblies_AssemblyV3098689623.h"
+#include "mscorlib_System_Diagnostics_CodeAnalysis_SuppressM2221457528.h"
 #include "mscorlib_System_Diagnostics_DebuggableAttribute3859458445.h"
 #include "mscorlib_System_Diagnostics_DebuggableAttribute_Deb313810178.h"
 #include "mscorlib_System_Diagnostics_DebuggerDisplayAttribu3420325274.h"
@@ -200,6 +202,7 @@
 #include "mscorlib_System_Reflection_Emit_OpCodeNames1762507783.h"
 #include "mscorlib_System_Reflection_Emit_OpCodes2031828562.h"
 #include "mscorlib_System_Reflection_Emit_ParameterBuilder3382011775.h"
+#include "mscorlib_System_Reflection_Emit_PropertyBuilder356853651.h"
 #include "mscorlib_System_Reflection_Emit_StackBehaviour2852137698.h"
 #include "mscorlib_System_Reflection_Emit_TypeBuilder4287691406.h"
 #include "mscorlib_System_Reflection_Emit_UnmanagedMarshal446138789.h"
@@ -523,6 +526,7 @@
 #include "mscorlib_System_OutOfMemoryException2442386302.h"
 #include "mscorlib_System_OverflowException3216083426.h"
 #include "mscorlib_System_PlatformID2455152771.h"
+#include "mscorlib_System_Random922188920.h"
 #include "mscorlib_System_ResolveEventArgs4124692928.h"
 #include "mscorlib_System_RuntimeMethodHandle2360005078.h"
 #include "mscorlib_System_StringComparer4058118931.h"
@@ -631,6 +635,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake1391668572.h"
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E3053238933.h"
 #include "System_System_MonoTODOAttribute1287393896.h"
+#include "System_System_CodeDom_Compiler_GeneratedCodeAttribu785805933.h"
 #include "System_System_Collections_Specialized_HybridDiction370358365.h"
 #include "System_System_Collections_Specialized_ListDictiona4226329727.h"
 #include "System_System_Collections_Specialized_ListDictionar924525528.h"
@@ -761,6 +766,7 @@
 #include "UnityEngine_UnityEngine_Coroutine2246592261.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_899915837.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter3894999172.h"
+#include "UnityEngine_UnityEngine_InternalDrawTextureArgumen3136253609.h"
 #include "UnityEngine_UnityEngine_RectOffset3394170884.h"
 #include "UnityEngine_UnityEngine_CullingGroupEvent2364738776.h"
 #include "UnityEngine_UnityEngine_CullingGroup281933724.h"
@@ -798,7 +804,10 @@
 #include "UnityEngine_UnityEngine_WWWForm3999572776.h"
 #include "UnityEngine_UnityEngine_WWWTranscoder2954555297.h"
 #include "UnityEngine_UnityEngine_AsyncOperation3374395064.h"
+#include "UnityEngine_UnityEngine_NetworkReachability1023863250.h"
 #include "UnityEngine_UnityEngine_Application450040189.h"
+#include "UnityEngine_UnityEngine_ApplicationInstallMode1641205467.h"
+#include "UnityEngine_UnityEngine_ApplicationSandboxType2723104670.h"
 #include "UnityEngine_UnityEngine_Camera3533968274.h"
 #include "UnityEngine_UnityEngine_ComputeBuffer2382190468.h"
 #include "UnityEngine_UnityEngine_Debug1588791936.h"
@@ -819,6 +828,7 @@
 #include "UnityEngine_UnityEngine_Experimental_Director_Play1575932342.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Play3404354247.h"
 #include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2068802481.h"
+#include "UnityEngine_UnityEngine_SceneManagement_Scene2772977204.h"
 #include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
 #include "UnityEngine_UnityEngine_ControllerColliderHit2693066224.h"
 #include "UnityEngine_UnityEngine_Collision1119538015.h"
@@ -855,6 +865,7 @@
 #include "UnityEngine_UnityEngine_KeyCode2371581209.h"
 #include "UnityEngine_UnityEngine_EventType3558284577.h"
 #include "UnityEngine_UnityEngine_EventModifiers3870720879.h"
+#include "UnityEngine_UnityEngine_ScaleMode1648723514.h"
 #include "UnityEngine_UnityEngine_GUI1522956648.h"
 #include "UnityEngine_UnityEngine_GUI_ScrollViewState4291149951.h"
 #include "UnityEngine_UnityEngine_GUIContent2432841515.h"
@@ -884,6 +895,20 @@
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp3429487928.h"
 #include "UnityEngine_UnityEngine_Internal_DrawArguments1561977533.h"
 #include "UnityEngine_UnityEngine_Internal_DrawWithTextSelecti43446288.h"
+#include "UnityEngine_UnityEngine_Advertisements_UnityAdsInt2579607359.h"
+#include "UnityEngine_SimpleJson_JsonObject4190420965.h"
+#include "UnityEngine_SimpleJson_SimpleJson2437938008.h"
+#include "UnityEngine_SimpleJson_PocoJsonSerializerStrategy1373207638.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils3367798763.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_4134239463.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_1741725035.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_1741725036.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_3670491617.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_3670491618.h"
+#include "UnityEngine_UnityEngine_Cloud_Service_CloudService2089889921.h"
+#include "UnityEngine_UnityEngine_Cloud_Service_CloudEventFl1045909065.h"
+#include "UnityEngine_UnityEngine_Cloud_Service_CloudService3570230409.h"
+#include "UnityEngine_UnityEngine_Cloud_Service_CloudService2557713703.h"
 #include "UnityEngine_UnityEngine_IL2CPPStructAlignmentAttri3787694287.h"
 #include "UnityEngine_UnityEngine_AttributeHelperEngine193897593.h"
 #include "UnityEngine_UnityEngine_RequireComponent3196495237.h"
@@ -928,6 +953,8 @@
 #include "UnityEngine_UnityEngine_HeaderAttribute489591484.h"
 #include "UnityEngine_UnityEngine_RangeAttribute587322956.h"
 #include "UnityEngine_UnityEngine_TextAreaAttribute185624719.h"
+#include "UnityEngine_UnityEngine_RuntimeInitializeLoadType1187614485.h"
+#include "UnityEngine_UnityEngine_RuntimeInitializeOnLoadMet3042305115.h"
 #include "UnityEngine_UnityEngine_StackTraceUtility3762183996.h"
 #include "UnityEngine_UnityEngine_UnityException3148635335.h"
 #include "UnityEngine_UnityEngine_SystemClock1629522764.h"
@@ -947,6 +974,34 @@
 #include "UnityEngine_UnityEngine_Serialization_FormerlySeria581346955.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules435505844.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleAt471424957.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3932222508.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertisemen135261457.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3557204820.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme4067882760.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme1700490209.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3418119343.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3216485943.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertisemen667067442.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3673328473.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Gender280741142.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt1896853848.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt2757337499.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_UnityA2978971164.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt2694241545.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_AppRun3344199409.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Custom2312766398.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Device1504983787.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Transa2088694961.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_UserIn2122070294.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_BasePl3402211236.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_GameOb3114543933.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Sessio4091457145.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Sessio2640461709.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Sessio4091456491.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_SessionI80204913.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Sessio3171441005.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt3336050555.h"
+#include "UnityEngine_Analytics_U3CPrivateImplementationDeta3053238933.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventHandle72269245.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventSystem409518532.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigg2937500249.h"
@@ -1142,9 +1197,11 @@
 #include "AssemblyU2DCSharp_Pump2499208.h"
 #include "AssemblyU2DCSharp_ScoreManager2519962843.h"
 #include "AssemblyU2DCSharp_ScoreManager_ScoreTypes3567341863.h"
+#include "AssemblyU2DCSharp_ScoreManager_EventTypes2967822879.h"
 #include "AssemblyU2DCSharp_ScoreManager_U3CHideComplimentU3E699490074.h"
 #include "AssemblyU2DCSharp_BubbleGrid2156423698.h"
 #include "AssemblyU2DCSharp_SoundLibrary1775290572.h"
+#include "AssemblyU2DCSharp_Vibrator1170382393.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2889307043.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_I259580628.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1030259619.h"
@@ -1491,10 +1548,12 @@
 #include "System_Core_U3CModuleU3E86524790.h"
 #include "System_Core_System_Runtime_CompilerServices_Extensi795512515.h"
 #include "System_Core_Locale2281372282.h"
+#include "System_Core_System_MonoTODOAttribute1287393896.h"
 #include "System_Core_System_Linq_Check3277941805.h"
 #include "System_Core_System_Linq_Enumerable4285654829.h"
 #include "System_Core_System_Security_Cryptography_Aes1557549544.h"
 #include "System_Core_System_Security_Cryptography_AesManaged564372777.h"
+#include "System_Core_U3CPrivateImplementationDetailsU3E_U242366141855.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U242366141818.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U242366142878.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U24A335950518.h"
@@ -1538,6 +1597,7 @@
 #include "UnityEngine_UnityEngine_Sprites_DataUtility4121269839.h"
 #include "UnityEngine_UnityEngine_WWW1522972100.h"
 #include "UnityEngine_UnityEngine_UnityString963216403.h"
+#include "UnityEngine_UnityEngine_Application_AdvertisingIde3961879090.h"
 #include "UnityEngine_UnityEngine_Application_LogCallback3235662729.h"
 #include "UnityEngine_UnityEngine_Behaviour3120504042.h"
 #include "UnityEngine_UnityEngine_Camera_CameraCallback1908940458.h"
@@ -1585,6 +1645,13 @@
 #include "UnityEngine_UnityEngine_GUISkin_SkinChangedDelegate914030844.h"
 #include "UnityEngine_UnityEngine_ExitGUIException137235967.h"
 #include "UnityEngine_UnityEngine_GUIClip2614135640.h"
+#include "UnityEngine_UnityEngine_Advertisements_UnityAdsMan2255083609.h"
+#include "UnityEngine_UnityEngine_Analytics_UnityAnalyticsMa3462623473.h"
+#include "UnityEngine_UnityEngine_Connect_UnityAnalyticsSett3591356021.h"
+#include "UnityEngine_SimpleJson_JsonArray2769828783.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_G270123739.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_S181543911.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_4072949631.h"
 #include "UnityEngine_UnityEngine_WrapperlessIcall4003675496.h"
 #include "UnityEngine_UnityEngine_DisallowMultipleComponent3647875775.h"
 #include "UnityEngine_UnityEngine_ExecuteInEditMode2676812948.h"
@@ -1598,11 +1665,23 @@
 #include "UnityEngine_UnityEngine_StateMachineBehaviour1035456276.h"
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall1733537956.h"
 #include "UnityEngine_UnityEngine_Internal_ExcludeFromDocsAt2739928377.h"
+#include "UnityEngine_UnityEngine_Scripting_PreserveAttribut3590361648.h"
 #include "UnityEngine_UnityEngine_Scripting_RequiredByNativeC641452194.h"
 #include "UnityEngine_UnityEngine_Scripting_UsedByNativeCode1800197956.h"
 #include "UnityEngine_UnityEngineInternal_GenericStack2344941421.h"
 #include "UnityEngine_UnityEngineInternal_NetFxCoreExtension3785516670.h"
+#include "UnityEngine_UnityEngine_Advertisements_UnityAdsDel2828518919.h"
 #include "UnityEngine_UnityEngine_Events_UnityAction909267611.h"
+#include "UnityEngine_Advertisements_U3CModuleU3E86524790.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme3883880693.h"
+#include "UnityEngine_Advertisements_UnityEngine_Advertiseme2797285473.h"
+#include "UnityEngine_Analytics_U3CModuleU3E86524790.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_AppInst244377749.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_AppSta3128697454.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Platfor247102133.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_UnityA1810395583.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Utils2528446150.h"
+#include "UnityEngine_Analytics_U3CPrivateImplementationDetai214874519.h"
 #include "UnityEngine_UI_U3CModuleU3E86524790.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigge516183010.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour644839684.h"
@@ -1631,6 +1710,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_PositionAsUV1826283646.h"
 #include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E_U214874486.h"
 #include "AssemblyU2DCSharp_U3CModuleU3E86524790.h"
+#include "AssemblyU2DCSharp_AdPoster2565960560.h"
 #include "AssemblyU2DCSharp_Facebook_Unity_Example_AppEvents2757098253.h"
 #include "AssemblyU2DCSharp_Facebook_Unity_Example_AppInvites443655644.h"
 #include "AssemblyU2DCSharp_Facebook_Unity_Example_AppLinks867231435.h"
@@ -1673,7 +1753,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7700] = 
+extern const int32_t g_FieldOffsetTable[8039] = 
 {
 	0,
 	0,
@@ -1807,6 +1887,7 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	MarshalAsAttribute_t1016163854::get_offset_of_MarshalTypeRef_4(),
 	MarshalAsAttribute_t1016163854::get_offset_of_SizeConst_5(),
 	MarshalAsAttribute_t1016163854::get_offset_of_SizeParamIndex_6(),
+	ConditionalAttribute_t204404245::get_offset_of_myCondition_0(),
 	GuidAttribute_t4178726869::get_offset_of_guidValue_0(),
 	InternalsVisibleToAttribute_t1035815915::get_offset_of_assemblyName_0(),
 	InternalsVisibleToAttribute_t1035815915::get_offset_of_all_visible_1(),
@@ -2271,6 +2352,9 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	0,
 	0,
 	0,
+	SuppressMessageAttribute_t2221457528::get_offset_of_category_0(),
+	SuppressMessageAttribute_t2221457528::get_offset_of_checkId_1(),
+	SuppressMessageAttribute_t2221457528::get_offset_of_justification_2(),
 	DebuggableAttribute_t3859458445::get_offset_of_JITTrackingEnabledFlag_0(),
 	DebuggableAttribute_t3859458445::get_offset_of_JITOptimizerDisabledFlag_1(),
 	DebuggableAttribute_t3859458445::get_offset_of_debuggingModes_2(),
@@ -3039,6 +3123,12 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	ParameterBuilder_t3382011775::get_offset_of_name_0(),
 	ParameterBuilder_t3382011775::get_offset_of_attrs_1(),
 	ParameterBuilder_t3382011775::get_offset_of_position_2(),
+	PropertyBuilder_t356853651::get_offset_of_attrs_0(),
+	PropertyBuilder_t356853651::get_offset_of_name_1(),
+	PropertyBuilder_t356853651::get_offset_of_type_2(),
+	PropertyBuilder_t356853651::get_offset_of_set_method_3(),
+	PropertyBuilder_t356853651::get_offset_of_get_method_4(),
+	PropertyBuilder_t356853651::get_offset_of_typeb_5(),
 	StackBehaviour_t2852137698::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
@@ -3077,14 +3167,15 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	TypeBuilder_t4287691406::get_offset_of_num_methods_13(),
 	TypeBuilder_t4287691406::get_offset_of_methods_14(),
 	TypeBuilder_t4287691406::get_offset_of_ctors_15(),
-	TypeBuilder_t4287691406::get_offset_of_fields_16(),
-	TypeBuilder_t4287691406::get_offset_of_attrs_17(),
-	TypeBuilder_t4287691406::get_offset_of_pmodule_18(),
-	TypeBuilder_t4287691406::get_offset_of_generic_params_19(),
-	TypeBuilder_t4287691406::get_offset_of_created_20(),
-	TypeBuilder_t4287691406::get_offset_of_fullname_21(),
-	TypeBuilder_t4287691406::get_offset_of_createTypeCalled_22(),
-	TypeBuilder_t4287691406::get_offset_of_underlying_type_23(),
+	TypeBuilder_t4287691406::get_offset_of_properties_16(),
+	TypeBuilder_t4287691406::get_offset_of_fields_17(),
+	TypeBuilder_t4287691406::get_offset_of_attrs_18(),
+	TypeBuilder_t4287691406::get_offset_of_pmodule_19(),
+	TypeBuilder_t4287691406::get_offset_of_generic_params_20(),
+	TypeBuilder_t4287691406::get_offset_of_created_21(),
+	TypeBuilder_t4287691406::get_offset_of_fullname_22(),
+	TypeBuilder_t4287691406::get_offset_of_createTypeCalled_23(),
+	TypeBuilder_t4287691406::get_offset_of_underlying_type_24(),
 	UnmanagedMarshal_t446138789::get_offset_of_count_0(),
 	UnmanagedMarshal_t446138789::get_offset_of_t_1(),
 	UnmanagedMarshal_t446138789::get_offset_of_tbase_2(),
@@ -4680,6 +4771,9 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	0,
 	0,
 	0,
+	Random_t922188920::get_offset_of_inext_0(),
+	Random_t922188920::get_offset_of_inextp_1(),
+	Random_t922188920::get_offset_of_SeedArray_2(),
 	ResolveEventArgs_t4124692928::get_offset_of_m_Name_1(),
 	RuntimeMethodHandle_t2360005078::get_offset_of_value_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	StringComparer_t4058118931_StaticFields::get_offset_of_invariantCultureIgnoreCase_0(),
@@ -5292,6 +5386,8 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	U3CPrivateImplementationDetailsU3E_t3053238934_StaticFields::get_offset_of_U24U24fieldU2D21_13(),
 	U3CPrivateImplementationDetailsU3E_t3053238934_StaticFields::get_offset_of_U24U24fieldU2D22_14(),
 	MonoTODOAttribute_t1287393897::get_offset_of_comment_0(),
+	GeneratedCodeAttribute_t785805933::get_offset_of_tool_0(),
+	GeneratedCodeAttribute_t785805933::get_offset_of_version_1(),
 	0,
 	0,
 	0,
@@ -6130,6 +6226,23 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	0,
 	0,
 	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	AesTransform_t2186883254::get_offset_of_expandedKey_12(),
 	AesTransform_t2186883254::get_offset_of_Nk_13(),
 	AesTransform_t2186883254::get_offset_of_Nr_14(),
@@ -6144,17 +6257,18 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	AesTransform_t2186883254_StaticFields::get_offset_of_iT1_23(),
 	AesTransform_t2186883254_StaticFields::get_offset_of_iT2_24(),
 	AesTransform_t2186883254_StaticFields::get_offset_of_iT3_25(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D1_0(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D2_1(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D3_2(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D4_3(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D5_4(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D6_5(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D7_6(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D8_7(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D9_8(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D10_9(),
-	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D11_10(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D0_0(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D1_1(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D2_2(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D3_3(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D4_4(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D5_5(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D6_6(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D7_7(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D8_8(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D9_9(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D10_10(),
+	U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields::get_offset_of_U24U24fieldU2D11_11(),
 	SendMessageOptions_t2623293100::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
@@ -6215,6 +6329,15 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	GameCenterPlatform_t899915837_StaticFields::get_offset_of_m_GcBoards_14(),
 	GcLeaderboard_t3894999172::get_offset_of_m_InternalLeaderboard_0(),
 	GcLeaderboard_t3894999172::get_offset_of_m_GenericLeaderboard_1(),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_screenRect_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_texture_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_sourceRect_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_leftBorder_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_rightBorder_4() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_topBorder_5() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_bottomBorder_6() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_color_7() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	InternalDrawTextureArguments_t3136253609::get_offset_of_mat_8() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	RectOffset_t3394170884::get_offset_of_m_Ptr_0(),
 	RectOffset_t3394170884::get_offset_of_m_SourceStyle_1(),
 	CullingGroupEvent_t2364738776::get_offset_of_m_Index_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -6369,8 +6492,24 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	WWWTranscoder_t2954555297_StaticFields::get_offset_of_qpSpace_6(),
 	WWWTranscoder_t2954555297_StaticFields::get_offset_of_qpForbidden_7(),
 	AsyncOperation_t3374395064::get_offset_of_m_Ptr_0(),
+	NetworkReachability_t1023863250::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
 	Application_t450040189_StaticFields::get_offset_of_s_LogCallbackHandler_0(),
 	Application_t450040189_StaticFields::get_offset_of_s_LogCallbackHandlerThreaded_1(),
+	ApplicationInstallMode_t1641205467::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	ApplicationSandboxType_t2723104670::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
 	Camera_t3533968274_StaticFields::get_offset_of_onPreCull_2(),
 	Camera_t3533968274_StaticFields::get_offset_of_onPreRender_3(),
 	Camera_t3533968274_StaticFields::get_offset_of_onPostRender_4(),
@@ -6464,6 +6603,7 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	LoadSceneMode_t2068802481::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
+	Scene_t2772977204::get_offset_of_m_Handle_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ParticleSystem_t56787138_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_2(),
 	ParticleSystem_t56787138_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_3(),
 	ParticleSystem_t56787138_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_4(),
@@ -6992,6 +7132,10 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	0,
 	0,
 	0,
+	ScaleMode_t1648723514::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
 	GUI_t1522956648_StaticFields::get_offset_of_s_ScrollStepSize_0(),
 	GUI_t1522956648_StaticFields::get_offset_of_s_ScrollControlId_1(),
 	GUI_t1522956648_StaticFields::get_offset_of_s_HotTextField_2(),
@@ -7270,6 +7414,46 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	Internal_DrawWithTextSelectionArguments_t43446288::get_offset_of_on_8() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Internal_DrawWithTextSelectionArguments_t43446288::get_offset_of_hasKeyboardFocus_9() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Internal_DrawWithTextSelectionArguments_t43446288::get_offset_of_drawSelectionAsComposition_10() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onCampaignsAvailable_0(),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onCampaignsFetchFailed_1(),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onShow_2(),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onHide_3(),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onVideoCompleted_4(),
+	UnityAdsInternal_t2579607359_StaticFields::get_offset_of_onVideoStarted_5(),
+	JsonObject_t4190420965::get_offset_of__members_0(),
+	SimpleJson_t2437938008_StaticFields::get_offset_of__currentJsonSerializerStrategy_0(),
+	SimpleJson_t2437938008_StaticFields::get_offset_of__pocoJsonSerializerStrategy_1(),
+	PocoJsonSerializerStrategy_t1373207638::get_offset_of_ConstructorCache_0(),
+	PocoJsonSerializerStrategy_t1373207638::get_offset_of_GetCache_1(),
+	PocoJsonSerializerStrategy_t1373207638::get_offset_of_SetCache_2(),
+	PocoJsonSerializerStrategy_t1373207638_StaticFields::get_offset_of_EmptyTypes_3(),
+	PocoJsonSerializerStrategy_t1373207638_StaticFields::get_offset_of_ArrayConstructorParameterTypes_4(),
+	PocoJsonSerializerStrategy_t1373207638_StaticFields::get_offset_of_Iso8601Format_5(),
+	ReflectionUtils_t3367798763_StaticFields::get_offset_of_EmptyObjects_0(),
+	0,
+	0,
+	0,
+	U3CGetConstructorByReflectionU3Ec__AnonStorey2_t4134239463::get_offset_of_constructorInfo_0(),
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t1741725035::get_offset_of_methodInfo_0(),
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey4_t1741725036::get_offset_of_fieldInfo_0(),
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t3670491617::get_offset_of_methodInfo_0(),
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey6_t3670491618::get_offset_of_fieldInfo_0(),
+	CloudServiceType_t2089889921::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	CloudEventFlags_t1045909065::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	CloudServiceConfig_t3570230409::get_offset_of_m_MaxNumberOfEventInGroup_0(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_ArchivedSessionExpiryTimeInSec_1(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_MaxContinuousRequest_2(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_MaxContinuousRequestTimeoutInSec_3(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_SessionHeaderName_4(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_EventsHeaderName_5(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_EventsEndPoint_6(),
+	CloudServiceConfig_t3570230409::get_offset_of_m_NetworkFailureRetryTimeoutInSec_7(),
+	CloudService_t2557713703::get_offset_of_m_Ptr_0(),
 	IL2CPPStructAlignmentAttribute_t3787694287::get_offset_of_Align_0(),
 	AttributeHelperEngine_t193897593_StaticFields::get_offset_of__disallowMultipleComponentArray_0(),
 	AttributeHelperEngine_t193897593_StaticFields::get_offset_of__executeInEditModeArray_1(),
@@ -7526,6 +7710,10 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	RangeAttribute_t587322956::get_offset_of_max_1(),
 	TextAreaAttribute_t185624719::get_offset_of_minLines_0(),
 	TextAreaAttribute_t185624719::get_offset_of_maxLines_1(),
+	RuntimeInitializeLoadType_t1187614485::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	RuntimeInitializeOnLoadMethodAttribute_t3042305115::get_offset_of_U3CloadTypeU3Ek__BackingField_0(),
 	StackTraceUtility_t3762183996_StaticFields::get_offset_of_projectFolder_0(),
 	0,
 	UnityException_t3148635335::get_offset_of_unityStackTrace_12(),
@@ -7589,6 +7777,213 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	0,
 	0,
 	TypeInferenceRuleAttribute_t471424957::get_offset_of__rule_0(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_Initialized_0(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_Showing_1(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_ShowOptions_2(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_ResultDelivered_3(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_Implementation_4(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_ExtensionPath_5(),
+	Advertisement_t3932222508_StaticFields::get_offset_of_s_EditorSupportedPlatform_6(),
+	Advertisement_t3932222508_StaticFields::get_offset_of__debugLevel_7(),
+	DebugLevel_t135261457::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	AsyncExec_t3557204820_StaticFields::get_offset_of_s_GameObject_0(),
+	AsyncExec_t3557204820_StaticFields::get_offset_of_s_CoroutineHost_1(),
+	ShowOptions_t4067882760::get_offset_of_U3CresultCallbackU3Ek__BackingField_0(),
+	ShowOptions_t4067882760::get_offset_of_U3CgamerSidU3Ek__BackingField_1(),
+	ShowResult_t1700490209::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	UnityAdsEditor_t3418119343::get_offset_of_m_HasDefaultZone_0(),
+	UnityAdsEditor_t3418119343::get_offset_of_m_ZoneIds_1(),
+	UnityAdsEditor_t3418119343::get_offset_of_m_Ready_2(),
+	UnityAdsEditor_t3418119343::get_offset_of_m_Placeholder_3(),
+	UnityAdsEditor_t3418119343::get_offset_of_m_CampaignDataUrl_4(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_URL_0(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_U3CwwwU3E__0_1(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_callback_2(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_U24PC_3(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_U24current_4(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_U3CU24U3EURL_5(),
+	U3CGetAdPlanU3Ec__Iterator0_t3216485943::get_offset_of_U3CU24U3Ecallback_6(),
+	UnityAdsEditorPlaceholder_t667067442::get_offset_of_m_PlaceholderLandscape_2(),
+	UnityAdsEditorPlaceholder_t667067442::get_offset_of_m_PlaceholderPortrait_3(),
+	UnityAdsEditorPlaceholder_t667067442::get_offset_of_m_Showing_4(),
+	UnityAdsNative_t3673328473::get_offset_of_s_FetchCompleted_0(),
+	Gender_t280741142::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	AnalyticsResult_t1896853848::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	Analytics_t2757337499_StaticFields::get_offset_of_s_SessionImpl_0(),
+	UnityAnalyticsVersion_t2978971164_StaticFields::get_offset_of_kSdkVersion_0(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	AnalyticsEvent_t2694241545::get_offset_of_m_Parameters_12(),
+	AnalyticsEvent_t2694241545::get_offset_of_m_Flags_13(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	BasePlatformWrapper_t3402211236::get_offset_of_m_Random_0(),
+	GameObserver_t3114543933::get_offset_of_m_GameObject_2(),
+	GameObserver_t3114543933::get_offset_of_m_GameObserverListener_3(),
+	GameObserver_t3114543933::get_offset_of_m_IsWebPlayerOrEditor_4(),
+	SessionInfo_t4091457145::get_offset_of_U3CappIdU3Ek__BackingField_0(),
+	SessionInfo_t4091457145::get_offset_of_U3CuserIdU3Ek__BackingField_1(),
+	SessionInfo_t4091457145::get_offset_of_U3CsessionIdU3Ek__BackingField_2(),
+	SessionInfo_t4091457145::get_offset_of_U3CsdkVersionU3Ek__BackingField_3(),
+	SessionInfo_t4091457145::get_offset_of_U3CdebugDeviceU3Ek__BackingField_4(),
+	SessionInfo_t4091457145::get_offset_of_U3CplatformNameU3Ek__BackingField_5(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	SessionConfig_t2640461709::get_offset_of_m_AnalyticsEnabled_30(),
+	SessionConfig_t2640461709::get_offset_of_m_Supports_31(),
+	SessionConfig_t2640461709::get_offset_of_m_EventsEndPoint_32(),
+	SessionConfig_t2640461709::get_offset_of_m_ConfigEndPoint_33(),
+	SessionConfig_t2640461709::get_offset_of_m_RequestNumberOfEvents_34(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxNumberOfEventInGroup_35(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxTimeoutForGrouping_36(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxNumberOfEventInQueue_37(),
+	SessionConfig_t2640461709::get_offset_of_m_ArchivedSessionExpiryTimeInSec_38(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxContinuousRequest_39(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxContinuousRequestTimeoutInSec_40(),
+	SessionConfig_t2640461709::get_offset_of_m_ResumeTimeoutInMillSeconds_41(),
+	SessionConfig_t2640461709::get_offset_of_m_DispatcherWaitTimeInSeconds_42(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxAppIdSize_43(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxUserIdSize_44(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxCurrencySize_45(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxProductIdSize_46(),
+	SessionConfig_t2640461709::get_offset_of_m_MaxCustomEventNameSize_47(),
+	SessionConfig_t2640461709::get_offset_of_m_CustomEventMaxEventPerHour_48(),
+	SessionConfig_t2640461709::get_offset_of_m_CustomEventMaxNumberOfItems_49(),
+	SessionConfig_t2640461709::get_offset_of_m_CustomEventMaxTotalItemsSize_50(),
+	SessionConfig_t2640461709::get_offset_of_m_PlatformWrapper_51(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	SessionImpl_t4091456491::get_offset_of_m_SessionConfig_5(),
+	SessionImpl_t4091456491::get_offset_of_m_SessionValues_6(),
+	SessionImpl_t4091456491::get_offset_of_m_PlatformWrapper_7(),
+	SessionImpl_t4091456491::get_offset_of_m_CloudService_8(),
+	SessionImpl_t4091456491::get_offset_of_m_CloudServiceConfig_9(),
+	SessionImpl_t4091456491::get_offset_of_m_SessionInfo_10(),
+	SessionImpl_t4091456491::get_offset_of_m_UserId_11(),
+	SessionImpl_t4091456491::get_offset_of_m_AppId_12(),
+	SessionImpl_t4091456491::get_offset_of_m_SessionStartTime_13(),
+	SessionImpl_t4091456491::get_offset_of_m_SessionPauseTime_14(),
+	SessionImpl_t4091456491::get_offset_of_m_AppRunningSentTime_15(),
+	SessionImpl_t4091456491::get_offset_of_m_AppSessionDuration_16(),
+	SessionImpl_t4091456491::get_offset_of_m_KeyStrokes_17(),
+	SessionImpl_t4091456491::get_offset_of_m_ClickCount_18(),
+	SessionImpl_t4091456491::get_offset_of_U3CstateU3Ek__BackingField_19(),
+	SessionImpl_t4091456491_StaticFields::get_offset_of_U3CU3Ef__switchU24map0_20(),
+	SessionImpl_t4091456491_StaticFields::get_offset_of_U3CU3Ef__switchU24map1_21(),
+	State_t80204913::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	SessionValues_t3171441005::get_offset_of_m_CloudService_0(),
+	SessionValues_t3171441005::get_offset_of_m_ValueFileName_1(),
+	SessionValues_t3171441005::get_offset_of_m_Values_2(),
+	SessionValues_t3171441005_StaticFields::get_offset_of_U3CU3Ef__amU24cache3_3(),
+	AnalyticsCloudService_t3336050555::get_offset_of_m_CloudService_0(),
+	U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields::get_offset_of_U24U24fieldU2D0_0(),
 	EventHandle_t72269245::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
@@ -8326,23 +8721,25 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	Shadow_t1464142665::get_offset_of_m_EffectColor_4(),
 	Shadow_t1464142665::get_offset_of_m_EffectDistance_5(),
 	Shadow_t1464142665::get_offset_of_m_UseGraphicAlpha_6(),
-	U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields::get_offset_of_U24U24fieldU2D0_0(),
+	U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields::get_offset_of_U24U24fieldU2D0_0(),
 	Bubble_t2000593068::get_offset_of_bubbleImages_2(),
 	Bubble_t2000593068::get_offset_of_poppedImages_3(),
 	Bubble_t2000593068::get_offset_of_popParticles_4(),
 	Bubble_t2000593068::get_offset_of_value_5(),
-	Bubble_t2000593068::get_offset_of_isPopped_6(),
-	Bubble_t2000593068::get_offset_of_row_7(),
-	Bubble_t2000593068::get_offset_of_fadeOutTime_8(),
-	Bubble_t2000593068::get_offset_of_grid_9(),
-	Bubble_t2000593068::get_offset_of_scoreManager_10(),
-	Bubble_t2000593068::get_offset_of_ourImage_11(),
-	Bubble_t2000593068::get_offset_of_audiosource_12(),
-	Bubble_t2000593068::get_offset_of_clip_13(),
-	Bubble_t2000593068::get_offset_of_soundLibrary_14(),
-	Bubble_t2000593068::get_offset_of_timeOfPop_15(),
-	Bubble_t2000593068::get_offset_of_OnPop_16(),
-	Bubble_t2000593068_StaticFields::get_offset_of_U3CU3Ef__amU24cacheF_17(),
+	Bubble_t2000593068::get_offset_of_popVoicesAudioSource_6(),
+	Bubble_t2000593068::get_offset_of_isPopped_7(),
+	Bubble_t2000593068::get_offset_of_row_8(),
+	Bubble_t2000593068::get_offset_of_fadeOutTime_9(),
+	Bubble_t2000593068::get_offset_of_grid_10(),
+	Bubble_t2000593068::get_offset_of_scoreManager_11(),
+	Bubble_t2000593068::get_offset_of_ourImage_12(),
+	Bubble_t2000593068::get_offset_of_audiosource_13(),
+	Bubble_t2000593068::get_offset_of_clip_14(),
+	Bubble_t2000593068::get_offset_of_voiceClip_15(),
+	Bubble_t2000593068::get_offset_of_soundLibrary_16(),
+	Bubble_t2000593068::get_offset_of_timeOfPop_17(),
+	Bubble_t2000593068::get_offset_of_OnPop_18(),
+	Bubble_t2000593068_StaticFields::get_offset_of_U3CU3Ef__amU24cache11_19(),
 	0,
 	ConsoleBase_t3696948539_StaticFields::get_offset_of_menuStack_3(),
 	ConsoleBase_t3696948539::get_offset_of_status_4(),
@@ -8473,7 +8870,8 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	FBManager_t1944751413::get_offset_of_lastUpdate_68(),
 	FBManager_t1944751413::get_offset_of_lastScore_69(),
 	FBManager_t1944751413::get_offset_of_isLogged_70(),
-	FBManager_t1944751413::get_offset_of_FILE_NAME_71(),
+	FBManager_t1944751413::get_offset_of_askedHim_71(),
+	FBManager_t1944751413::get_offset_of_FILE_NAME_72(),
 	U3CLoadFPicRoutineU3Ec__Iterator1_t655308032::get_offset_of_url_0(),
 	U3CLoadFPicRoutineU3Ec__Iterator1_t655308032::get_offset_of_U3CwwwU3E__0_1(),
 	U3CLoadFPicRoutineU3Ec__Iterator1_t655308032::get_offset_of_Callback_2(),
@@ -8785,26 +9183,41 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	ScoreManager_t2519962843::get_offset_of_superSlider_4(),
 	ScoreManager_t2519962843::get_offset_of_powerPumper_5(),
 	ScoreManager_t2519962843::get_offset_of_backgrounds_6(),
-	ScoreManager_t2519962843::get_offset_of_complimentSounds_7(),
-	ScoreManager_t2519962843::get_offset_of_gameStartSound_8(),
-	ScoreManager_t2519962843::get_offset_of_superMode_9(),
-	ScoreManager_t2519962843::get_offset_of_superModeFinishSound_10(),
-	ScoreManager_t2519962843::get_offset_of_minScoreToCompliment_11(),
-	ScoreManager_t2519962843::get_offset_of_maxScoreToCompliment_12(),
-	ScoreManager_t2519962843::get_offset_of_complimentShowTimePerChar_13(),
-	ScoreManager_t2519962843::get_offset_of_fbManager_14(),
-	ScoreManager_t2519962843::get_offset_of_backgroundColor_15(),
-	ScoreManager_t2519962843::get_offset_of_backgroundSuperColor_16(),
-	ScoreManager_t2519962843::get_offset_of_superFillOnPop_17(),
-	ScoreManager_t2519962843::get_offset_of_superTime_18(),
-	ScoreManager_t2519962843::get_offset_of_superDropRate_19(),
-	ScoreManager_t2519962843::get_offset_of_superAmount_20(),
-	ScoreManager_t2519962843::get_offset_of_isSuperActive_21(),
-	ScoreManager_t2519962843::get_offset_of_timeOfSuper_22(),
-	ScoreManager_t2519962843::get_offset_of_compliments_23(),
-	ScoreManager_t2519962843::get_offset_of_score_24(),
-	ScoreManager_t2519962843::get_offset_of_nextComplimentMilestone_25(),
-	ScoreManager_t2519962843::get_offset_of_audioSource_26(),
+	ScoreManager_t2519962843::get_offset_of_swipeInstruction_7(),
+	ScoreManager_t2519962843::get_offset_of_animator_8(),
+	ScoreManager_t2519962843::get_offset_of_complimentSounds_9(),
+	ScoreManager_t2519962843::get_offset_of_gameStartSound_10(),
+	ScoreManager_t2519962843::get_offset_of_superMode_11(),
+	ScoreManager_t2519962843::get_offset_of_superModeFinishSound_12(),
+	ScoreManager_t2519962843::get_offset_of_minScoreToCompliment_13(),
+	ScoreManager_t2519962843::get_offset_of_maxScoreToCompliment_14(),
+	ScoreManager_t2519962843::get_offset_of_complimentShowTimePerChar_15(),
+	ScoreManager_t2519962843::get_offset_of_fbManager_16(),
+	ScoreManager_t2519962843::get_offset_of_backgroundColor_17(),
+	ScoreManager_t2519962843::get_offset_of_backgroundSuperColor_18(),
+	ScoreManager_t2519962843::get_offset_of_showAdEvery_19(),
+	ScoreManager_t2519962843::get_offset_of_timeOfAd_20(),
+	ScoreManager_t2519962843::get_offset_of_superFillOnPop_21(),
+	ScoreManager_t2519962843::get_offset_of_superTime_22(),
+	ScoreManager_t2519962843::get_offset_of_superDropRate_23(),
+	ScoreManager_t2519962843::get_offset_of_superAmount_24(),
+	ScoreManager_t2519962843::get_offset_of_isSuperActive_25(),
+	ScoreManager_t2519962843::get_offset_of_timeOfSuper_26(),
+	ScoreManager_t2519962843::get_offset_of_part_27(),
+	ScoreManager_t2519962843::get_offset_of_compliments_28(),
+	ScoreManager_t2519962843::get_offset_of_rareCompliments_29(),
+	ScoreManager_t2519962843::get_offset_of_score_30(),
+	ScoreManager_t2519962843::get_offset_of_nextComplimentMilestone_31(),
+	ScoreManager_t2519962843::get_offset_of_audioSource_32(),
+	ScoreManager_t2519962843::get_offset_of_lastPop_33(),
+	ScoreManager_t2519962843::get_offset_of_lastCompliment_34(),
+	ScoreManager_t2519962843::get_offset_of_started_35(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	0,
 	U3CHideComplimentU3Ec__Iterator5_t699490074::get_offset_of_time_0(),
 	U3CHideComplimentU3Ec__Iterator5_t699490074::get_offset_of_U24PC_1(),
@@ -8835,6 +9248,12 @@ extern const int32_t g_FieldOffsetTable[7700] =
 	BubbleGrid_t2156423698::get_offset_of_fadeOutTime_23(),
 	SoundLibrary_t1775290572::get_offset_of_popSounds_2(),
 	SoundLibrary_t1775290572::get_offset_of_releaseSounds_3(),
+	SoundLibrary_t1775290572::get_offset_of_popVoices_4(),
+	Vibrator_t1170382393::get_offset_of_startPos_2(),
+	Vibrator_t1170382393::get_offset_of_vel_3(),
+	Vibrator_t1170382393::get_offset_of_smoothTime_4(),
+	Vibrator_t1170382393::get_offset_of_powerMultiplier_5(),
+	Vibrator_t1170382393::get_offset_of_ourRect_6(),
 	AAMode_t2889307043::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
@@ -9379,7 +9798,7 @@ extern const int32_t g_FieldOffsetTable[7700] =
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1995] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Il2CppObject), -1, 0, 0,
@@ -9448,6 +9867,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (DllImportAttribute_t2977516789), -1, 0, 0,
 	sizeof (MarshalAsAttribute_t1016163854), -1, 0, 0,
 	sizeof (InAttribute_t1020461241), -1, 0, 0,
+	sizeof (ConditionalAttribute_t204404245), -1, 0, 0,
 	sizeof (GuidAttribute_t4178726869), -1, 0, 0,
 	sizeof (ComImportAttribute_t3229016760), -1, 0, 0,
 	sizeof (OptionalAttribute_t4067831006), -1, 0, 0,
@@ -9594,6 +10014,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (Enumerator_t1072804838), -1, 0, 0,
 	sizeof (AssemblyHashAlgorithm_t3110870100)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (AssemblyVersionCompatibility_t3098689623)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (SuppressMessageAttribute_t2221457528), -1, 0, 0,
 	sizeof (DebuggableAttribute_t3859458445), -1, 0, 0,
 	sizeof (DebuggingModes_t313810178)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (DebuggerDisplayAttribute_t3420325274), -1, 0, 0,
@@ -9681,6 +10102,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (OpCodeNames_t1762507783), -1, sizeof(OpCodeNames_t1762507783_StaticFields), 0,
 	sizeof (OpCodes_t2031828562), -1, sizeof(OpCodes_t2031828562_StaticFields), 0,
 	sizeof (ParameterBuilder_t3382011775), -1, 0, 0,
+	sizeof (PropertyBuilder_t356853651), -1, 0, 0,
 	sizeof (StackBehaviour_t2852137698)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (TypeBuilder_t4287691406), -1, 0, 0,
 	sizeof (UnmanagedMarshal_t446138789), -1, 0, 0,
@@ -9790,6 +10212,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (TypeLibImportClassAttribute_t3475535446), -1, 0, 0,
 	sizeof (TypeLibVersionAttribute_t3582312817), -1, 0, 0,
 	sizeof (UnmanagedType_t3644589314)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	0, -1, 0, 0,
 	0, -1, 0, 0,
 	0, -1, 0, 0,
 	0, -1, 0, 0,
@@ -10200,6 +10623,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (OutOfMemoryException_t2442386302), -1, 0, 0,
 	sizeof (OverflowException_t3216083426), -1, 0, 0,
 	sizeof (PlatformID_t2455152771)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (Random_t922188920), -1, 0, 0,
 	sizeof (RankException_t3665850616), -1, 0, 0,
 	sizeof (ResolveEventArgs_t4124692928), -1, 0, 0,
 	sizeof (RuntimeMethodHandle_t2360005078)+ sizeof (Il2CppObject), sizeof(RuntimeMethodHandle_t2360005078_marshaled_pinvoke), 0, 0,
@@ -10386,6 +10810,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (U3CModuleU3E_t86524792), -1, 0, 0,
 	sizeof (Locale_t2281372284), -1, 0, 0,
 	sizeof (MonoTODOAttribute_t1287393897), -1, 0, 0,
+	sizeof (GeneratedCodeAttribute_t785805933), -1, 0, 0,
 	0, 0, 0, 0,
 	0, 0, 0, 0,
 	sizeof (HybridDictionary_t370358365), -1, 0, 0,
@@ -10541,8 +10966,13 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (U3CModuleU3E_t86524793), -1, 0, 0,
 	sizeof (ExtensionAttribute_t795512515), -1, 0, 0,
 	sizeof (Locale_t2281372285), -1, 0, 0,
+	sizeof (MonoTODOAttribute_t1287393898), -1, 0, 0,
 	sizeof (KeyBuilder_t2049706643), -1, sizeof(KeyBuilder_t2049706643_StaticFields), 0,
 	sizeof (SymmetricTransform_t3854241867), -1, 0, 0,
+	0, 0, 0, 0,
+	0, 0, 0, 0,
+	0, 0, 0, 0,
+	0, 0, 0, 0,
 	sizeof (Check_t3277941805), -1, 0, 0,
 	sizeof (Enumerable_t4285654829), -1, 0, 0,
 	0, 0, 0, 0,
@@ -10552,7 +10982,9 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (AesManaged_t564372777), -1, 0, 0,
 	sizeof (AesTransform_t2186883254), -1, sizeof(AesTransform_t2186883254_StaticFields), 0,
 	0, 0, 0, 0,
+	0, 0, 0, 0,
 	sizeof (U3CPrivateImplementationDetailsU3E_t3053238936), -1, sizeof(U3CPrivateImplementationDetailsU3E_t3053238936_StaticFields), 0,
+	sizeof (U24ArrayTypeU24136_t2366141856)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU24136_t2366141856_marshaled_pinvoke), 0, 0,
 	sizeof (U24ArrayTypeU24120_t2366141819)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU24120_t2366141819_marshaled_pinvoke), 0, 0,
 	sizeof (U24ArrayTypeU24256_t2366142880)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU24256_t2366142880_marshaled_pinvoke), 0, 0,
 	sizeof (U24ArrayTypeU241024_t335950519)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU241024_t335950519_marshaled_pinvoke), 0, 0,
@@ -10576,6 +11008,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (QualitySettings_t3538980463), -1, 0, 0,
 	sizeof (Mesh_t1525280346), -1, 0, 0,
 	sizeof (Renderer_t1092684080), -1, 0, 0,
+	sizeof (InternalDrawTextureArguments_t3136253609)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (Graphics_t1688236792), -1, 0, 0,
 	sizeof (Screen_t3994030297), -1, 0, 0,
 	sizeof (GL_t1522887986), -1, 0, 0,
@@ -10641,8 +11074,12 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (WWWTranscoder_t2954555297), -1, sizeof(WWWTranscoder_t2954555297_StaticFields), 0,
 	sizeof (UnityString_t963216403), -1, 0, 0,
 	sizeof (AsyncOperation_t3374395064), sizeof(AsyncOperation_t3374395064_marshaled_pinvoke), 0, 0,
+	sizeof (NetworkReachability_t1023863250)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Application_t450040189), -1, sizeof(Application_t450040189_StaticFields), 0,
+	sizeof (AdvertisingIdentifierCallback_t3961879090), sizeof(Il2CppMethodPointer), 0, 0,
 	sizeof (LogCallback_t3235662729), sizeof(Il2CppMethodPointer), 0, 0,
+	sizeof (ApplicationInstallMode_t1641205467)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (ApplicationSandboxType_t2723104670)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Behaviour_t3120504042), -1, 0, 0,
 	sizeof (Camera_t3533968274), -1, sizeof(Camera_t3533968274_StaticFields), 0,
 	sizeof (CameraCallback_t1908940458), sizeof(Il2CppMethodPointer), 0, 0,
@@ -10684,6 +11121,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (Playable_t3404354247), -1, 0, 0,
 	sizeof (LoadSceneMode_t2068802481)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (SceneManager_t1523288937), -1, 0, 0,
+	sizeof (Scene_t2772977204)+ sizeof (Il2CppObject), sizeof(Scene_t2772977204_marshaled_pinvoke), 0, 0,
 	sizeof (ParticleSystem_t56787138), -1, sizeof(ParticleSystem_t56787138_StaticFields), 0,
 	sizeof (IteratorDelegate_t3855630387), sizeof(Il2CppMethodPointer), 0, 0,
 	sizeof (ControllerColliderHit_t2693066224), -1, 0, 0,
@@ -10742,6 +11180,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (KeyCode_t2371581209)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (EventType_t3558284577)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (EventModifiers_t3870720879)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (ScaleMode_t1648723514)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (GUI_t1522956648), -1, sizeof(GUI_t1522956648_StaticFields), 0,
 	sizeof (ScrollViewState_t4291149951), -1, 0, 0,
 	sizeof (WindowFunction_t999919624), sizeof(Il2CppMethodPointer), 0, 0,
@@ -10776,6 +11215,30 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (TextEditOp_t3429487928)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Internal_DrawArguments_t1561977533)+ sizeof (Il2CppObject), sizeof(Internal_DrawArguments_t1561977533_marshaled_pinvoke), 0, 0,
 	sizeof (Internal_DrawWithTextSelectionArguments_t43446288)+ sizeof (Il2CppObject), sizeof(Internal_DrawWithTextSelectionArguments_t43446288_marshaled_pinvoke), 0, 0,
+	sizeof (UnityAdsInternal_t2579607359), -1, sizeof(UnityAdsInternal_t2579607359_StaticFields), 0,
+	sizeof (UnityAdsManager_t2255083609), -1, 0, 0,
+	sizeof (UnityAnalyticsManager_t3462623473), -1, 0, 0,
+	sizeof (UnityAnalyticsSettings_t3591356021), -1, 0, 0,
+	sizeof (JsonArray_t2769828783), -1, 0, 0,
+	sizeof (JsonObject_t4190420965), -1, 0, 0,
+	sizeof (SimpleJson_t2437938008), -1, sizeof(SimpleJson_t2437938008_StaticFields), 0,
+	0, -1, 0, 0,
+	sizeof (PocoJsonSerializerStrategy_t1373207638), -1, sizeof(PocoJsonSerializerStrategy_t1373207638_StaticFields), 0,
+	sizeof (ReflectionUtils_t3367798763), -1, sizeof(ReflectionUtils_t3367798763_StaticFields), 0,
+	0, 0, 0, 0,
+	sizeof (GetDelegate_t270123739), sizeof(Il2CppMethodPointer), 0, 0,
+	sizeof (SetDelegate_t181543911), sizeof(Il2CppMethodPointer), 0, 0,
+	sizeof (ConstructorDelegate_t4072949631), sizeof(Il2CppMethodPointer), 0, 0,
+	0, 0, 0, 0,
+	sizeof (U3CGetConstructorByReflectionU3Ec__AnonStorey2_t4134239463), -1, 0, 0,
+	sizeof (U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t1741725035), -1, 0, 0,
+	sizeof (U3CGetGetMethodByReflectionU3Ec__AnonStorey4_t1741725036), -1, 0, 0,
+	sizeof (U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t3670491617), -1, 0, 0,
+	sizeof (U3CGetSetMethodByReflectionU3Ec__AnonStorey6_t3670491618), -1, 0, 0,
+	sizeof (CloudServiceType_t2089889921)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (CloudEventFlags_t1045909065)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (CloudServiceConfig_t3570230409), sizeof(CloudServiceConfig_t3570230409_marshaled_pinvoke), 0, 0,
+	sizeof (CloudService_t2557713703), sizeof(CloudService_t2557713703_marshaled_pinvoke), 0, 0,
 	sizeof (WrapperlessIcall_t4003675496), -1, 0, 0,
 	sizeof (IL2CPPStructAlignmentAttribute_t3787694287), -1, 0, 0,
 	sizeof (AttributeHelperEngine_t193897593), -1, sizeof(AttributeHelperEngine_t193897593_StaticFields), 0,
@@ -10836,6 +11299,8 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (HeaderAttribute_t489591484), -1, 0, 0,
 	sizeof (RangeAttribute_t587322956), -1, 0, 0,
 	sizeof (TextAreaAttribute_t185624719), -1, 0, 0,
+	sizeof (RuntimeInitializeLoadType_t1187614485)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (RuntimeInitializeOnLoadMethodAttribute_t3042305115), -1, 0, 0,
 	sizeof (SelectionBaseAttribute_t178688268), -1, 0, 0,
 	sizeof (StackTraceUtility_t3762183996), -1, sizeof(StackTraceUtility_t3762183996_StaticFields), 0,
 	sizeof (UnityException_t3148635335), -1, 0, 0,
@@ -10868,6 +11333,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	0, -1, 0, 0,
 	0, -1, 0, 0,
 	sizeof (Logger_t3804382717), -1, 0, 0,
+	sizeof (PreserveAttribute_t3590361648), -1, 0, 0,
 	sizeof (RequiredByNativeCodeAttribute_t641452194), -1, 0, 0,
 	sizeof (UsedByNativeCodeAttribute_t1800197956), -1, 0, 0,
 	sizeof (FormerlySerializedAsAttribute_t581346955), -1, 0, 0,
@@ -10875,12 +11341,58 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (TypeInferenceRuleAttribute_t471424957), -1, 0, 0,
 	sizeof (GenericStack_t2344941421), -1, 0, 0,
 	sizeof (NetFxCoreExtensions_t3785516670), -1, 0, 0,
+	sizeof (UnityAdsDelegate_t2828518919), sizeof(Il2CppMethodPointer), 0, 0,
+	0, 0, 0, 0,
 	sizeof (UnityAction_t909267611), sizeof(Il2CppMethodPointer), 0, 0,
 	0, 0, 0, 0,
 	0, 0, 0, 0,
 	0, 0, 0, 0,
 	0, 0, 0, 0,
 	sizeof (U3CModuleU3E_t86524795), -1, 0, 0,
+	sizeof (Advertisement_t3932222508), -1, sizeof(Advertisement_t3932222508_StaticFields), 0,
+	sizeof (DebugLevel_t135261457)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (AsyncExec_t3557204820), -1, sizeof(AsyncExec_t3557204820_StaticFields), 0,
+	sizeof (ShowOptions_t4067882760), -1, 0, 0,
+	sizeof (ShowResult_t1700490209)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (UnityAdsEditor_t3418119343), -1, 0, 0,
+	sizeof (U3CGetAdPlanU3Ec__Iterator0_t3216485943), -1, 0, 0,
+	sizeof (UnityAdsEditorPlaceholder_t667067442), -1, 0, 0,
+	sizeof (UnityAdsNative_t3673328473), -1, 0, 0,
+	sizeof (UnityAdsPlatform_t3883880693), -1, 0, 0,
+	sizeof (UnityAdsUnsupported_t2797285473), -1, 0, 0,
+	sizeof (U3CModuleU3E_t86524796), -1, 0, 0,
+	sizeof (Gender_t280741142)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (AnalyticsResult_t1896853848)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (Analytics_t2757337499), -1, sizeof(Analytics_t2757337499_StaticFields), 0,
+	sizeof (UnityAnalyticsVersion_t2978971164), -1, sizeof(UnityAnalyticsVersion_t2978971164_StaticFields), 0,
+	sizeof (AnalyticsEvent_t2694241545), -1, 0, 0,
+	sizeof (AppInstallEvent_t244377749), -1, 0, 0,
+	sizeof (AppRunningEvent_t3344199409), -1, 0, 0,
+	sizeof (AppStartEvent_t3128697454), -1, 0, 0,
+	sizeof (CustomEvent_t2312766398), -1, 0, 0,
+	sizeof (DeviceInfoEvent_t1504983787), -1, 0, 0,
+	sizeof (TransactionEvent_t2088694961), -1, 0, 0,
+	sizeof (UserInfoEvent_t2122070294), -1, 0, 0,
+	0, -1, 0, 0,
+	sizeof (PlatformWrapper_t247102133), -1, 0, 0,
+	sizeof (BasePlatformWrapper_t3402211236), -1, 0, 0,
+	0, -1, 0, 0,
+	sizeof (GameObserver_t3114543933), -1, 0, 0,
+	sizeof (SessionInfo_t4091457145), -1, 0, 0,
+	0, -1, 0, 0,
+	sizeof (SessionConfig_t2640461709), -1, 0, 0,
+	sizeof (SessionImpl_t4091456491), -1, sizeof(SessionImpl_t4091456491_StaticFields), 0,
+	sizeof (State_t80204913)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
+	sizeof (SessionValues_t3171441005), -1, sizeof(SessionValues_t3171441005_StaticFields), 0,
+	0, -1, 0, 0,
+	sizeof (UnityAnalyticsNotSupportedSession_t1810395583), -1, 0, 0,
+	sizeof (Utils_t2528446150), -1, 0, 0,
+	0, -1, 0, 0,
+	0, -1, 0, 0,
+	sizeof (AnalyticsCloudService_t3336050555), -1, 0, 0,
+	sizeof (U3CPrivateImplementationDetailsU3E_t3053238937), -1, sizeof(U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields), 0,
+	sizeof (U24ArrayTypeU2424_t214874520)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU2424_t214874520_marshaled_pinvoke), 0, 0,
+	sizeof (U3CModuleU3E_t86524797), -1, 0, 0,
 	sizeof (EventHandle_t72269245)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	0, -1, 0, 0,
 	0, -1, 0, 0,
@@ -11056,9 +11568,10 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (Outline_t3842262571), -1, 0, 0,
 	sizeof (PositionAsUV1_t826283646), -1, 0, 0,
 	sizeof (Shadow_t1464142665), -1, 0, 0,
-	sizeof (U3CPrivateImplementationDetailsU3E_t3053238937), -1, sizeof(U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields), 0,
+	sizeof (U3CPrivateImplementationDetailsU3E_t3053238938), -1, sizeof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields), 0,
 	sizeof (U24ArrayTypeU2412_t214874489)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU2412_t214874489_marshaled_pinvoke), 0, 0,
-	sizeof (U3CModuleU3E_t86524796), -1, 0, 0,
+	sizeof (U3CModuleU3E_t86524798), -1, 0, 0,
+	sizeof (AdPoster_t2565960560), -1, 0, 0,
 	sizeof (Bubble_t2000593068), -1, sizeof(Bubble_t2000593068_StaticFields), 0,
 	sizeof (ConsoleBase_t3696948539), -1, sizeof(ConsoleBase_t3696948539_StaticFields), 0,
 	sizeof (LogView_t1659050108), -1, sizeof(LogView_t1659050108_StaticFields), 0,
@@ -11203,14 +11716,16 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1899] =
 	sizeof (Pump_t2499208), -1, 0, 0,
 	sizeof (ScoreManager_t2519962843), -1, 0, 0,
 	sizeof (ScoreTypes_t3567341863), -1, 0, 0,
+	sizeof (EventTypes_t2967822879), -1, 0, 0,
 	sizeof (U3CHideComplimentU3Ec__Iterator5_t699490074), -1, 0, 0,
 	sizeof (BubbleGrid_t2156423698), -1, 0, 0,
 	sizeof (MainController_t668477843), -1, 0, 0,
 	sizeof (SoundLibrary_t1775290572), -1, 0, 0,
+	sizeof (Vibrator_t1170382393), -1, 0, 0,
 	sizeof (InitDelegate_t1475272884), sizeof(Il2CppMethodPointer), 0, 0,
 	0, 0, 0, 0,
 	sizeof (HideUnityDelegate_t2364798903), sizeof(Il2CppMethodPointer), 0, 0,
-	sizeof (U3CModuleU3E_t86524797), -1, 0, 0,
+	sizeof (U3CModuleU3E_t86524799), -1, 0, 0,
 	sizeof (AAMode_t2889307043)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Antialiasing_t259580628), -1, 0, 0,
 	sizeof (Bloom_t1030259619), -1, 0, 0,

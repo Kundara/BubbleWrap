@@ -32,6 +32,8 @@ struct ParameterModifierU5BU5D_t3379147067;
 struct PropertyInfo_t;
 // System.Reflection.ConstructorInfo
 struct ConstructorInfo_t3542137334;
+// System.Reflection.ConstructorInfo[]
+struct ConstructorInfoU5BU5D_t3572023667;
 // System.Object[]
 struct ObjectU5BU5D_t11523773;
 
@@ -163,6 +165,8 @@ extern "C"  ConstructorInfo_t3542137334 * Type_GetConstructor_m2586438681 (Type_
 extern "C"  ConstructorInfo_t3542137334 * Type_GetConstructor_m443034079 (Type_t * __this, int32_t ___bindingAttr0, Binder_t4180926488 * ___binder1, TypeU5BU5D_t3431720054* ___types2, ParameterModifierU5BU5D_t3379147067* ___modifiers3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo System.Type::GetConstructor(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  ConstructorInfo_t3542137334 * Type_GetConstructor_m3502935011 (Type_t * __this, int32_t ___bindingAttr0, Binder_t4180926488 * ___binder1, int32_t ___callConvention2, TypeU5BU5D_t3431720054* ___types3, ParameterModifierU5BU5D_t3379147067* ___modifiers4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.ConstructorInfo[] System.Type::GetConstructors()
+extern "C"  ConstructorInfoU5BU5D_t3572023667* Type_GetConstructors_m3837181109 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Type::ToString()
 extern "C"  String_t* Type_ToString_m2384448786 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Type::get_IsSystemType()

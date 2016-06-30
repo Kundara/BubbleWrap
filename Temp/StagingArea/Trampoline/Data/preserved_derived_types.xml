@@ -37,6 +37,7 @@
 <type fullname="UnityStandardAssets.ImageEffects.Vortex" preserve="all"/>
 </assembly>
 <assembly fullname="Assembly-CSharp">
+<type fullname="AdPoster" preserve="all"/>
 <type fullname="Bubble" preserve="all"/>
 <type fullname="Facebook.Unity.Example.ConsoleBase" preserve="all"/>
 <type fullname="Facebook.Unity.Example.LogView" preserve="all"/>
@@ -81,6 +82,7 @@
 <type fullname="BubbleGrid" preserve="all"/>
 <type fullname="Jetsons.MainController" preserve="all"/>
 <type fullname="SoundLibrary" preserve="all"/>
+<type fullname="Vibrator" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>
@@ -124,5 +126,13 @@
 <type fullname="UnityEngine.UI.Outline" preserve="all"/>
 <type fullname="UnityEngine.UI.PositionAsUV1" preserve="all"/>
 <type fullname="UnityEngine.UI.Shadow" preserve="all"/>
+</assembly>
+<assembly fullname="UnityEngine.Analytics">
+<type fullname="UnityEngine.Analytics.Analytics" preserve="all"/>
+<type fullname="UnityEngine.Analytics.GameObserver" preserve="all"/>
+</assembly>
+<assembly fullname="UnityEngine.Advertisements">
+<type fullname="UnityEngine.Advertisements.Advertisement" preserve="all"/>
+<type fullname="UnityEngine.Advertisements.UnityAdsEditorPlaceholder" preserve="all"/>
 </assembly>
 </linker>

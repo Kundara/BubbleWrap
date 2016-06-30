@@ -2,17 +2,19 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScoreManager.cs">
     <Files>
-      <File FileName="Assets/FBPro/Scripts/FBManager.cs" Line="864" Column="40" />
+      <File FileName="Assets/FBPro/Scripts/FBManager.cs" Line="810" Column="5" />
       <File FileName="Assets/Examples/Scripts/SubMenus/MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Bubble.cs" Line="95" Column="4" />
-      <File FileName="Assets/ScoreManager.cs" Line="103" Column="52" />
-      <File FileName="Assets/Scripts/BubbleGrid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Bubble.cs" Line="76" Column="32" />
+      <File FileName="Assets/ScoreManager.cs" Line="174" Column="36" />
+      <File FileName="Assets/Scripts/BubbleGrid.cs" Line="35" Column="2" />
       <File FileName="Assets/Scripts/MainController.cs" Line="1" Column="1" />
       <File FileName="Assets/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookMockDialog.cs" Line="1" Column="1" />
-      <File FileName="Assets/SoundLibrary.cs" Line="1" Column="1" />
-      <File FileName="Assets/Pump.cs" Line="17" Column="36" />
-      <File FileName="../Jet Shooter/Assets/scripts/Weapons/Weapon.cs" Line="301" Column="71" />
+      <File FileName="Assets/SoundLibrary.cs" Line="18" Column="2" />
+      <File FileName="Assets/Pump.cs" Line="1" Column="1" />
+      <File FileName="../Jet Shooter/Assets/scripts/Weapons/Weapon.cs" Line="1" Column="1" />
       <File FileName="../Jet Shooter/Assets/scripts/UI/StatusIndicators.cs" Line="1" Column="1" />
+      <File FileName="Assets/Vibrator.cs" Line="9" Column="25" />
+      <File FileName="Assets/AdPoster.cs" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

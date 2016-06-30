@@ -17,7 +17,7 @@
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>::.ctor()
-#define List_1__ctor_m1225639119(__this, method) ((  void (*) (List_1_t4208567320 *, const MethodInfo*))List_1__ctor_m574172797_gshared)(__this, method)
+#define List_1__ctor_m1225639119(__this, method) ((  void (*) (List_1_t4208567320 *, const MethodInfo*))List_1__ctor_m3099765286_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1__ctor_m122348007(__this, ___collection0, method) ((  void (*) (List_1_t4208567320 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection0, method)
 // System.Void System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>::.ctor(System.Int32)

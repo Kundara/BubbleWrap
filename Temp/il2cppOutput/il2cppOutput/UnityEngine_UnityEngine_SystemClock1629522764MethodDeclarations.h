@@ -20,3 +20,5 @@
 extern "C"  void SystemClock__cctor_m3660846035 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime UnityEngine.SystemClock::get_now()
 extern "C"  DateTime_t339033936  SystemClock_get_now_m175136990 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.SystemClock::ToUnixTimeMilliseconds(System.DateTime)
+extern "C"  int64_t SystemClock_ToUnixTimeMilliseconds_m1431860301 (Il2CppObject * __this /* static, unused */, DateTime_t339033936  ___date0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

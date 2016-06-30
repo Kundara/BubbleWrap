@@ -1,9 +1,9 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Bubble">
-			<method name="Swiped"/>
 			<method name="Pop"/>
 			<method name="Release"/>
+			<method name="Swiped"/>
 		</type>
 	</assembly>
 	<assembly fullname="UnityEngine">

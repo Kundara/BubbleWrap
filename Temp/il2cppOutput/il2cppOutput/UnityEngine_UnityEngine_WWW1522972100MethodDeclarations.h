@@ -32,6 +32,7 @@ struct Texture2D_t2509538522;
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_String968488902.h"
 #include "UnityEngine_UnityEngine_WWWForm3999572776.h"
+#include "mscorlib_System_Text_Encoding180559927.h"
 
 // System.Void UnityEngine.WWW::.ctor(System.String)
 extern "C"  void WWW__ctor_m1985874080 (WWW_t1522972100 * __this, String_t* ___url0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -47,6 +48,10 @@ extern "C"  void WWW_Finalize_m1793349504 (WWW_t1522972100 * __this, const Metho
 extern "C"  void WWW_DestroyWWW_m300967382 (WWW_t1522972100 * __this, bool ___cancel0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
 extern "C"  void WWW_InitWWW_m3594284248 (WWW_t1522972100 * __this, String_t* ___url0, ByteU5BU5D_t58506160* ___postData1, StringU5BU5D_t2956870243* ___iHeaders2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.WWW::EscapeURL(System.String)
+extern "C"  String_t* WWW_EscapeURL_m1167392721 (Il2CppObject * __this /* static, unused */, String_t* ___s0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.WWW::EscapeURL(System.String,System.Text.Encoding)
+extern "C"  String_t* WWW_EscapeURL_m1690274784 (Il2CppObject * __this /* static, unused */, String_t* ___s0, Encoding_t180559927 * ___e1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWW::get_responseHeaders()
 extern "C"  Dictionary_2_t2606186806 * WWW_get_responseHeaders_m2488150044 (WWW_t1522972100 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.WWW::get_responseHeadersString()

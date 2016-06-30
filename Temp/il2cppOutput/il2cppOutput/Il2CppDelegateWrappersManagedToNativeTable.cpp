@@ -41,6 +41,11 @@ extern "C" void pinvoke_delegate_wrapper_CertificateValidationCallback2_t1582269
 extern "C" void pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t4199006061 ();
 extern "C" void pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t4087051103 ();
 extern "C" void pinvoke_delegate_wrapper_CostDelegate_t3008899218 ();
+extern "C" void pinvoke_delegate_wrapper_ConstructorDelegate_t4072949631 ();
+extern "C" void pinvoke_delegate_wrapper_GetDelegate_t270123739 ();
+extern "C" void pinvoke_delegate_wrapper_SetDelegate_t181543911 ();
+extern "C" void pinvoke_delegate_wrapper_UnityAdsDelegate_t2828518919 ();
+extern "C" void pinvoke_delegate_wrapper_AdvertisingIdentifierCallback_t3961879090 ();
 extern "C" void pinvoke_delegate_wrapper_LogCallback_t3235662729 ();
 extern "C" void pinvoke_delegate_wrapper_PCMReaderCallback_t749510018 ();
 extern "C" void pinvoke_delegate_wrapper_PCMSetPositionCallback_t2977871350 ();
@@ -65,7 +70,7 @@ extern "C" void pinvoke_delegate_wrapper_OnDLLLoaded_t1601980106 ();
 extern "C" void pinvoke_delegate_wrapper_HideUnityDelegate_t2364798903 ();
 extern "C" void pinvoke_delegate_wrapper_InitDelegate_t1475272884 ();
 extern "C" void pinvoke_delegate_wrapper_LoadPictureCallback_t3065091453 ();
-extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[54] = 
+extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[59] = 
 {
 	pinvoke_delegate_wrapper_PrimalityTest_t397689819,
 	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1233396096,
@@ -97,6 +102,11 @@ extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[54] =
 	pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t4199006061,
 	pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t4087051103,
 	pinvoke_delegate_wrapper_CostDelegate_t3008899218,
+	pinvoke_delegate_wrapper_ConstructorDelegate_t4072949631,
+	pinvoke_delegate_wrapper_GetDelegate_t270123739,
+	pinvoke_delegate_wrapper_SetDelegate_t181543911,
+	pinvoke_delegate_wrapper_UnityAdsDelegate_t2828518919,
+	pinvoke_delegate_wrapper_AdvertisingIdentifierCallback_t3961879090,
 	pinvoke_delegate_wrapper_LogCallback_t3235662729,
 	pinvoke_delegate_wrapper_PCMReaderCallback_t749510018,
 	pinvoke_delegate_wrapper_PCMSetPositionCallback_t2977871350,

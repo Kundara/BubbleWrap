@@ -17,7 +17,7 @@
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor()
-#define List_1__ctor_m459821414(__this, method) ((  void (*) (List_1_t1765447871 *, const MethodInfo*))List_1__ctor_m574172797_gshared)(__this, method)
+#define List_1__ctor_m459821414(__this, method) ((  void (*) (List_1_t1765447871 *, const MethodInfo*))List_1__ctor_m3099765286_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1__ctor_m359069529(__this, ___collection0, method) ((  void (*) (List_1_t1765447871 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection0, method)
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor(System.Int32)
@@ -81,7 +81,7 @@
 // System.Int32 System.Collections.Generic.List`1<System.String>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m3339635743(__this, ___startIndex0, ___count1, ___match2, method) ((  int32_t (*) (List_1_t1765447871 *, int32_t, int32_t, Predicate_1_t1539452800 *, const MethodInfo*))List_1_GetIndex_m4275988045_gshared)(__this, ___startIndex0, ___count1, ___match2, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.String>::GetEnumerator()
-#define List_1_GetEnumerator_m2601310204(__this, method) ((  Enumerator_t4146198159  (*) (List_1_t1765447871 *, const MethodInfo*))List_1_GetEnumerator_m1919240000_gshared)(__this, method)
+#define List_1_GetEnumerator_m504820049(__this, method) ((  Enumerator_t4146198159  (*) (List_1_t1765447871 *, const MethodInfo*))List_1_GetEnumerator_m1919240000_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)
 #define List_1_IndexOf_m3776851789(__this, ___item0, method) ((  int32_t (*) (List_1_t1765447871 *, String_t*, const MethodInfo*))List_1_IndexOf_m1752303327_gshared)(__this, ___item0, method)
 // System.Void System.Collections.Generic.List`1<System.String>::Shift(System.Int32,System.Int32)

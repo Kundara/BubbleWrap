@@ -55,6 +55,10 @@ struct GUIStyle_t1006925219;
 // UnityEngine.Event
 struct Event_t1590224583;
 struct Event_t1590224583_marshaled_pinvoke;
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
+struct ConstructorDelegate_t4072949631;
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate
+struct GetDelegate_t270123739;
 // UnityEngine.DisallowMultipleComponent
 struct DisallowMultipleComponent_t3647875775;
 // UnityEngine.ExecuteInEditMode
@@ -113,6 +117,7 @@ struct Mesh_t1525280346;
 #include "UnityEngine_UnityEngine_Behaviour3120504042.h"
 #include "UnityEngine_UnityEngine_Component2126946602.h"
 #include "UnityEngine_UnityEngine_Display564335855.h"
+#include "UnityEngine_UnityEngine_Touch1603883884.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Play3404354247.h"
 #include "UnityEngine_UnityEngine_ContactPoint2951122365.h"
 #include "UnityEngine_UnityEngine_RaycastHit46221527.h"
@@ -130,6 +135,8 @@ struct Mesh_t1525280346;
 #include "UnityEngine_UnityEngine_GUIStyle1006925219.h"
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp3429487928.h"
 #include "UnityEngine_UnityEngine_Event1590224583.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_4072949631.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_G270123739.h"
 #include "UnityEngine_UnityEngine_DisallowMultipleComponent3647875775.h"
 #include "UnityEngine_UnityEngine_ExecuteInEditMode2676812948.h"
 #include "UnityEngine_UnityEngine_RequireComponent3196495237.h"
@@ -472,6 +479,20 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.Touch[]
+struct TouchU5BU5D_t376223077  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Touch_t1603883884  m_Items[1];
+
+public:
+	inline Touch_t1603883884  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Touch_t1603883884 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Touch_t1603883884  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.Experimental.Director.Playable[]
 struct PlayableU5BU5D_t2032975422  : public Il2CppArray
 {
@@ -713,6 +734,36 @@ public:
 	inline Event_t1590224583 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline Event_t1590224583 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, Event_t1590224583 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate[]
+struct ConstructorDelegateU5BU5D_t2569897894  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) ConstructorDelegate_t4072949631 * m_Items[1];
+
+public:
+	inline ConstructorDelegate_t4072949631 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline ConstructorDelegate_t4072949631 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, ConstructorDelegate_t4072949631 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate[]
+struct GetDelegateU5BU5D_t1362511706  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) GetDelegate_t270123739 * m_Items[1];
+
+public:
+	inline GetDelegate_t270123739 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline GetDelegate_t270123739 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, GetDelegate_t270123739 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

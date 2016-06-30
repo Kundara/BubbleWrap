@@ -36,3 +36,5 @@
 /Users/kundara/Documents/Unity/Bubble Wrap/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/kundara/Documents/Unity/Bubble Wrap/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/kundara/Documents/Unity/Bubble Wrap/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/kundara/Documents/Unity/Bubble Wrap/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/kundara/Documents/Unity/Bubble Wrap/Temp/bin/Debug/UnityEngine.Analytics.dll

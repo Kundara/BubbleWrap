@@ -48,6 +48,8 @@ struct FieldInfoU5BU5D_t1144794227;
 struct MethodInfoU5BU5D_t1668237648;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
+// System.Reflection.PropertyInfo[]
+struct PropertyInfoU5BU5D_t1348579340;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
 // System.Object
@@ -140,6 +142,8 @@ extern "C"  MethodInfoU5BU5D_t1668237648* TypeBuilder_GetMethodsByName_m23280606
 extern "C"  MethodInfoU5BU5D_t1668237648* TypeBuilder_GetMethods_m3761501928 (TypeBuilder_t4287691406 * __this, int32_t ___bindingAttr0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.Emit.TypeBuilder::GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  MethodInfo_t * TypeBuilder_GetMethodImpl_m2675220686 (TypeBuilder_t4287691406 * __this, String_t* ___name0, int32_t ___bindingAttr1, Binder_t4180926488 * ___binder2, int32_t ___callConvention3, TypeU5BU5D_t3431720054* ___types4, ParameterModifierU5BU5D_t3379147067* ___modifiers5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.PropertyInfo[] System.Reflection.Emit.TypeBuilder::GetProperties(System.Reflection.BindingFlags)
+extern "C"  PropertyInfoU5BU5D_t1348579340* TypeBuilder_GetProperties_m1011883015 (TypeBuilder_t4287691406 * __this, int32_t ___bindingAttr0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.Reflection.Emit.TypeBuilder::GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  PropertyInfo_t * TypeBuilder_GetPropertyImpl_m2672120863 (TypeBuilder_t4287691406 * __this, String_t* ___name0, int32_t ___bindingAttr1, Binder_t4180926488 * ___binder2, Type_t * ___returnType3, TypeU5BU5D_t3431720054* ___types4, ParameterModifierU5BU5D_t3379147067* ___modifiers5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.TypeBuilder::HasElementTypeImpl()

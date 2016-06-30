@@ -1551,6 +1551,7 @@ extern "C" void DateTimeOffset_Equals_m1431331290 ();
 extern "C" void DateTimeOffset_GetHashCode_m1972583858 ();
 extern "C" void DateTimeOffset_ToString_m983707174 ();
 extern "C" void DateTimeOffset_ToString_m4001156824 ();
+extern "C" void DateTimeOffset_ToUniversalTime_m2509789832 ();
 extern "C" void DateTimeOffset_get_DateTime_m2501837032 ();
 extern "C" void DateTimeOffset_get_Offset_m3938299132 ();
 extern "C" void DateTimeOffset_get_UtcDateTime_m2831969300 ();
@@ -1699,6 +1700,9 @@ extern "C" void DelegateSerializationHolder_GetObjectData_m107938392 ();
 extern "C" void DelegateSerializationHolder_GetRealObject_m296541084 ();
 extern "C" void DelegateEntry__ctor_m2030858126 ();
 extern "C" void DelegateEntry_DeserializeDelegate_m151701220 ();
+extern "C" void SuppressMessageAttribute__ctor_m2947654170 ();
+extern "C" void SuppressMessageAttribute_set_Justification_m1338114315 ();
+extern "C" void ConditionalAttribute__ctor_m3375871237 ();
 extern "C" void DebuggableAttribute__ctor_m1767828745 ();
 extern "C" void DebuggerDisplayAttribute__ctor_m1198914250 ();
 extern "C" void DebuggerDisplayAttribute_set_Name_m332508078 ();
@@ -1760,6 +1764,7 @@ extern "C" void Double_Parse_m3249074997 ();
 extern "C" void Double_Parse_m1451965917 ();
 extern "C" void Double_TryParseStringConstant_m2653461779 ();
 extern "C" void Double_ParseImpl_m1244982012 ();
+extern "C" void Double_TryParse_m707798013 ();
 extern "C" void Double_ToString_m3380246633 ();
 extern "C" void Double_ToString_m937670807 ();
 extern "C" void Double_ToString_m2573497243 ();
@@ -1820,6 +1825,7 @@ extern "C" void Environment_get_NewLine_m1034655108 ();
 extern "C" void Environment_get_Platform_m977128040 ();
 extern "C" void Environment_GetOSVersionString_m2885926456 ();
 extern "C" void Environment_get_OSVersion_m2506362029 ();
+extern "C" void Environment_get_TickCount_m2991349545 ();
 extern "C" void Environment_GetCommandLineArgs_m1382561293 ();
 extern "C" void Environment_internalGetEnvironmentVariable_m1433380067 ();
 extern "C" void Environment_GetEnvironmentVariable_m3419218304 ();
@@ -2660,6 +2666,7 @@ extern "C" void MonoType_GetMethodsByName_m1576473598 ();
 extern "C" void MonoType_GetMethods_m254951756 ();
 extern "C" void MonoType_GetMethodImpl_m2617796334 ();
 extern "C" void MonoType_GetPropertiesByName_m3972083631 ();
+extern "C" void MonoType_GetProperties_m1241109947 ();
 extern "C" void MonoType_GetPropertyImpl_m2349541479 ();
 extern "C" void MonoType_HasElementTypeImpl_m3651013126 ();
 extern "C" void MonoType_IsArrayImpl_m2714061063 ();
@@ -2846,6 +2853,10 @@ extern "C" void OverflowException__ctor_m1899953028 ();
 extern "C" void OverflowException__ctor_m3303963134 ();
 extern "C" void OverflowException__ctor_m2924736197 ();
 extern "C" void ParamArrayAttribute__ctor_m2760430497 ();
+extern "C" void Random__ctor_m2490522898 ();
+extern "C" void Random__ctor_m4002613091 ();
+extern "C" void Random_Sample_m3542077785 ();
+extern "C" void Random_NextBytes_m3527347937 ();
 extern "C" void RankException__ctor_m2171614254 ();
 extern "C" void RankException__ctor_m3451921812 ();
 extern "C" void RankException__ctor_m1930204271 ();
@@ -3006,6 +3017,7 @@ extern "C" void EnumBuilder_GetFields_m1392120169 ();
 extern "C" void EnumBuilder_GetInterfaces_m4245642789 ();
 extern "C" void EnumBuilder_GetMethodImpl_m133610325 ();
 extern "C" void EnumBuilder_GetMethods_m2248069569 ();
+extern "C" void EnumBuilder_GetProperties_m2915149454 ();
 extern "C" void EnumBuilder_GetPropertyImpl_m457098616 ();
 extern "C" void EnumBuilder_HasElementTypeImpl_m3877283091 ();
 extern "C" void EnumBuilder_InvokeMember_m4001949930 ();
@@ -3041,6 +3053,7 @@ extern "C" void GenericTypeParameterBuilder_GetFields_m128303008 ();
 extern "C" void GenericTypeParameterBuilder_GetInterfaces_m437688604 ();
 extern "C" void GenericTypeParameterBuilder_GetMethods_m1386969194 ();
 extern "C" void GenericTypeParameterBuilder_GetMethodImpl_m3486858252 ();
+extern "C" void GenericTypeParameterBuilder_GetProperties_m2721295173 ();
 extern "C" void GenericTypeParameterBuilder_GetPropertyImpl_m3933236897 ();
 extern "C" void GenericTypeParameterBuilder_HasElementTypeImpl_m814733436 ();
 extern "C" void GenericTypeParameterBuilder_IsAssignableFrom_m2291646236 ();
@@ -3141,6 +3154,26 @@ extern "C" void OpCodes__cctor_m1331312969 ();
 extern "C" void ParameterBuilder_get_Attributes_m2640139997 ();
 extern "C" void ParameterBuilder_get_Name_m1429816234 ();
 extern "C" void ParameterBuilder_get_Position_m388196207 ();
+extern "C" void PropertyBuilder_get_Attributes_m548385532 ();
+extern "C" void PropertyBuilder_get_CanRead_m1928541820 ();
+extern "C" void PropertyBuilder_get_CanWrite_m177907803 ();
+extern "C" void PropertyBuilder_get_DeclaringType_m1573425887 ();
+extern "C" void PropertyBuilder_get_Name_m1476342296 ();
+extern "C" void PropertyBuilder_get_PropertyType_m946002355 ();
+extern "C" void PropertyBuilder_get_ReflectedType_m803872660 ();
+extern "C" void PropertyBuilder_GetAccessors_m3435130372 ();
+extern "C" void PropertyBuilder_GetCustomAttributes_m3021459715 ();
+extern "C" void PropertyBuilder_GetCustomAttributes_m3490282608 ();
+extern "C" void PropertyBuilder_GetGetMethod_m1084139825 ();
+extern "C" void PropertyBuilder_GetIndexParameters_m3909940773 ();
+extern "C" void PropertyBuilder_GetSetMethod_m1927431485 ();
+extern "C" void PropertyBuilder_GetValue_m1709912399 ();
+extern "C" void PropertyBuilder_GetValue_m2770378927 ();
+extern "C" void PropertyBuilder_IsDefined_m3818094274 ();
+extern "C" void PropertyBuilder_SetValue_m2811621182 ();
+extern "C" void PropertyBuilder_SetValue_m307828128 ();
+extern "C" void PropertyBuilder_get_Module_m3451643761 ();
+extern "C" void PropertyBuilder_not_supported_m3524698216 ();
 extern "C" void TypeBuilder_GetAttributeFlagsImpl_m2415994065 ();
 extern "C" void TypeBuilder_setup_internal_class_m1841540458 ();
 extern "C" void TypeBuilder_create_generic_class_m1633445577 ();
@@ -3175,6 +3208,7 @@ extern "C" void TypeBuilder_GetInterfaces_m1695120734 ();
 extern "C" void TypeBuilder_GetMethodsByName_m2328060642 ();
 extern "C" void TypeBuilder_GetMethods_m3761501928 ();
 extern "C" void TypeBuilder_GetMethodImpl_m2675220686 ();
+extern "C" void TypeBuilder_GetProperties_m1011883015 ();
 extern "C" void TypeBuilder_GetPropertyImpl_m2672120863 ();
 extern "C" void TypeBuilder_HasElementTypeImpl_m3001033082 ();
 extern "C" void TypeBuilder_InvokeMember_m1599102929 ();
@@ -3214,6 +3248,8 @@ extern "C" void FieldInfo__ctor_m1830395376 ();
 extern "C" void FieldInfo_get_MemberType_m1921984537 ();
 extern "C" void FieldInfo_get_IsLiteral_m2099153292 ();
 extern "C" void FieldInfo_get_IsStatic_m24721619 ();
+extern "C" void FieldInfo_get_IsInitOnly_m2533084865 ();
+extern "C" void FieldInfo_get_IsPublic_m2574 ();
 extern "C" void FieldInfo_get_IsNotSerialized_m3868603028 ();
 extern "C" void FieldInfo_SetValue_m1669444927 ();
 extern "C" void FieldInfo_internal_from_handle_type_m449136039 ();
@@ -5378,6 +5414,7 @@ extern "C" void Type_IsMarshalByRefImpl_m4102401647 ();
 extern "C" void Type_GetConstructor_m2586438681 ();
 extern "C" void Type_GetConstructor_m443034079 ();
 extern "C" void Type_GetConstructor_m3502935011 ();
+extern "C" void Type_GetConstructors_m3837181109 ();
 extern "C" void Type_ToString_m2384448786 ();
 extern "C" void Type_get_IsSystemType_m3052526531 ();
 extern "C" void Type_GetGenericArguments_m202281670 ();
@@ -6446,6 +6483,7 @@ extern "C" void X509Stores_get_TrustedRoot_m4006515680 ();
 extern "C" void X509Stores_Open_m371944087 ();
 extern "C" void Locale_GetText_m3269873186 ();
 extern "C" void Locale_GetText_m946430094 ();
+extern "C" void GeneratedCodeAttribute__ctor_m3690080601 ();
 extern "C" void HybridDictionary__ctor_m951312923 ();
 extern "C" void HybridDictionary__ctor_m3356743441 ();
 extern "C" void HybridDictionary_System_Collections_IEnumerable_GetEnumerator_m633511108 ();
@@ -7367,6 +7405,7 @@ extern "C" void SymmetricTransform_TransformFinalBlock_m2524388439 ();
 extern "C" void Check_Source_m228347543 ();
 extern "C" void Check_SourceAndSelector_m3164339431 ();
 extern "C" void Check_SourceAndPredicate_m2252398949 ();
+extern "C" void MonoTODOAttribute__ctor_m1033053463 ();
 extern "C" void ExtensionAttribute__ctor_m1242622322 ();
 extern "C" void Aes__ctor_m380511311 ();
 extern "C" void AesManaged__ctor_m1572578968 ();
@@ -7389,8 +7428,139 @@ extern "C" void AesTransform_ECB_m2589908703 ();
 extern "C" void AesTransform_SubByte_m1214814958 ();
 extern "C" void AesTransform_Encrypt128_m3651261907 ();
 extern "C" void AesTransform_Decrypt128_m3310750971 ();
+extern "C" void JsonArray__ctor_m3066648391 ();
+extern "C" void JsonArray_ToString_m3760326380 ();
+extern "C" void JsonObject__ctor_m4099346119 ();
+extern "C" void JsonObject_System_Collections_IEnumerable_GetEnumerator_m463473096 ();
+extern "C" void JsonObject_Add_m2475110730 ();
+extern "C" void JsonObject_ContainsKey_m1515146327 ();
+extern "C" void JsonObject_get_Keys_m148532872 ();
+extern "C" void JsonObject_Remove_m1673771111 ();
+extern "C" void JsonObject_TryGetValue_m3343055325 ();
+extern "C" void JsonObject_get_Values_m1000452872 ();
+extern "C" void JsonObject_get_Item_m3228701406 ();
+extern "C" void JsonObject_set_Item_m2392368579 ();
+extern "C" void JsonObject_Add_m329961947 ();
+extern "C" void JsonObject_Clear_m1505479410 ();
+extern "C" void JsonObject_Contains_m1982716011 ();
+extern "C" void JsonObject_CopyTo_m3276053367 ();
+extern "C" void JsonObject_get_Count_m287878091 ();
+extern "C" void JsonObject_get_IsReadOnly_m1285123564 ();
+extern "C" void JsonObject_Remove_m4025221968 ();
+extern "C" void JsonObject_GetEnumerator_m1456030472 ();
+extern "C" void JsonObject_ToString_m1046229766 ();
+extern "C" void PocoJsonSerializerStrategy__ctor_m98290550 ();
+extern "C" void PocoJsonSerializerStrategy__cctor_m2564910839 ();
+extern "C" void PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m294662907 ();
+extern "C" void PocoJsonSerializerStrategy_ContructorDelegateFactory_m1098206077 ();
+extern "C" void PocoJsonSerializerStrategy_GetterValueFactory_m1085737513 ();
+extern "C" void PocoJsonSerializerStrategy_SetterValueFactory_m2124618347 ();
+extern "C" void PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m408626704 ();
+extern "C" void PocoJsonSerializerStrategy_SerializeEnum_m3909084616 ();
+extern "C" void PocoJsonSerializerStrategy_TrySerializeKnownTypes_m3601417165 ();
+extern "C" void PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m1594419814 ();
+extern "C" void ReflectionUtils__cctor_m2088930786 ();
+extern "C" void ReflectionUtils_GetConstructors_m1067993841 ();
+extern "C" void ReflectionUtils_GetConstructorInfo_m3599392238 ();
+extern "C" void ReflectionUtils_GetProperties_m1583223718 ();
+extern "C" void ReflectionUtils_GetFields_m973867185 ();
+extern "C" void ReflectionUtils_GetGetterMethodInfo_m994959470 ();
+extern "C" void ReflectionUtils_GetSetterMethodInfo_m4039997154 ();
+extern "C" void ReflectionUtils_GetContructor_m3992972374 ();
+extern "C" void ReflectionUtils_GetConstructorByReflection_m3557144571 ();
+extern "C" void ReflectionUtils_GetConstructorByReflection_m3781484951 ();
+extern "C" void ReflectionUtils_GetGetMethod_m65760451 ();
+extern "C" void ReflectionUtils_GetGetMethod_m1368925476 ();
+extern "C" void ReflectionUtils_GetGetMethodByReflection_m1893214021 ();
+extern "C" void ReflectionUtils_GetGetMethodByReflection_m134171106 ();
+extern "C" void ReflectionUtils_GetSetMethod_m2126017499 ();
+extern "C" void ReflectionUtils_GetSetMethod_m3611702540 ();
+extern "C" void ReflectionUtils_GetSetMethodByReflection_m295389789 ();
+extern "C" void ReflectionUtils_GetSetMethodByReflection_m1288486346 ();
+extern "C" void U3CGetConstructorByReflectionU3Ec__AnonStorey2__ctor_m2212677 ();
+extern "C" void U3CGetConstructorByReflectionU3Ec__AnonStorey2_U3CU3Em__6_m2897982675 ();
+extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m1559713153 ();
+extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__7_m1432456400 ();
+extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey4__ctor_m1363199648 ();
+extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__8_m854915470 ();
+extern "C" void U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m2232636875 ();
+extern "C" void U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__9_m3007878459 ();
+extern "C" void U3CGetSetMethodByReflectionU3Ec__AnonStorey6__ctor_m2036123370 ();
+extern "C" void U3CGetSetMethodByReflectionU3Ec__AnonStorey6_U3CU3Em__A_m436244178 ();
+extern "C" void ConstructorDelegate__ctor_m2235573511 ();
+extern "C" void ConstructorDelegate_Invoke_m2854326566 ();
+extern "C" void ConstructorDelegate_BeginInvoke_m2026889822 ();
+extern "C" void ConstructorDelegate_EndInvoke_m4161109314 ();
+extern "C" void GetDelegate__ctor_m2347793251 ();
+extern "C" void GetDelegate_Invoke_m891352364 ();
+extern "C" void GetDelegate_BeginInvoke_m3848543456 ();
+extern "C" void GetDelegate_EndInvoke_m779500702 ();
+extern "C" void SetDelegate__ctor_m229262959 ();
+extern "C" void SetDelegate_Invoke_m209693753 ();
+extern "C" void SetDelegate_BeginInvoke_m4211841350 ();
+extern "C" void SetDelegate_EndInvoke_m3376957439 ();
+extern "C" void SimpleJson_DeserializeObject_m2622513661 ();
+extern "C" void SimpleJson_TryDeserializeObject_m3409014601 ();
+extern "C" void SimpleJson_SerializeObject_m471576100 ();
+extern "C" void SimpleJson_SerializeObject_m290152864 ();
+extern "C" void SimpleJson_ParseObject_m3340076222 ();
+extern "C" void SimpleJson_ParseArray_m740903547 ();
+extern "C" void SimpleJson_ParseValue_m3072681190 ();
+extern "C" void SimpleJson_ParseString_m4269726726 ();
+extern "C" void SimpleJson_ConvertFromUtf32_m1610721511 ();
+extern "C" void SimpleJson_ParseNumber_m1686696700 ();
+extern "C" void SimpleJson_GetLastIndexOfNumber_m3739068370 ();
+extern "C" void SimpleJson_EatWhitespace_m499340649 ();
+extern "C" void SimpleJson_LookAhead_m1099107504 ();
+extern "C" void SimpleJson_NextToken_m647118648 ();
+extern "C" void SimpleJson_SerializeValue_m656357451 ();
+extern "C" void SimpleJson_SerializeObject_m953411705 ();
+extern "C" void SimpleJson_SerializeArray_m138026960 ();
+extern "C" void SimpleJson_SerializeString_m1869609533 ();
+extern "C" void SimpleJson_SerializeNumber_m90746391 ();
+extern "C" void SimpleJson_IsNumeric_m2865724665 ();
+extern "C" void SimpleJson_get_CurrentJsonSerializerStrategy_m3012545884 ();
+extern "C" void SimpleJson_get_PocoJsonSerializerStrategy_m2944344906 ();
 extern "C" void AddComponentMenu__ctor_m1521317712 ();
 extern "C" void AddComponentMenu__ctor_m3281913735 ();
+extern "C" void UnityAdsDelegate__ctor_m1175331529 ();
+extern "C" void UnityAdsDelegate_Invoke_m4129568867 ();
+extern "C" void UnityAdsDelegate_BeginInvoke_m3315877064 ();
+extern "C" void UnityAdsDelegate_EndInvoke_m3463209305 ();
+extern "C" void UnityAdsInternal__ctor_m243934081 ();
+extern "C" void UnityAdsInternal_add_onCampaignsAvailable_m1887590723 ();
+extern "C" void UnityAdsInternal_remove_onCampaignsAvailable_m1778941226 ();
+extern "C" void UnityAdsInternal_add_onCampaignsFetchFailed_m446117429 ();
+extern "C" void UnityAdsInternal_remove_onCampaignsFetchFailed_m3408133212 ();
+extern "C" void UnityAdsInternal_add_onShow_m3052740108 ();
+extern "C" void UnityAdsInternal_remove_onShow_m3137933875 ();
+extern "C" void UnityAdsInternal_add_onHide_m3727591399 ();
+extern "C" void UnityAdsInternal_remove_onHide_m3812785166 ();
+extern "C" void UnityAdsInternal_add_onVideoCompleted_m3127857642 ();
+extern "C" void UnityAdsInternal_remove_onVideoCompleted_m38413649 ();
+extern "C" void UnityAdsInternal_add_onVideoStarted_m2860801827 ();
+extern "C" void UnityAdsInternal_remove_onVideoStarted_m3167829066 ();
+extern "C" void UnityAdsInternal_RemoveAllEventHandlers_m1299457865 ();
+extern "C" void UnityAdsInternal_CallUnityAdsCampaignsAvailable_m1791417698 ();
+extern "C" void UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m3459372208 ();
+extern "C" void UnityAdsInternal_CallUnityAdsShow_m4070574393 ();
+extern "C" void UnityAdsInternal_CallUnityAdsHide_m3756232254 ();
+extern "C" void UnityAdsInternal_CallUnityAdsVideoCompleted_m3329366535 ();
+extern "C" void UnityAdsInternal_CallUnityAdsVideoStarted_m2132891778 ();
+extern "C" void UnityAdsInternal_RegisterNative_m774084925 ();
+extern "C" void UnityAdsInternal_Init_m97718091 ();
+extern "C" void UnityAdsInternal_Show_m1612027904 ();
+extern "C" void UnityAdsInternal_CanShowAds_m4003582274 ();
+extern "C" void UnityAdsInternal_SetLogLevel_m225822354 ();
+extern "C" void UnityAdsInternal_SetCampaignDataURL_m1952528364 ();
+extern "C" void UnityAdsManager_get_enabled_m484722539 ();
+extern "C" void UnityAdsManager_IsPlatformEnabled_m1689539463 ();
+extern "C" void UnityAdsManager_get_initializeOnStartup_m1939376472 ();
+extern "C" void UnityAdsManager_get_testMode_m1798784717 ();
+extern "C" void UnityAdsManager_GetGameId_m1608054597 ();
+extern "C" void UnityAnalyticsManager_get_unityAdsId_m1291796795 ();
+extern "C" void UnityAnalyticsManager_get_unityAdsTrackingEnabled_m113961551 ();
+extern "C" void UnityAnalyticsManager_get_deviceUniqueIdentifier_m1687017237 ();
 extern "C" void AnimationCurve__ctor_m2436282331 ();
 extern "C" void AnimationCurve__ctor_m4037844610 ();
 extern "C" void AnimationCurve_Cleanup_m386995588 ();
@@ -7454,16 +7624,33 @@ extern "C" void AnimatorTransitionInfo_get_entry_m2038132324 ();
 extern "C" void AnimatorTransitionInfo_get_exit_m2568505102 ();
 extern "C" void Application_get_isPlaying_m987993960 ();
 extern "C" void Application_get_isEditor_m1279348309 ();
+extern "C" void Application_get_isWebPlayer_m4016870031 ();
 extern "C" void Application_get_platform_m2918632856 ();
+extern "C" void Application_HasProLicense_m2584894363 ();
+extern "C" void Application_HasAdvancedLicense_m3815753722 ();
+extern "C" void Application_get_isHumanControllingUs_m2619103564 ();
 extern "C" void Application_get_persistentDataPath_m2554537447 ();
 extern "C" void Application_ObjectToJSString_m2317112936 ();
 extern "C" void Application_ExternalCall_m4293503818 ();
 extern "C" void Application_BuildInvocationForArguments_m777253945 ();
 extern "C" void Application_ExternalEval_m1886082784 ();
 extern "C" void Application_Internal_ExternalCall_m2589949616 ();
+extern "C" void Application_get_unityVersion_m3443350436 ();
+extern "C" void Application_get_version_m3762569241 ();
+extern "C" void Application_get_bundleIdentifier_m3578253516 ();
+extern "C" void Application_get_installMode_m3612203238 ();
+extern "C" void Application_get_sandboxType_m784454 ();
+extern "C" void Application_get_cloudProjectId_m444058720 ();
+extern "C" void Application_RequestAdvertisingIdentifierAsync_m19925675 ();
 extern "C" void Application_OpenURL_m1861717334 ();
 extern "C" void Application_set_targetFrameRate_m498658007 ();
 extern "C" void Application_CallLogCallback_m419361836 ();
+extern "C" void Application_get_internetReachability_m379356375 ();
+extern "C" void Application_get_isShowingSplashScreen_m238201170 ();
+extern "C" void AdvertisingIdentifierCallback__ctor_m3247187932 ();
+extern "C" void AdvertisingIdentifierCallback_Invoke_m2946154733 ();
+extern "C" void AdvertisingIdentifierCallback_BeginInvoke_m3138258066 ();
+extern "C" void AdvertisingIdentifierCallback_EndInvoke_m1443227628 ();
 extern "C" void LogCallback__ctor_m286543475 ();
 extern "C" void LogCallback_Invoke_m1886455446 ();
 extern "C" void LogCallback_BeginInvoke_m1640350401 ();
@@ -7654,6 +7841,36 @@ extern "C" void CanvasRenderer_get_cull_m3343855795 ();
 extern "C" void CanvasRenderer_set_cull_m3433952120 ();
 extern "C" void CanvasRenderer_get_absoluteDepth_m1613567475 ();
 extern "C" void CanvasRenderer_get_hasMoved_m1392755130 ();
+extern "C" void CloudService__ctor_m1908878424 ();
+extern "C" void CloudService_InternalCreate_m2046172255 ();
+extern "C" void CloudService_InternalDestroy_m3760345558 ();
+extern "C" void CloudService_Finalize_m2249049863 ();
+extern "C" void CloudService_Dispose_m3985399032 ();
+extern "C" void CloudService_Initialize_m1697171843 ();
+extern "C" void CloudService_StartEventHandler_m131463165 ();
+extern "C" void CloudService_PauseEventHandler_m2406768272 ();
+extern "C" void CloudService_StopEventHandler_m1885720001 ();
+extern "C" void CloudService_StartEventDispatcher_m2849229908 ();
+extern "C" void CloudService_InternalStartEventDispatcher_m1144791098 ();
+extern "C" void CloudService_PauseEventDispatcher_m278865946 ();
+extern "C" void CloudService_StopEventDispatcher_m2766203442 ();
+extern "C" void CloudService_ResetNetworkRetryIndex_m1630295154 ();
+extern "C" void CloudService_QueueEvent_m2806439645 ();
+extern "C" void CloudService_SaveFileFromServer_m2179173144 ();
+extern "C" void CloudService_InternalSaveFileFromServer_m739695664 ();
+extern "C" void CloudService_SaveFile_m2381198486 ();
+extern "C" void CloudService_RestoreFile_m2361855554 ();
+extern "C" void CloudService_get_serviceFolderName_m3855090363 ();
+extern "C" void CloudService_FlattenedHeadersFrom_m3392854664 ();
+extern "C" void CloudServiceConfig__ctor_m745211993 ();
+extern "C" void CloudServiceConfig_set_maxNumberOfEventInGroup_m3751734735 ();
+extern "C" void CloudServiceConfig_set_archivedSessionExpiryTimeInSec_m3589097201 ();
+extern "C" void CloudServiceConfig_set_maxContinuousRequest_m606608629 ();
+extern "C" void CloudServiceConfig_set_maxContinuousRequestTimeoutInSec_m2331643232 ();
+extern "C" void CloudServiceConfig_set_sessionHeaderName_m2427987802 ();
+extern "C" void CloudServiceConfig_set_eventsHeaderName_m1058198153 ();
+extern "C" void CloudServiceConfig_set_eventsEndPoint_m47685164 ();
+extern "C" void CloudServiceConfig_set_networkFailureRetryTimeoutInSec_m2136758752 ();
 extern "C" void Collider_get_attachedRigidbody_m2821754842 ();
 extern "C" void Collider2D_get_attachedRigidbody_m2908627162 ();
 extern "C" void Collision__ctor_m183727591 ();
@@ -7735,6 +7952,10 @@ extern "C" void ComputeBuffer_Release_m1932213255 ();
 extern "C" void ComputeBuffer_SetData_m3962017490 ();
 extern "C" void ComputeBuffer_InternalSetData_m3343666658 ();
 extern "C" void ComputeBuffer_CopyCount_m63772307 ();
+extern "C" void UnityAnalyticsSettings_get_enabled_m2592038245 ();
+extern "C" void UnityAnalyticsSettings_get_testMode_m2701062163 ();
+extern "C" void UnityAnalyticsSettings_get_testEventUrl_m2993626018 ();
+extern "C" void UnityAnalyticsSettings_get_testConfigUrl_m2454002338 ();
 extern "C" void ControllerColliderHit__ctor_m3119252854 ();
 extern "C" void ControllerColliderHit_get_controller_m4144115758 ();
 extern "C" void ControllerColliderHit_get_collider_m1024441863 ();
@@ -7984,6 +8205,7 @@ extern "C" void Graphics_DrawMeshNow_m2524242293 ();
 extern "C" void Graphics_Internal_DrawMeshNow2_m1490231000 ();
 extern "C" void Graphics_INTERNAL_CALL_Internal_DrawMeshNow2_m3606840651 ();
 extern "C" void Graphics_DrawProceduralIndirect_m2816657261 ();
+extern "C" void Graphics_DrawTexture_m2938050632 ();
 extern "C" void Graphics_Blit_m3408836917 ();
 extern "C" void Graphics_Blit_m2695454291 ();
 extern "C" void Graphics_Blit_m336256356 ();
@@ -8008,7 +8230,11 @@ extern "C" void GUI_get_skin_m4001454842 ();
 extern "C" void GUI_DoSetSkin_m800823745 ();
 extern "C" void GUI_set_tooltip_m2757283616 ();
 extern "C" void GUI_Label_m2293702269 ();
+extern "C" void GUI_DrawTexture_m2033906102 ();
+extern "C" void GUI_DrawTexture_m1717108487 ();
+extern "C" void GUI_DrawTexture_m1839804844 ();
 extern "C" void GUI_Box_m3007052244 ();
+extern "C" void GUI_Button_m885093907 ();
 extern "C" void GUI_Button_m2185150522 ();
 extern "C" void GUI_Button_m3806860863 ();
 extern "C" void GUI_DoRepeatButton_m4194170646 ();
@@ -8032,17 +8258,24 @@ extern "C" void GUI_Scroller_m520117136 ();
 extern "C" void GUI_BeginScrollView_m3702064537 ();
 extern "C" void GUI_EndScrollView_m3615223136 ();
 extern "C" void GUI_Window_m560421090 ();
+extern "C" void GUI_ModalWindow_m1806902466 ();
 extern "C" void GUI_CallWindowDelegate_m2260338804 ();
+extern "C" void GUI_get_color_m1489208189 ();
+extern "C" void GUI_INTERNAL_get_color_m1047250244 ();
 extern "C" void GUI_set_changed_m727947722 ();
 extern "C" void GUI_get_enabled_m3799739706 ();
 extern "C" void GUI_set_enabled_m262604887 ();
 extern "C" void GUI_Internal_SetTooltip_m2127802787 ();
 extern "C" void GUI_DoLabel_m2990009013 ();
 extern "C" void GUI_INTERNAL_CALL_DoLabel_m2707679966 ();
+extern "C" void GUI_get_blendMaterial_m3392847228 ();
+extern "C" void GUI_get_blitMaterial_m1516673786 ();
 extern "C" void GUI_DoButton_m2194494269 ();
 extern "C" void GUI_INTERNAL_CALL_DoButton_m1954108340 ();
 extern "C" void GUI_get_usePageScrollbars_m944581596 ();
 extern "C" void GUI_InternalRepaintEditorWindow_m3223206407 ();
+extern "C" void GUI_DoModalWindow_m1270479406 ();
+extern "C" void GUI_INTERNAL_CALL_DoModalWindow_m1785328038 ();
 extern "C" void GUI_DoWindow_m2731683716 ();
 extern "C" void GUI_INTERNAL_CALL_DoWindow_m104027050 ();
 extern "C" void ScrollViewState__ctor_m739544590 ();
@@ -8426,6 +8659,7 @@ extern "C" void Input_INTERNAL_get_mousePosition_m4008828427 ();
 extern "C" void Input_get_mouseScrollDelta_m3050122505 ();
 extern "C" void Input_INTERNAL_get_mouseScrollDelta_m2726147504 ();
 extern "C" void Input_get_mousePresent_m3235491246 ();
+extern "C" void Input_get_touches_m300368858 ();
 extern "C" void Input_GetTouch_m2282421092 ();
 extern "C" void Input_get_touchCount_m1430909390 ();
 extern "C" void Input_get_touchSupported_m634162567 ();
@@ -8590,6 +8824,7 @@ extern "C" void Mathf_Approximately_m1395529776 ();
 extern "C" void Mathf_SmoothDamp_m779170481 ();
 extern "C" void Mathf_Repeat_m3424250200 ();
 extern "C" void Mathf_InverseLerp_m152689993 ();
+extern "C" void Mathf_RandomToLong_m3848472910 ();
 extern "C" void Matrix4x4_get_Item_m2279862332 ();
 extern "C" void Matrix4x4_set_Item_m2343951137 ();
 extern "C" void Matrix4x4_get_Item_m1280478331 ();
@@ -8739,6 +8974,8 @@ extern "C" void Object_op_Inequality_m1296218211 ();
 extern "C" void ParticleSystem_Internal_Play_m594025146 ();
 extern "C" void ParticleSystem_Play_m1237476160 ();
 extern "C" void ParticleSystem_Play_m1637509303 ();
+extern "C" void ParticleSystem_Emit_m1128282864 ();
+extern "C" void ParticleSystem_INTERNAL_CALL_Emit_m2738975429 ();
 extern "C" void ParticleSystem_IterateParticleSystems_m2232250723 ();
 extern "C" void ParticleSystem_IterateParticleSystemsRecursive_m389741621 ();
 extern "C" void ParticleSystem_U3CPlayU3Em__1_m745236472 ();
@@ -8790,6 +9027,8 @@ extern "C" void Random_Range_m3362417303 ();
 extern "C" void Random_Range_m75452833 ();
 extern "C" void Random_RandomRangeInt_m1203631415 ();
 extern "C" void Random_get_value_m2402066692 ();
+extern "C" void Random_GetRandomUnitCircle_m3555525383 ();
+extern "C" void Random_get_insideUnitCircle_m3455477774 ();
 extern "C" void RangeAttribute__ctor_m1279576482 ();
 extern "C" void Ray__ctor_m2662468509 ();
 extern "C" void Ray_get_origin_m3064983562 ();
@@ -8951,6 +9190,18 @@ extern "C" void ResourceRequest_get_asset_m670320982 ();
 extern "C" void Resources_Load_m2187391845 ();
 extern "C" void Resources_Load_m3601699608 ();
 extern "C" void RPC__ctor_m281827604 ();
+extern "C" void RuntimeInitializeOnLoadMethodAttribute__ctor_m1366944703 ();
+extern "C" void RuntimeInitializeOnLoadMethodAttribute_set_loadType_m2327033279 ();
+extern "C" void Scene_get_handle_m2277248521 ();
+extern "C" void Scene_get_name_m894591657 ();
+extern "C" void Scene_get_buildIndex_m3533090789 ();
+extern "C" void Scene_GetHashCode_m2000109307 ();
+extern "C" void Scene_Equals_m93578403 ();
+extern "C" void Scene_GetNameInternal_m2496405436 ();
+extern "C" void Scene_GetBuildIndexInternal_m76376146 ();
+extern "C" void SceneManager_get_sceneCountInBuildSettings_m1720876395 ();
+extern "C" void SceneManager_GetSceneAt_m2396963182 ();
+extern "C" void SceneManager_INTERNAL_CALL_GetSceneAt_m1242004550 ();
 extern "C" void SceneManager_LoadScene_m2167814033 ();
 extern "C" void SceneManager_LoadScene_m3907168970 ();
 extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3775081569 ();
@@ -8965,6 +9216,7 @@ extern "C" void ScriptableObject_Internal_CreateScriptableObject_m2334361070 ();
 extern "C" void ScriptableObject_CreateInstance_m750914562 ();
 extern "C" void ScriptableObject_CreateInstance_m3255479417 ();
 extern "C" void ScriptableObject_CreateInstanceFromType_m3795352533 ();
+extern "C" void PreserveAttribute__ctor_m1468388576 ();
 extern "C" void RequiredByNativeCodeAttribute__ctor_m940065582 ();
 extern "C" void UsedByNativeCodeAttribute__ctor_m3320039756 ();
 extern "C" void SelectionBaseAttribute__ctor_m3830336046 ();
@@ -9193,13 +9445,17 @@ extern "C" void StateMachineBehaviour_OnStateMachineEnter_m2392556512 ();
 extern "C" void StateMachineBehaviour_OnStateMachineExit_m2976228338 ();
 extern "C" void SystemClock__cctor_m3660846035 ();
 extern "C" void SystemClock_get_now_m175136990 ();
+extern "C" void SystemClock_ToUnixTimeMilliseconds_m1431860301 ();
 extern "C" void SystemInfo_get_operatingSystem_m2538828082 ();
+extern "C" void SystemInfo_get_processorType_m3719165582 ();
+extern "C" void SystemInfo_get_systemMemorySize_m114183438 ();
 extern "C" void SystemInfo_get_graphicsShaderLevel_m1169417593 ();
 extern "C" void SystemInfo_get_supportsRenderTextures_m3098351893 ();
 extern "C" void SystemInfo_get_supportsImageEffects_m2392300814 ();
 extern "C" void SystemInfo_get_supports3DTextures_m3554473744 ();
 extern "C" void SystemInfo_get_supportsComputeShaders_m940660062 ();
 extern "C" void SystemInfo_SupportsRenderTextureFormat_m1773213581 ();
+extern "C" void SystemInfo_get_deviceModel_m3014844565 ();
 extern "C" void TextAreaAttribute__ctor_m2577573455 ();
 extern "C" void TextAsset_get_text_m655578209 ();
 extern "C" void TextAsset_ToString_m3220326647 ();
@@ -9339,6 +9595,7 @@ extern "C" void Texture2D__ctor_m3705883154 ();
 extern "C" void Texture2D__ctor_m1918985003 ();
 extern "C" void Texture2D_Internal_Create_m457592211 ();
 extern "C" void Texture2D_get_whiteTexture_m1214146742 ();
+extern "C" void Texture2D_get_blackTexture_m338990496 ();
 extern "C" void Texture2D_SetPixel_m378278602 ();
 extern "C" void Texture2D_INTERNAL_CALL_SetPixel_m40008491 ();
 extern "C" void Texture2D_GetPixelBilinear_m2169326019 ();
@@ -9538,6 +9795,8 @@ extern "C" void WWW_Dispose_m2446678367 ();
 extern "C" void WWW_Finalize_m1793349504 ();
 extern "C" void WWW_DestroyWWW_m300967382 ();
 extern "C" void WWW_InitWWW_m3594284248 ();
+extern "C" void WWW_EscapeURL_m1167392721 ();
+extern "C" void WWW_EscapeURL_m1690274784 ();
 extern "C" void WWW_get_responseHeaders_m2488150044 ();
 extern "C" void WWW_get_responseHeadersString_m2464460368 ();
 extern "C" void WWW_get_text_m4216049525 ();
@@ -9559,6 +9818,7 @@ extern "C" void WWWForm_get_headers_m370408569 ();
 extern "C" void WWWForm_get_data_m2893811951 ();
 extern "C" void WWWTranscoder__cctor_m1486747496 ();
 extern "C" void WWWTranscoder_Byte2Hex_m2414999496 ();
+extern "C" void WWWTranscoder_URLEncode_m3301913818 ();
 extern "C" void WWWTranscoder_URLEncode_m4039667511 ();
 extern "C" void WWWTranscoder_QPEncode_m1021207296 ();
 extern "C" void WWWTranscoder_Encode_m2677436946 ();
@@ -9573,6 +9833,289 @@ extern "C" void NetFxCoreExtensions_GetMethodInfo_m1628849205 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m1168575159 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m2173394041 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m318752778 ();
+extern "C" void Advertisement__cctor_m3748510935 ();
+extern "C" void Advertisement_LoadRuntime_m1153764358 ();
+extern "C" void Advertisement_LoadEditor_m1462697244 ();
+extern "C" void Advertisement_Load_m2111767636 ();
+extern "C" void Advertisement_get_initializeOnStartup_m258615511 ();
+extern "C" void Advertisement_RegisterNative_m3772220104 ();
+extern "C" void Advertisement_get_debugLevel_m1607111063 ();
+extern "C" void Advertisement_set_debugLevel_m2156200626 ();
+extern "C" void Advertisement_get_isSupported_m2336831501 ();
+extern "C" void Advertisement_IsEnabled_m1759809833 ();
+extern "C" void Advertisement_get_isInitialized_m388766003 ();
+extern "C" void Advertisement_Initialize_m2553209092 ();
+extern "C" void Advertisement_Initialize_m194693625 ();
+extern "C" void Advertisement_Show_m2306142379 ();
+extern "C" void Advertisement_Show_m362306615 ();
+extern "C" void Advertisement_Show_m3360971095 ();
+extern "C" void Advertisement_IsReady_m3183471819 ();
+extern "C" void Advertisement_IsReady_m935334935 ();
+extern "C" void Advertisement_get_isShowing_m1176000740 ();
+extern "C" void Advertisement_SetCampaignDataURL_m2685547969 ();
+extern "C" void Advertisement_OnHide_m1520829743 ();
+extern "C" void Advertisement_OnShow_m1835171882 ();
+extern "C" void Advertisement_OnVideoCompleted_m3415528504 ();
+extern "C" void Advertisement_get_testMode_m1196318894 ();
+extern "C" void Advertisement_get_gameId_m3573419751 ();
+extern "C" void Advertisement_DeliverResult_m1423967449 ();
+extern "C" void AsyncExec__cctor_m2666769919 ();
+extern "C" void AsyncExec_get_coroutineHost_m2018533427 ();
+extern "C" void AsyncExec_StartCoroutine_m137798441 ();
+extern "C" void ShowOptions_get_resultCallback_m2703960527 ();
+extern "C" void ShowOptions_get_gamerSid_m4250760004 ();
+extern "C" void UnityAdsEditor__ctor_m3976139971 ();
+extern "C" void UnityAdsEditor_RegisterNative_m4194002087 ();
+extern "C" void UnityAdsEditor_Init_m1629594092 ();
+extern "C" void UnityAdsEditor_GetAdPlan_m2752032585 ();
+extern "C" void UnityAdsEditor_HandleResponse_m4023781576 ();
+extern "C" void UnityAdsEditor_CollectZoneIds_m4005528395 ();
+extern "C" void UnityAdsEditor_CanShowAds_m4140735712 ();
+extern "C" void UnityAdsEditor_SetLogLevel_m1404868299 ();
+extern "C" void UnityAdsEditor_SetCampaignDataURL_m2172730030 ();
+extern "C" void UnityAdsEditor_Show_m1284236386 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0__ctor_m1721579675 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2234575127 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2481846955 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0_MoveNext_m1866945451 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0_Dispose_m773941784 ();
+extern "C" void U3CGetAdPlanU3Ec__Iterator0_Reset_m3662979912 ();
+extern "C" void UnityAdsEditorPlaceholder__ctor_m3994022992 ();
+extern "C" void UnityAdsEditorPlaceholder_TextureFromFile_m3694361456 ();
+extern "C" void UnityAdsEditorPlaceholder_Load_m3917000424 ();
+extern "C" void UnityAdsEditorPlaceholder_WindowFunc_m372386777 ();
+extern "C" void UnityAdsEditorPlaceholder_OnGUI_m3489421642 ();
+extern "C" void UnityAdsEditorPlaceholder_Show_m84213425 ();
+extern "C" void UnityAdsEditorPlaceholder_Hide_m4064838582 ();
+extern "C" void UnityAdsNative__ctor_m94487897 ();
+extern "C" void UnityAdsNative_RegisterNative_m2676613309 ();
+extern "C" void UnityAdsNative_Init_m3268101014 ();
+extern "C" void UnityAdsNative_CanShowAds_m2415563766 ();
+extern "C" void UnityAdsNative_SetLogLevel_m1881895669 ();
+extern "C" void UnityAdsNative_SetCampaignDataURL_m2225585092 ();
+extern "C" void UnityAdsNative_Show_m1337091448 ();
+extern "C" void UnityAdsNative_OnFetchCompleted_m472008251 ();
+extern "C" void UnityAdsNative_OnFetchFailed_m1255588527 ();
+extern "C" void UnityAdsPlatform__ctor_m3866740029 ();
+extern "C" void UnityAdsUnsupported__ctor_m2716700417 ();
+extern "C" void UnityAdsUnsupported_RegisterNative_m3279256677 ();
+extern "C" void UnityAdsUnsupported_Init_m4153848046 ();
+extern "C" void UnityAdsUnsupported_CanShowAds_m2672159322 ();
+extern "C" void UnityAdsUnsupported_SetCampaignDataURL_m1284326252 ();
+extern "C" void UnityAdsUnsupported_SetLogLevel_m3170825805 ();
+extern "C" void UnityAdsUnsupported_Show_m3422754780 ();
+extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m2239200199 ();
+extern "C" void Analytics_AutoStartUnityAnalytics_m1670054757 ();
+extern "C" void Analytics_InternalStartSession_m2831443455 ();
+extern "C" void Analytics_InternalStartSession_m2098665529 ();
+extern "C" void Analytics_GetPathName_m3311427434 ();
+extern "C" void Analytics_SetUserId_m3680814858 ();
+extern "C" void Analytics_SetUserGender_m2131258910 ();
+extern "C" void Analytics_SetUserBirthYear_m2016987218 ();
+extern "C" void Analytics_Transaction_m950268092 ();
+extern "C" void Analytics_Transaction_m2755720756 ();
+extern "C" void Analytics_CustomEvent_m2355465823 ();
+extern "C" void Analytics_GetSingleton_m3227537842 ();
+extern "C" void AnalyticsCloudService__ctor_m2044996099 ();
+extern "C" void AnalyticsCloudService_Initialize_m860037127 ();
+extern "C" void AnalyticsCloudService_StartEventHandler_m356483577 ();
+extern "C" void AnalyticsCloudService_PauseEventHandler_m337768724 ();
+extern "C" void AnalyticsCloudService_StopEventHandler_m2671641533 ();
+extern "C" void AnalyticsCloudService_StartEventDispatcher_m2298821592 ();
+extern "C" void AnalyticsCloudService_PauseEventDispatcher_m204734486 ();
+extern "C" void AnalyticsCloudService_StopEventDispatcher_m4287832758 ();
+extern "C" void AnalyticsCloudService_ResetNetworkRetryIndex_m823422698 ();
+extern "C" void AnalyticsCloudService_QueueEvent_m1708314721 ();
+extern "C" void AnalyticsCloudService_SaveFileFromServer_m2014834039 ();
+extern "C" void AnalyticsCloudService_SaveFile_m80143642 ();
+extern "C" void AnalyticsCloudService_RestoreFile_m2532229972 ();
+extern "C" void AnalyticsCloudService_get_serviceFolderName_m361281257 ();
+extern "C" void AnalyticsEvent__ctor_m3879474921 ();
+extern "C" void AnalyticsEvent__ctor_m4166954732 ();
+extern "C" void AnalyticsEvent_get_flags_m2999687211 ();
+extern "C" void AnalyticsEvent_SetParameter_m4264025646 ();
+extern "C" void AnalyticsEvent_GetParams_m4108645926 ();
+extern "C" void AnalyticsEvent_ToStringJSON_m2809459314 ();
+extern "C" void AnalyticsEvent_get_HighPriority_m1619944576 ();
+extern "C" void AnalyticsEvent_get_CacheImmediately_m610816310 ();
+extern "C" void AppInstallEvent__ctor_m1372123817 ();
+extern "C" void AppRunningEvent__ctor_m2676776799 ();
+extern "C" void AppStartEvent__ctor_m3205572208 ();
+extern "C" void BasePlatformWrapper__ctor_m2101086586 ();
+extern "C" void BasePlatformWrapper_get_appVersion_m2610845927 ();
+extern "C" void BasePlatformWrapper_get_appBundleIdentifier_m3034693566 ();
+extern "C" void BasePlatformWrapper_get_appInstallMode_m851994989 ();
+extern "C" void BasePlatformWrapper_get_licenseType_m957209869 ();
+extern "C" void BasePlatformWrapper_get_isRootedOrJailbroken_m1196326074 ();
+extern "C" void BasePlatformWrapper_get_isNetworkReachable_m1631556390 ();
+extern "C" void BasePlatformWrapper_get_isWebPlayer_m3490724528 ();
+extern "C" void BasePlatformWrapper_get_isEditor_m2229699028 ();
+extern "C" void BasePlatformWrapper_get_isAndroid_m3384257994 ();
+extern "C" void BasePlatformWrapper_get_levelCount_m754619054 ();
+extern "C" void BasePlatformWrapper_get_loadedLevel_m2483495806 ();
+extern "C" void BasePlatformWrapper_get_loadedLevelName_m618529628 ();
+extern "C" void BasePlatformWrapper_get_persistentDataPath_m638006614 ();
+extern "C" void BasePlatformWrapper_get_platformName_m420461966 ();
+extern "C" void BasePlatformWrapper_get_unityVersion_m1164012115 ();
+extern "C" void BasePlatformWrapper_get_deviceModel_m2925353573 ();
+extern "C" void BasePlatformWrapper_get_deviceUniqueIdentifier_m154193536 ();
+extern "C" void BasePlatformWrapper_get_operatingSystem_m3784082178 ();
+extern "C" void BasePlatformWrapper_get_processorType_m3617668190 ();
+extern "C" void BasePlatformWrapper_get_systemMemorySize_m2176950260 ();
+extern "C" void BasePlatformWrapper_get_randomNumber_m3272706062 ();
+extern "C" void CustomEvent__ctor_m2864323170 ();
+extern "C" void CustomEvent_SetEventData_m61333782 ();
+extern "C" void DeviceInfoEvent__ctor_m1961746707 ();
+extern "C" void DeviceInfoEvent_SetDeviceMake_m798647371 ();
+extern "C" void DeviceInfoEvent_SetDeviceModel_m1090419712 ();
+extern "C" void DeviceInfoEvent_SetOSVersion_m681217631 ();
+extern "C" void DeviceInfoEvent_SetGameEngineVersion_m636221295 ();
+extern "C" void DeviceInfoEvent_SetProcessorType_m3680211431 ();
+extern "C" void DeviceInfoEvent_SetSystemMemorySize_m222389086 ();
+extern "C" void DeviceInfoEvent_SetDeviceId_m4062622590 ();
+extern "C" void DeviceInfoEvent_SetAdvertisingId_m2052607252 ();
+extern "C" void DeviceInfoEvent_SetAdvertisingTracking_m3803708865 ();
+extern "C" void DeviceInfoEvent_SetAppVersion_m1997526488 ();
+extern "C" void DeviceInfoEvent_SetAppName_m2205964807 ();
+extern "C" void DeviceInfoEvent_SetAppInstallMode_m1353046162 ();
+extern "C" void DeviceInfoEvent_SetIsRootedOrJailbroken_m1127738631 ();
+extern "C" void DeviceInfoEvent_SetIsDebugBuild_m3206917647 ();
+extern "C" void DeviceInfoEvent_SetLicenseType_m1849526872 ();
+extern "C" void DeviceInfoEvent_SetTimezone_m1368377494 ();
+extern "C" void DeviceInfoEvent_SetChanged_m1230280567 ();
+extern "C" void GameObserver__ctor_m1427892661 ();
+extern "C" void GameObserver_CreateComponent_m836205100 ();
+extern "C" void GameObserver_Update_m3041861624 ();
+extern "C" void GameObserver_OnLevelWasLoaded_m2719151081 ();
+extern "C" void GameObserver_OnClick_m3954484988 ();
+extern "C" void GameObserver_OnApplicationPause_m3495924779 ();
+extern "C" void GameObserver_OnApplicationQuit_m1429368755 ();
+extern "C" void GameObserver_OnDestroy_m3167214638 ();
+extern "C" void PlatformWrapper_get_platform_m793351918 ();
+extern "C" void SessionConfig__ctor_m4251301107 ();
+extern "C" void SessionConfig_get_analyticsEnabled_m4177051233 ();
+extern "C" void SessionConfig_get_eventsEndPoint_m1594392135 ();
+extern "C" void SessionConfig_get_configEndPoint_m1413366064 ();
+extern "C" void SessionConfig_get_requestNumberOfEvents_m449794846 ();
+extern "C" void SessionConfig_get_archivedSessionExpiryTimeInSec_m1323515492 ();
+extern "C" void SessionConfig_get_maxContinuousRequest_m2403884904 ();
+extern "C" void SessionConfig_get_maxContinuousRequestTimeoutInSec_m1995362899 ();
+extern "C" void SessionConfig_get_maxNumberOfEventInGroup_m1779588410 ();
+extern "C" void SessionConfig_get_maxTimeoutForGrouping_m2621919749 ();
+extern "C" void SessionConfig_get_maxNumberOfEventInQueue_m2141332300 ();
+extern "C" void SessionConfig_get_resumeTimeoutInMillSeconds_m2892076150 ();
+extern "C" void SessionConfig_get_dispatcherWaitTimeInSeconds_m1078480645 ();
+extern "C" void SessionConfig_get_customEventMaxEventPerHour_m1982982510 ();
+extern "C" void SessionConfig_get_maxAppIdSize_m102819813 ();
+extern "C" void SessionConfig_get_maxUserIdSize_m3195239073 ();
+extern "C" void SessionConfig_get_maxCustomEventNameSize_m2984292829 ();
+extern "C" void SessionConfig_get_maxCurrencySize_m1542413804 ();
+extern "C" void SessionConfig_get_maxProductIdSize_m1603780915 ();
+extern "C" void SessionConfig_get_customEventMaxNumberOfItems_m119497947 ();
+extern "C" void SessionConfig_get_customEventMaxTotalItemsSize_m2836252356 ();
+extern "C" void SessionConfig_Restore_m4103451439 ();
+extern "C" void SessionConfig_RestoreAnalyticsConfig_m3289985868 ();
+extern "C" void SessionConfig_RestoreEventsConfig_m178075489 ();
+extern "C" void SessionConfig_RestoreCustomEventConfig_m3567202889 ();
+extern "C" void SessionConfig_RestoreSessionConfig_m3483537724 ();
+extern "C" void SessionConfig_RestoreGroupingConfig_m1944902711 ();
+extern "C" void SessionConfig_RestoreLimitsConfig_m613524226 ();
+extern "C" void SessionImpl__ctor_m875766109 ();
+extern "C" void SessionImpl_get_state_m2308388883 ();
+extern "C" void SessionImpl_set_state_m88015700 ();
+extern "C" void SessionImpl_IsAnalyticsSupportedForPlatform_m3243705713 ();
+extern "C" void SessionImpl_GetPathName_m501327066 ();
+extern "C" void SessionImpl_StartWithAppId_m1254564614 ();
+extern "C" void SessionImpl_SetCustomUserId_m3483822185 ();
+extern "C" void SessionImpl_SetAdvertisingId_m4087674266 ();
+extern "C" void SessionImpl_SetUserGender_m2692467854 ();
+extern "C" void SessionImpl_SetUserBirthYear_m3229397986 ();
+extern "C" void SessionImpl_Transaction_m1821451428 ();
+extern "C" void SessionImpl_SendCustomEvent_m4270375191 ();
+extern "C" void SessionImpl_isStringWithinLimit_m3689133106 ();
+extern "C" void SessionImpl_OnAppPause_m4241745445 ();
+extern "C" void SessionImpl_OnAppQuit_m3508707618 ();
+extern "C" void SessionImpl_OnAppResume_m1035676416 ();
+extern "C" void SessionImpl_OnClick_m1783341274 ();
+extern "C" void SessionImpl_OnKey_m1617985585 ();
+extern "C" void SessionImpl_OnLevelWasLoaded_m4156125387 ();
+extern "C" void SessionImpl_ResetSessionValues_m3305557978 ();
+extern "C" void SessionImpl_SaveSessionValues_m1868356172 ();
+extern "C" void SessionImpl_RestoreSessionValues_m3936329915 ();
+extern "C" void SessionImpl_Initialize_m3683465516 ();
+extern "C" void SessionImpl_GenerateUUID_m1746716286 ();
+extern "C" void SessionImpl_GetUserId_m4023501712 ();
+extern "C" void SessionImpl_StartSession_m2303195996 ();
+extern "C" void SessionImpl_PauseSession_m2669965201 ();
+extern "C" void SessionImpl_StopSession_m3035509605 ();
+extern "C" void SessionImpl_HandleSessionPause_m2234615065 ();
+extern "C" void SessionImpl_SessionElapsedSincePause_m264376381 ();
+extern "C" void SessionImpl_QueueEvent_m4013575431 ();
+extern "C" void SessionImpl_QueueAppRunningEvent_m1718623213 ();
+extern "C" void SessionImpl_GenerateTransactionId_m943759494 ();
+extern "C" void SessionImpl_CalculateCustomEventSize_m3049852423 ();
+extern "C" void SessionImpl_HandleCustomEventCount_m288932027 ();
+extern "C" void SessionImpl_OnAdvertisingIdentifierCallback_m632750171 ();
+extern "C" void SessionImpl_IsDebugDevice_m1878304326 ();
+extern "C" void SessionImpl_IsPlatformChangedValue_m4090932483 ();
+extern "C" void SessionImpl_IsPlatformChangedValue_m217648220 ();
+extern "C" void SessionImpl_GetPlatformInfo_m1495499013 ();
+extern "C" void SessionImpl_HandleDeviceIdAndAdvertisingId_m1276455689 ();
+extern "C" void SessionImpl_LookForVersionChange_m930923887 ();
+extern "C" void SessionImpl_PrepareCloudServiceConfig_m2490732922 ();
+extern "C" void SessionImpl_RestoreConfig_m3410852769 ();
+extern "C" void SessionImpl_UpdateConfigFromServer_m399047977 ();
+extern "C" void SessionImpl_OnDoneSaveFileFromServer_m286303552 ();
+extern "C" void SessionInfo__ctor_m1747103957 ();
+extern "C" void SessionInfo_get_appId_m4198884825 ();
+extern "C" void SessionInfo_set_appId_m1875051648 ();
+extern "C" void SessionInfo_get_userId_m4197587083 ();
+extern "C" void SessionInfo_set_userId_m4026537088 ();
+extern "C" void SessionInfo_get_sessionId_m3173239644 ();
+extern "C" void SessionInfo_set_sessionId_m3930658697 ();
+extern "C" void SessionInfo_get_sdkVersion_m1768762755 ();
+extern "C" void SessionInfo_set_sdkVersion_m819500552 ();
+extern "C" void SessionInfo_get_debugDevice_m401416057 ();
+extern "C" void SessionInfo_set_debugDevice_m294788454 ();
+extern "C" void SessionInfo_get_platformName_m562050787 ();
+extern "C" void SessionInfo_set_platformName_m3440411240 ();
+extern "C" void SessionInfo_ToStringJson_m3099175632 ();
+extern "C" void SessionValues__ctor_m1586195 ();
+extern "C" void SessionValues__ctor_m4006777323 ();
+extern "C" void SessionValues__ctor_m1194183761 ();
+extern "C" void SessionValues_PutItems_m1966795416 ();
+extern "C" void SessionValues_PutItems_m2117068261 ();
+extern "C" void SessionValues_PutItem_m127069567 ();
+extern "C" void SessionValues_PutItem_m2670909470 ();
+extern "C" void SessionValues_TryGetBool_m1296924381 ();
+extern "C" void SessionValues_TryGetInt_m3659547912 ();
+extern "C" void SessionValues_TryGetLong_m25919055 ();
+extern "C" void SessionValues_TryGetString_m350580258 ();
+extern "C" void SessionValues_TryGetStringList_m3634692450 ();
+extern "C" void SessionValues_TryGetStringArray_m4073771359 ();
+extern "C" void SessionValues_TryGetIntList_m3872360570 ();
+extern "C" void SessionValues_TryGetIntArray_m4062138141 ();
+extern "C" void SessionValues_TryGetValue_m1484383459 ();
+extern "C" void SessionValues_Restore_m1677995279 ();
+extern "C" void SessionValues_Restore_m753836243 ();
+extern "C" void SessionValues_Save_m419626234 ();
+extern "C" void SessionValues_U3CTryGetIntArrayU3Em__0_m2570260981 ();
+extern "C" void TransactionEvent__ctor_m1703768401 ();
+extern "C" void UnityAnalyticsNotSupportedSession__ctor_m3995550527 ();
+extern "C" void UnityAnalyticsNotSupportedSession_GetPathName_m2374670278 ();
+extern "C" void UnityAnalyticsNotSupportedSession_StartWithAppId_m22592754 ();
+extern "C" void UnityAnalyticsNotSupportedSession_SetCustomUserId_m472853501 ();
+extern "C" void UnityAnalyticsNotSupportedSession_SetUserGender_m2431711610 ();
+extern "C" void UnityAnalyticsNotSupportedSession_SetUserBirthYear_m218429302 ();
+extern "C" void UnityAnalyticsNotSupportedSession_Transaction_m789706128 ();
+extern "C" void UnityAnalyticsNotSupportedSession_SendCustomEvent_m1245603243 ();
+extern "C" void UnityAnalyticsVersion__cctor_m2598974315 ();
+extern "C" void UnityAnalyticsVersion_get_sdkVersion_m2041721254 ();
+extern "C" void UserInfoEvent__ctor_m452725960 ();
+extern "C" void UserInfoEvent_SetCustomUserId_m3925058915 ();
+extern "C" void UserInfoEvent_SetUserGender_m1849938350 ();
+extern "C" void UserInfoEvent_SetUserBirthYear_m3670634716 ();
+extern "C" void Utils_isJSONPrimitive_m1107769491 ();
 extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m2615655811 ();
 extern "C" void AbstractEventData__ctor_m3016870691 ();
 extern "C" void AbstractEventData_Reset_m663303632 ();
@@ -11007,6 +11550,8 @@ extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m1704122566 (
 extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m920247256 ();
 extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m244631242 ();
 extern "C" void VerticalLayoutGroup_SetLayoutVertical_m2764536540 ();
+extern "C" void AdPoster__ctor_m3433179435 ();
+extern "C" void AdPoster_ShowAd_m3414211769 ();
 extern "C" void Bubble__ctor_m584369519 ();
 extern "C" void Bubble_add_OnPop_m241871832 ();
 extern "C" void Bubble_remove_OnPop_m3927358893 ();
@@ -11867,6 +12412,7 @@ extern "C" void Pump_Update_m457323610 ();
 extern "C" void Pump_Pumpit_m2315817461 ();
 extern "C" void ScoreManager__ctor_m2871960608 ();
 extern "C" void ScoreManager_Start_m1819098400 ();
+extern "C" void ScoreManager_VisualStart_m4218078208 ();
 extern "C" void ScoreManager_Update_m563327725 ();
 extern "C" void ScoreManager_UpdateScoreUI_m1749848219 ();
 extern "C" void ScoreManager_IncreaseScore_m2191452671 ();
@@ -11882,10 +12428,14 @@ extern "C" void U3CHideComplimentU3Ec__Iterator5_System_Collections_IEnumerator_
 extern "C" void U3CHideComplimentU3Ec__Iterator5_MoveNext_m1602775159 ();
 extern "C" void U3CHideComplimentU3Ec__Iterator5_Dispose_m3850458714 ();
 extern "C" void U3CHideComplimentU3Ec__Iterator5_Reset_m770095114 ();
+extern "C" void EventTypes__ctor_m590210296 ();
 extern "C" void ScoreTypes__ctor_m884629232 ();
 extern "C" void SoundLibrary__ctor_m853430095 ();
 extern "C" void SoundLibrary_Start_m4095535183 ();
 extern "C" void SoundLibrary_Update_m2413391262 ();
+extern "C" void Vibrator__ctor_m3576303746 ();
+extern "C" void Vibrator_Start_m2523441538 ();
+extern "C" void Vibrator_Update_m923128523 ();
 extern "C" void Antialiasing__ctor_m1305359989 ();
 extern "C" void Antialiasing_CurrentAAMaterial_m432242682 ();
 extern "C" void Antialiasing_CheckResources_m1261455440 ();
@@ -12097,7 +12647,7 @@ extern "C" void VignetteAndChromaticAberration_CheckResources_m1342019752 ();
 extern "C" void VignetteAndChromaticAberration_OnRenderImage_m1469756449 ();
 extern "C" void Vortex__ctor_m1814024315 ();
 extern "C" void Vortex_OnRenderImage_m411427587 ();
-extern const Il2CppMethodPointer g_MethodPointers[12086] = 
+extern const Il2CppMethodPointer g_MethodPointers[12636] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -13639,6 +14189,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	DateTimeOffset_GetHashCode_m1972583858,
 	DateTimeOffset_ToString_m983707174,
 	DateTimeOffset_ToString_m4001156824,
+	DateTimeOffset_ToUniversalTime_m2509789832,
 	DateTimeOffset_get_DateTime_m2501837032,
 	DateTimeOffset_get_Offset_m3938299132,
 	DateTimeOffset_get_UtcDateTime_m2831969300,
@@ -13787,6 +14338,9 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	DelegateSerializationHolder_GetRealObject_m296541084,
 	DelegateEntry__ctor_m2030858126,
 	DelegateEntry_DeserializeDelegate_m151701220,
+	SuppressMessageAttribute__ctor_m2947654170,
+	SuppressMessageAttribute_set_Justification_m1338114315,
+	ConditionalAttribute__ctor_m3375871237,
 	DebuggableAttribute__ctor_m1767828745,
 	DebuggerDisplayAttribute__ctor_m1198914250,
 	DebuggerDisplayAttribute_set_Name_m332508078,
@@ -13848,6 +14402,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Double_Parse_m1451965917,
 	Double_TryParseStringConstant_m2653461779,
 	Double_ParseImpl_m1244982012,
+	Double_TryParse_m707798013,
 	Double_ToString_m3380246633,
 	Double_ToString_m937670807,
 	Double_ToString_m2573497243,
@@ -13908,6 +14463,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Environment_get_Platform_m977128040,
 	Environment_GetOSVersionString_m2885926456,
 	Environment_get_OSVersion_m2506362029,
+	Environment_get_TickCount_m2991349545,
 	Environment_GetCommandLineArgs_m1382561293,
 	Environment_internalGetEnvironmentVariable_m1433380067,
 	Environment_GetEnvironmentVariable_m3419218304,
@@ -14748,6 +15304,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	MonoType_GetMethods_m254951756,
 	MonoType_GetMethodImpl_m2617796334,
 	MonoType_GetPropertiesByName_m3972083631,
+	MonoType_GetProperties_m1241109947,
 	MonoType_GetPropertyImpl_m2349541479,
 	MonoType_HasElementTypeImpl_m3651013126,
 	MonoType_IsArrayImpl_m2714061063,
@@ -14934,6 +15491,10 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	OverflowException__ctor_m3303963134,
 	OverflowException__ctor_m2924736197,
 	ParamArrayAttribute__ctor_m2760430497,
+	Random__ctor_m2490522898,
+	Random__ctor_m4002613091,
+	Random_Sample_m3542077785,
+	Random_NextBytes_m3527347937,
 	RankException__ctor_m2171614254,
 	RankException__ctor_m3451921812,
 	RankException__ctor_m1930204271,
@@ -15094,6 +15655,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	EnumBuilder_GetInterfaces_m4245642789,
 	EnumBuilder_GetMethodImpl_m133610325,
 	EnumBuilder_GetMethods_m2248069569,
+	EnumBuilder_GetProperties_m2915149454,
 	EnumBuilder_GetPropertyImpl_m457098616,
 	EnumBuilder_HasElementTypeImpl_m3877283091,
 	EnumBuilder_InvokeMember_m4001949930,
@@ -15129,6 +15691,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	GenericTypeParameterBuilder_GetInterfaces_m437688604,
 	GenericTypeParameterBuilder_GetMethods_m1386969194,
 	GenericTypeParameterBuilder_GetMethodImpl_m3486858252,
+	GenericTypeParameterBuilder_GetProperties_m2721295173,
 	GenericTypeParameterBuilder_GetPropertyImpl_m3933236897,
 	GenericTypeParameterBuilder_HasElementTypeImpl_m814733436,
 	GenericTypeParameterBuilder_IsAssignableFrom_m2291646236,
@@ -15229,6 +15792,26 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	ParameterBuilder_get_Attributes_m2640139997,
 	ParameterBuilder_get_Name_m1429816234,
 	ParameterBuilder_get_Position_m388196207,
+	PropertyBuilder_get_Attributes_m548385532,
+	PropertyBuilder_get_CanRead_m1928541820,
+	PropertyBuilder_get_CanWrite_m177907803,
+	PropertyBuilder_get_DeclaringType_m1573425887,
+	PropertyBuilder_get_Name_m1476342296,
+	PropertyBuilder_get_PropertyType_m946002355,
+	PropertyBuilder_get_ReflectedType_m803872660,
+	PropertyBuilder_GetAccessors_m3435130372,
+	PropertyBuilder_GetCustomAttributes_m3021459715,
+	PropertyBuilder_GetCustomAttributes_m3490282608,
+	PropertyBuilder_GetGetMethod_m1084139825,
+	PropertyBuilder_GetIndexParameters_m3909940773,
+	PropertyBuilder_GetSetMethod_m1927431485,
+	PropertyBuilder_GetValue_m1709912399,
+	PropertyBuilder_GetValue_m2770378927,
+	PropertyBuilder_IsDefined_m3818094274,
+	PropertyBuilder_SetValue_m2811621182,
+	PropertyBuilder_SetValue_m307828128,
+	PropertyBuilder_get_Module_m3451643761,
+	PropertyBuilder_not_supported_m3524698216,
 	TypeBuilder_GetAttributeFlagsImpl_m2415994065,
 	TypeBuilder_setup_internal_class_m1841540458,
 	TypeBuilder_create_generic_class_m1633445577,
@@ -15263,6 +15846,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	TypeBuilder_GetMethodsByName_m2328060642,
 	TypeBuilder_GetMethods_m3761501928,
 	TypeBuilder_GetMethodImpl_m2675220686,
+	TypeBuilder_GetProperties_m1011883015,
 	TypeBuilder_GetPropertyImpl_m2672120863,
 	TypeBuilder_HasElementTypeImpl_m3001033082,
 	TypeBuilder_InvokeMember_m1599102929,
@@ -15302,6 +15886,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	FieldInfo_get_MemberType_m1921984537,
 	FieldInfo_get_IsLiteral_m2099153292,
 	FieldInfo_get_IsStatic_m24721619,
+	FieldInfo_get_IsInitOnly_m2533084865,
+	FieldInfo_get_IsPublic_m2574,
 	FieldInfo_get_IsNotSerialized_m3868603028,
 	FieldInfo_SetValue_m1669444927,
 	FieldInfo_internal_from_handle_type_m449136039,
@@ -17466,6 +18052,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Type_GetConstructor_m2586438681,
 	Type_GetConstructor_m443034079,
 	Type_GetConstructor_m3502935011,
+	Type_GetConstructors_m3837181109,
 	Type_ToString_m2384448786,
 	Type_get_IsSystemType_m3052526531,
 	Type_GetGenericArguments_m202281670,
@@ -18534,6 +19121,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	X509Stores_Open_m371944087,
 	Locale_GetText_m3269873186,
 	Locale_GetText_m946430094,
+	GeneratedCodeAttribute__ctor_m3690080601,
 	HybridDictionary__ctor_m951312923,
 	HybridDictionary__ctor_m3356743441,
 	HybridDictionary_System_Collections_IEnumerable_GetEnumerator_m633511108,
@@ -19455,6 +20043,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Check_Source_m228347543,
 	Check_SourceAndSelector_m3164339431,
 	Check_SourceAndPredicate_m2252398949,
+	MonoTODOAttribute__ctor_m1033053463,
 	ExtensionAttribute__ctor_m1242622322,
 	Aes__ctor_m380511311,
 	AesManaged__ctor_m1572578968,
@@ -19477,8 +20066,139 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	AesTransform_SubByte_m1214814958,
 	AesTransform_Encrypt128_m3651261907,
 	AesTransform_Decrypt128_m3310750971,
+	JsonArray__ctor_m3066648391,
+	JsonArray_ToString_m3760326380,
+	JsonObject__ctor_m4099346119,
+	JsonObject_System_Collections_IEnumerable_GetEnumerator_m463473096,
+	JsonObject_Add_m2475110730,
+	JsonObject_ContainsKey_m1515146327,
+	JsonObject_get_Keys_m148532872,
+	JsonObject_Remove_m1673771111,
+	JsonObject_TryGetValue_m3343055325,
+	JsonObject_get_Values_m1000452872,
+	JsonObject_get_Item_m3228701406,
+	JsonObject_set_Item_m2392368579,
+	JsonObject_Add_m329961947,
+	JsonObject_Clear_m1505479410,
+	JsonObject_Contains_m1982716011,
+	JsonObject_CopyTo_m3276053367,
+	JsonObject_get_Count_m287878091,
+	JsonObject_get_IsReadOnly_m1285123564,
+	JsonObject_Remove_m4025221968,
+	JsonObject_GetEnumerator_m1456030472,
+	JsonObject_ToString_m1046229766,
+	PocoJsonSerializerStrategy__ctor_m98290550,
+	PocoJsonSerializerStrategy__cctor_m2564910839,
+	PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m294662907,
+	PocoJsonSerializerStrategy_ContructorDelegateFactory_m1098206077,
+	PocoJsonSerializerStrategy_GetterValueFactory_m1085737513,
+	PocoJsonSerializerStrategy_SetterValueFactory_m2124618347,
+	PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m408626704,
+	PocoJsonSerializerStrategy_SerializeEnum_m3909084616,
+	PocoJsonSerializerStrategy_TrySerializeKnownTypes_m3601417165,
+	PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m1594419814,
+	ReflectionUtils__cctor_m2088930786,
+	ReflectionUtils_GetConstructors_m1067993841,
+	ReflectionUtils_GetConstructorInfo_m3599392238,
+	ReflectionUtils_GetProperties_m1583223718,
+	ReflectionUtils_GetFields_m973867185,
+	ReflectionUtils_GetGetterMethodInfo_m994959470,
+	ReflectionUtils_GetSetterMethodInfo_m4039997154,
+	ReflectionUtils_GetContructor_m3992972374,
+	ReflectionUtils_GetConstructorByReflection_m3557144571,
+	ReflectionUtils_GetConstructorByReflection_m3781484951,
+	ReflectionUtils_GetGetMethod_m65760451,
+	ReflectionUtils_GetGetMethod_m1368925476,
+	ReflectionUtils_GetGetMethodByReflection_m1893214021,
+	ReflectionUtils_GetGetMethodByReflection_m134171106,
+	ReflectionUtils_GetSetMethod_m2126017499,
+	ReflectionUtils_GetSetMethod_m3611702540,
+	ReflectionUtils_GetSetMethodByReflection_m295389789,
+	ReflectionUtils_GetSetMethodByReflection_m1288486346,
+	U3CGetConstructorByReflectionU3Ec__AnonStorey2__ctor_m2212677,
+	U3CGetConstructorByReflectionU3Ec__AnonStorey2_U3CU3Em__6_m2897982675,
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m1559713153,
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__7_m1432456400,
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey4__ctor_m1363199648,
+	U3CGetGetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__8_m854915470,
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m2232636875,
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__9_m3007878459,
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey6__ctor_m2036123370,
+	U3CGetSetMethodByReflectionU3Ec__AnonStorey6_U3CU3Em__A_m436244178,
+	ConstructorDelegate__ctor_m2235573511,
+	ConstructorDelegate_Invoke_m2854326566,
+	ConstructorDelegate_BeginInvoke_m2026889822,
+	ConstructorDelegate_EndInvoke_m4161109314,
+	GetDelegate__ctor_m2347793251,
+	GetDelegate_Invoke_m891352364,
+	GetDelegate_BeginInvoke_m3848543456,
+	GetDelegate_EndInvoke_m779500702,
+	SetDelegate__ctor_m229262959,
+	SetDelegate_Invoke_m209693753,
+	SetDelegate_BeginInvoke_m4211841350,
+	SetDelegate_EndInvoke_m3376957439,
+	SimpleJson_DeserializeObject_m2622513661,
+	SimpleJson_TryDeserializeObject_m3409014601,
+	SimpleJson_SerializeObject_m471576100,
+	SimpleJson_SerializeObject_m290152864,
+	SimpleJson_ParseObject_m3340076222,
+	SimpleJson_ParseArray_m740903547,
+	SimpleJson_ParseValue_m3072681190,
+	SimpleJson_ParseString_m4269726726,
+	SimpleJson_ConvertFromUtf32_m1610721511,
+	SimpleJson_ParseNumber_m1686696700,
+	SimpleJson_GetLastIndexOfNumber_m3739068370,
+	SimpleJson_EatWhitespace_m499340649,
+	SimpleJson_LookAhead_m1099107504,
+	SimpleJson_NextToken_m647118648,
+	SimpleJson_SerializeValue_m656357451,
+	SimpleJson_SerializeObject_m953411705,
+	SimpleJson_SerializeArray_m138026960,
+	SimpleJson_SerializeString_m1869609533,
+	SimpleJson_SerializeNumber_m90746391,
+	SimpleJson_IsNumeric_m2865724665,
+	SimpleJson_get_CurrentJsonSerializerStrategy_m3012545884,
+	SimpleJson_get_PocoJsonSerializerStrategy_m2944344906,
 	AddComponentMenu__ctor_m1521317712,
 	AddComponentMenu__ctor_m3281913735,
+	UnityAdsDelegate__ctor_m1175331529,
+	UnityAdsDelegate_Invoke_m4129568867,
+	UnityAdsDelegate_BeginInvoke_m3315877064,
+	UnityAdsDelegate_EndInvoke_m3463209305,
+	UnityAdsInternal__ctor_m243934081,
+	UnityAdsInternal_add_onCampaignsAvailable_m1887590723,
+	UnityAdsInternal_remove_onCampaignsAvailable_m1778941226,
+	UnityAdsInternal_add_onCampaignsFetchFailed_m446117429,
+	UnityAdsInternal_remove_onCampaignsFetchFailed_m3408133212,
+	UnityAdsInternal_add_onShow_m3052740108,
+	UnityAdsInternal_remove_onShow_m3137933875,
+	UnityAdsInternal_add_onHide_m3727591399,
+	UnityAdsInternal_remove_onHide_m3812785166,
+	UnityAdsInternal_add_onVideoCompleted_m3127857642,
+	UnityAdsInternal_remove_onVideoCompleted_m38413649,
+	UnityAdsInternal_add_onVideoStarted_m2860801827,
+	UnityAdsInternal_remove_onVideoStarted_m3167829066,
+	UnityAdsInternal_RemoveAllEventHandlers_m1299457865,
+	UnityAdsInternal_CallUnityAdsCampaignsAvailable_m1791417698,
+	UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m3459372208,
+	UnityAdsInternal_CallUnityAdsShow_m4070574393,
+	UnityAdsInternal_CallUnityAdsHide_m3756232254,
+	UnityAdsInternal_CallUnityAdsVideoCompleted_m3329366535,
+	UnityAdsInternal_CallUnityAdsVideoStarted_m2132891778,
+	UnityAdsInternal_RegisterNative_m774084925,
+	UnityAdsInternal_Init_m97718091,
+	UnityAdsInternal_Show_m1612027904,
+	UnityAdsInternal_CanShowAds_m4003582274,
+	UnityAdsInternal_SetLogLevel_m225822354,
+	UnityAdsInternal_SetCampaignDataURL_m1952528364,
+	UnityAdsManager_get_enabled_m484722539,
+	UnityAdsManager_IsPlatformEnabled_m1689539463,
+	UnityAdsManager_get_initializeOnStartup_m1939376472,
+	UnityAdsManager_get_testMode_m1798784717,
+	UnityAdsManager_GetGameId_m1608054597,
+	UnityAnalyticsManager_get_unityAdsId_m1291796795,
+	UnityAnalyticsManager_get_unityAdsTrackingEnabled_m113961551,
+	UnityAnalyticsManager_get_deviceUniqueIdentifier_m1687017237,
 	AnimationCurve__ctor_m2436282331,
 	AnimationCurve__ctor_m4037844610,
 	AnimationCurve_Cleanup_m386995588,
@@ -19542,16 +20262,33 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	AnimatorTransitionInfo_get_exit_m2568505102,
 	Application_get_isPlaying_m987993960,
 	Application_get_isEditor_m1279348309,
+	Application_get_isWebPlayer_m4016870031,
 	Application_get_platform_m2918632856,
+	Application_HasProLicense_m2584894363,
+	Application_HasAdvancedLicense_m3815753722,
+	Application_get_isHumanControllingUs_m2619103564,
 	Application_get_persistentDataPath_m2554537447,
 	Application_ObjectToJSString_m2317112936,
 	Application_ExternalCall_m4293503818,
 	Application_BuildInvocationForArguments_m777253945,
 	Application_ExternalEval_m1886082784,
 	Application_Internal_ExternalCall_m2589949616,
+	Application_get_unityVersion_m3443350436,
+	Application_get_version_m3762569241,
+	Application_get_bundleIdentifier_m3578253516,
+	Application_get_installMode_m3612203238,
+	Application_get_sandboxType_m784454,
+	Application_get_cloudProjectId_m444058720,
+	Application_RequestAdvertisingIdentifierAsync_m19925675,
 	Application_OpenURL_m1861717334,
 	Application_set_targetFrameRate_m498658007,
 	Application_CallLogCallback_m419361836,
+	Application_get_internetReachability_m379356375,
+	Application_get_isShowingSplashScreen_m238201170,
+	AdvertisingIdentifierCallback__ctor_m3247187932,
+	AdvertisingIdentifierCallback_Invoke_m2946154733,
+	AdvertisingIdentifierCallback_BeginInvoke_m3138258066,
+	AdvertisingIdentifierCallback_EndInvoke_m1443227628,
 	LogCallback__ctor_m286543475,
 	LogCallback_Invoke_m1886455446,
 	LogCallback_BeginInvoke_m1640350401,
@@ -19742,6 +20479,36 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	CanvasRenderer_set_cull_m3433952120,
 	CanvasRenderer_get_absoluteDepth_m1613567475,
 	CanvasRenderer_get_hasMoved_m1392755130,
+	CloudService__ctor_m1908878424,
+	CloudService_InternalCreate_m2046172255,
+	CloudService_InternalDestroy_m3760345558,
+	CloudService_Finalize_m2249049863,
+	CloudService_Dispose_m3985399032,
+	CloudService_Initialize_m1697171843,
+	CloudService_StartEventHandler_m131463165,
+	CloudService_PauseEventHandler_m2406768272,
+	CloudService_StopEventHandler_m1885720001,
+	CloudService_StartEventDispatcher_m2849229908,
+	CloudService_InternalStartEventDispatcher_m1144791098,
+	CloudService_PauseEventDispatcher_m278865946,
+	CloudService_StopEventDispatcher_m2766203442,
+	CloudService_ResetNetworkRetryIndex_m1630295154,
+	CloudService_QueueEvent_m2806439645,
+	CloudService_SaveFileFromServer_m2179173144,
+	CloudService_InternalSaveFileFromServer_m739695664,
+	CloudService_SaveFile_m2381198486,
+	CloudService_RestoreFile_m2361855554,
+	CloudService_get_serviceFolderName_m3855090363,
+	CloudService_FlattenedHeadersFrom_m3392854664,
+	CloudServiceConfig__ctor_m745211993,
+	CloudServiceConfig_set_maxNumberOfEventInGroup_m3751734735,
+	CloudServiceConfig_set_archivedSessionExpiryTimeInSec_m3589097201,
+	CloudServiceConfig_set_maxContinuousRequest_m606608629,
+	CloudServiceConfig_set_maxContinuousRequestTimeoutInSec_m2331643232,
+	CloudServiceConfig_set_sessionHeaderName_m2427987802,
+	CloudServiceConfig_set_eventsHeaderName_m1058198153,
+	CloudServiceConfig_set_eventsEndPoint_m47685164,
+	CloudServiceConfig_set_networkFailureRetryTimeoutInSec_m2136758752,
 	Collider_get_attachedRigidbody_m2821754842,
 	Collider2D_get_attachedRigidbody_m2908627162,
 	Collision__ctor_m183727591,
@@ -19823,6 +20590,10 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	ComputeBuffer_SetData_m3962017490,
 	ComputeBuffer_InternalSetData_m3343666658,
 	ComputeBuffer_CopyCount_m63772307,
+	UnityAnalyticsSettings_get_enabled_m2592038245,
+	UnityAnalyticsSettings_get_testMode_m2701062163,
+	UnityAnalyticsSettings_get_testEventUrl_m2993626018,
+	UnityAnalyticsSettings_get_testConfigUrl_m2454002338,
 	ControllerColliderHit__ctor_m3119252854,
 	ControllerColliderHit_get_controller_m4144115758,
 	ControllerColliderHit_get_collider_m1024441863,
@@ -20072,6 +20843,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Graphics_Internal_DrawMeshNow2_m1490231000,
 	Graphics_INTERNAL_CALL_Internal_DrawMeshNow2_m3606840651,
 	Graphics_DrawProceduralIndirect_m2816657261,
+	Graphics_DrawTexture_m2938050632,
 	Graphics_Blit_m3408836917,
 	Graphics_Blit_m2695454291,
 	Graphics_Blit_m336256356,
@@ -20096,7 +20868,11 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	GUI_DoSetSkin_m800823745,
 	GUI_set_tooltip_m2757283616,
 	GUI_Label_m2293702269,
+	GUI_DrawTexture_m2033906102,
+	GUI_DrawTexture_m1717108487,
+	GUI_DrawTexture_m1839804844,
 	GUI_Box_m3007052244,
+	GUI_Button_m885093907,
 	GUI_Button_m2185150522,
 	GUI_Button_m3806860863,
 	GUI_DoRepeatButton_m4194170646,
@@ -20120,17 +20896,24 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	GUI_BeginScrollView_m3702064537,
 	GUI_EndScrollView_m3615223136,
 	GUI_Window_m560421090,
+	GUI_ModalWindow_m1806902466,
 	GUI_CallWindowDelegate_m2260338804,
+	GUI_get_color_m1489208189,
+	GUI_INTERNAL_get_color_m1047250244,
 	GUI_set_changed_m727947722,
 	GUI_get_enabled_m3799739706,
 	GUI_set_enabled_m262604887,
 	GUI_Internal_SetTooltip_m2127802787,
 	GUI_DoLabel_m2990009013,
 	GUI_INTERNAL_CALL_DoLabel_m2707679966,
+	GUI_get_blendMaterial_m3392847228,
+	GUI_get_blitMaterial_m1516673786,
 	GUI_DoButton_m2194494269,
 	GUI_INTERNAL_CALL_DoButton_m1954108340,
 	GUI_get_usePageScrollbars_m944581596,
 	GUI_InternalRepaintEditorWindow_m3223206407,
+	GUI_DoModalWindow_m1270479406,
+	GUI_INTERNAL_CALL_DoModalWindow_m1785328038,
 	GUI_DoWindow_m2731683716,
 	GUI_INTERNAL_CALL_DoWindow_m104027050,
 	ScrollViewState__ctor_m739544590,
@@ -20514,6 +21297,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Input_get_mouseScrollDelta_m3050122505,
 	Input_INTERNAL_get_mouseScrollDelta_m2726147504,
 	Input_get_mousePresent_m3235491246,
+	Input_get_touches_m300368858,
 	Input_GetTouch_m2282421092,
 	Input_get_touchCount_m1430909390,
 	Input_get_touchSupported_m634162567,
@@ -20678,6 +21462,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Mathf_SmoothDamp_m779170481,
 	Mathf_Repeat_m3424250200,
 	Mathf_InverseLerp_m152689993,
+	Mathf_RandomToLong_m3848472910,
 	Matrix4x4_get_Item_m2279862332,
 	Matrix4x4_set_Item_m2343951137,
 	Matrix4x4_get_Item_m1280478331,
@@ -20827,6 +21612,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	ParticleSystem_Internal_Play_m594025146,
 	ParticleSystem_Play_m1237476160,
 	ParticleSystem_Play_m1637509303,
+	ParticleSystem_Emit_m1128282864,
+	ParticleSystem_INTERNAL_CALL_Emit_m2738975429,
 	ParticleSystem_IterateParticleSystems_m2232250723,
 	ParticleSystem_IterateParticleSystemsRecursive_m389741621,
 	ParticleSystem_U3CPlayU3Em__1_m745236472,
@@ -20878,6 +21665,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Random_Range_m75452833,
 	Random_RandomRangeInt_m1203631415,
 	Random_get_value_m2402066692,
+	Random_GetRandomUnitCircle_m3555525383,
+	Random_get_insideUnitCircle_m3455477774,
 	RangeAttribute__ctor_m1279576482,
 	Ray__ctor_m2662468509,
 	Ray_get_origin_m3064983562,
@@ -21039,6 +21828,18 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Resources_Load_m2187391845,
 	Resources_Load_m3601699608,
 	RPC__ctor_m281827604,
+	RuntimeInitializeOnLoadMethodAttribute__ctor_m1366944703,
+	RuntimeInitializeOnLoadMethodAttribute_set_loadType_m2327033279,
+	Scene_get_handle_m2277248521,
+	Scene_get_name_m894591657,
+	Scene_get_buildIndex_m3533090789,
+	Scene_GetHashCode_m2000109307,
+	Scene_Equals_m93578403,
+	Scene_GetNameInternal_m2496405436,
+	Scene_GetBuildIndexInternal_m76376146,
+	SceneManager_get_sceneCountInBuildSettings_m1720876395,
+	SceneManager_GetSceneAt_m2396963182,
+	SceneManager_INTERNAL_CALL_GetSceneAt_m1242004550,
 	SceneManager_LoadScene_m2167814033,
 	SceneManager_LoadScene_m3907168970,
 	SceneManager_LoadSceneAsyncNameIndexInternal_m3775081569,
@@ -21053,6 +21854,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	ScriptableObject_CreateInstance_m750914562,
 	ScriptableObject_CreateInstance_m3255479417,
 	ScriptableObject_CreateInstanceFromType_m3795352533,
+	PreserveAttribute__ctor_m1468388576,
 	RequiredByNativeCodeAttribute__ctor_m940065582,
 	UsedByNativeCodeAttribute__ctor_m3320039756,
 	SelectionBaseAttribute__ctor_m3830336046,
@@ -21281,13 +22083,17 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	StateMachineBehaviour_OnStateMachineExit_m2976228338,
 	SystemClock__cctor_m3660846035,
 	SystemClock_get_now_m175136990,
+	SystemClock_ToUnixTimeMilliseconds_m1431860301,
 	SystemInfo_get_operatingSystem_m2538828082,
+	SystemInfo_get_processorType_m3719165582,
+	SystemInfo_get_systemMemorySize_m114183438,
 	SystemInfo_get_graphicsShaderLevel_m1169417593,
 	SystemInfo_get_supportsRenderTextures_m3098351893,
 	SystemInfo_get_supportsImageEffects_m2392300814,
 	SystemInfo_get_supports3DTextures_m3554473744,
 	SystemInfo_get_supportsComputeShaders_m940660062,
 	SystemInfo_SupportsRenderTextureFormat_m1773213581,
+	SystemInfo_get_deviceModel_m3014844565,
 	TextAreaAttribute__ctor_m2577573455,
 	TextAsset_get_text_m655578209,
 	TextAsset_ToString_m3220326647,
@@ -21427,6 +22233,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Texture2D__ctor_m1918985003,
 	Texture2D_Internal_Create_m457592211,
 	Texture2D_get_whiteTexture_m1214146742,
+	Texture2D_get_blackTexture_m338990496,
 	Texture2D_SetPixel_m378278602,
 	Texture2D_INTERNAL_CALL_SetPixel_m40008491,
 	Texture2D_GetPixelBilinear_m2169326019,
@@ -21626,6 +22433,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	WWW_Finalize_m1793349504,
 	WWW_DestroyWWW_m300967382,
 	WWW_InitWWW_m3594284248,
+	WWW_EscapeURL_m1167392721,
+	WWW_EscapeURL_m1690274784,
 	WWW_get_responseHeaders_m2488150044,
 	WWW_get_responseHeadersString_m2464460368,
 	WWW_get_text_m4216049525,
@@ -21647,6 +22456,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	WWWForm_get_data_m2893811951,
 	WWWTranscoder__cctor_m1486747496,
 	WWWTranscoder_Byte2Hex_m2414999496,
+	WWWTranscoder_URLEncode_m3301913818,
 	WWWTranscoder_URLEncode_m4039667511,
 	WWWTranscoder_QPEncode_m1021207296,
 	WWWTranscoder_Encode_m2677436946,
@@ -21661,6 +22471,289 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	TypeInferenceRuleAttribute__ctor_m1168575159,
 	TypeInferenceRuleAttribute__ctor_m2173394041,
 	TypeInferenceRuleAttribute_ToString_m318752778,
+	Advertisement__cctor_m3748510935,
+	Advertisement_LoadRuntime_m1153764358,
+	Advertisement_LoadEditor_m1462697244,
+	Advertisement_Load_m2111767636,
+	Advertisement_get_initializeOnStartup_m258615511,
+	Advertisement_RegisterNative_m3772220104,
+	Advertisement_get_debugLevel_m1607111063,
+	Advertisement_set_debugLevel_m2156200626,
+	Advertisement_get_isSupported_m2336831501,
+	Advertisement_IsEnabled_m1759809833,
+	Advertisement_get_isInitialized_m388766003,
+	Advertisement_Initialize_m2553209092,
+	Advertisement_Initialize_m194693625,
+	Advertisement_Show_m2306142379,
+	Advertisement_Show_m362306615,
+	Advertisement_Show_m3360971095,
+	Advertisement_IsReady_m3183471819,
+	Advertisement_IsReady_m935334935,
+	Advertisement_get_isShowing_m1176000740,
+	Advertisement_SetCampaignDataURL_m2685547969,
+	Advertisement_OnHide_m1520829743,
+	Advertisement_OnShow_m1835171882,
+	Advertisement_OnVideoCompleted_m3415528504,
+	Advertisement_get_testMode_m1196318894,
+	Advertisement_get_gameId_m3573419751,
+	Advertisement_DeliverResult_m1423967449,
+	AsyncExec__cctor_m2666769919,
+	AsyncExec_get_coroutineHost_m2018533427,
+	AsyncExec_StartCoroutine_m137798441,
+	ShowOptions_get_resultCallback_m2703960527,
+	ShowOptions_get_gamerSid_m4250760004,
+	UnityAdsEditor__ctor_m3976139971,
+	UnityAdsEditor_RegisterNative_m4194002087,
+	UnityAdsEditor_Init_m1629594092,
+	UnityAdsEditor_GetAdPlan_m2752032585,
+	UnityAdsEditor_HandleResponse_m4023781576,
+	UnityAdsEditor_CollectZoneIds_m4005528395,
+	UnityAdsEditor_CanShowAds_m4140735712,
+	UnityAdsEditor_SetLogLevel_m1404868299,
+	UnityAdsEditor_SetCampaignDataURL_m2172730030,
+	UnityAdsEditor_Show_m1284236386,
+	U3CGetAdPlanU3Ec__Iterator0__ctor_m1721579675,
+	U3CGetAdPlanU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2234575127,
+	U3CGetAdPlanU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2481846955,
+	U3CGetAdPlanU3Ec__Iterator0_MoveNext_m1866945451,
+	U3CGetAdPlanU3Ec__Iterator0_Dispose_m773941784,
+	U3CGetAdPlanU3Ec__Iterator0_Reset_m3662979912,
+	UnityAdsEditorPlaceholder__ctor_m3994022992,
+	UnityAdsEditorPlaceholder_TextureFromFile_m3694361456,
+	UnityAdsEditorPlaceholder_Load_m3917000424,
+	UnityAdsEditorPlaceholder_WindowFunc_m372386777,
+	UnityAdsEditorPlaceholder_OnGUI_m3489421642,
+	UnityAdsEditorPlaceholder_Show_m84213425,
+	UnityAdsEditorPlaceholder_Hide_m4064838582,
+	UnityAdsNative__ctor_m94487897,
+	UnityAdsNative_RegisterNative_m2676613309,
+	UnityAdsNative_Init_m3268101014,
+	UnityAdsNative_CanShowAds_m2415563766,
+	UnityAdsNative_SetLogLevel_m1881895669,
+	UnityAdsNative_SetCampaignDataURL_m2225585092,
+	UnityAdsNative_Show_m1337091448,
+	UnityAdsNative_OnFetchCompleted_m472008251,
+	UnityAdsNative_OnFetchFailed_m1255588527,
+	UnityAdsPlatform__ctor_m3866740029,
+	UnityAdsUnsupported__ctor_m2716700417,
+	UnityAdsUnsupported_RegisterNative_m3279256677,
+	UnityAdsUnsupported_Init_m4153848046,
+	UnityAdsUnsupported_CanShowAds_m2672159322,
+	UnityAdsUnsupported_SetCampaignDataURL_m1284326252,
+	UnityAdsUnsupported_SetLogLevel_m3170825805,
+	UnityAdsUnsupported_Show_m3422754780,
+	U3CPrivateImplementationDetailsU3E__ctor_m2239200199,
+	Analytics_AutoStartUnityAnalytics_m1670054757,
+	Analytics_InternalStartSession_m2831443455,
+	Analytics_InternalStartSession_m2098665529,
+	Analytics_GetPathName_m3311427434,
+	Analytics_SetUserId_m3680814858,
+	Analytics_SetUserGender_m2131258910,
+	Analytics_SetUserBirthYear_m2016987218,
+	Analytics_Transaction_m950268092,
+	Analytics_Transaction_m2755720756,
+	Analytics_CustomEvent_m2355465823,
+	Analytics_GetSingleton_m3227537842,
+	AnalyticsCloudService__ctor_m2044996099,
+	AnalyticsCloudService_Initialize_m860037127,
+	AnalyticsCloudService_StartEventHandler_m356483577,
+	AnalyticsCloudService_PauseEventHandler_m337768724,
+	AnalyticsCloudService_StopEventHandler_m2671641533,
+	AnalyticsCloudService_StartEventDispatcher_m2298821592,
+	AnalyticsCloudService_PauseEventDispatcher_m204734486,
+	AnalyticsCloudService_StopEventDispatcher_m4287832758,
+	AnalyticsCloudService_ResetNetworkRetryIndex_m823422698,
+	AnalyticsCloudService_QueueEvent_m1708314721,
+	AnalyticsCloudService_SaveFileFromServer_m2014834039,
+	AnalyticsCloudService_SaveFile_m80143642,
+	AnalyticsCloudService_RestoreFile_m2532229972,
+	AnalyticsCloudService_get_serviceFolderName_m361281257,
+	AnalyticsEvent__ctor_m3879474921,
+	AnalyticsEvent__ctor_m4166954732,
+	AnalyticsEvent_get_flags_m2999687211,
+	AnalyticsEvent_SetParameter_m4264025646,
+	AnalyticsEvent_GetParams_m4108645926,
+	AnalyticsEvent_ToStringJSON_m2809459314,
+	AnalyticsEvent_get_HighPriority_m1619944576,
+	AnalyticsEvent_get_CacheImmediately_m610816310,
+	AppInstallEvent__ctor_m1372123817,
+	AppRunningEvent__ctor_m2676776799,
+	AppStartEvent__ctor_m3205572208,
+	BasePlatformWrapper__ctor_m2101086586,
+	BasePlatformWrapper_get_appVersion_m2610845927,
+	BasePlatformWrapper_get_appBundleIdentifier_m3034693566,
+	BasePlatformWrapper_get_appInstallMode_m851994989,
+	BasePlatformWrapper_get_licenseType_m957209869,
+	BasePlatformWrapper_get_isRootedOrJailbroken_m1196326074,
+	BasePlatformWrapper_get_isNetworkReachable_m1631556390,
+	BasePlatformWrapper_get_isWebPlayer_m3490724528,
+	BasePlatformWrapper_get_isEditor_m2229699028,
+	BasePlatformWrapper_get_isAndroid_m3384257994,
+	BasePlatformWrapper_get_levelCount_m754619054,
+	BasePlatformWrapper_get_loadedLevel_m2483495806,
+	BasePlatformWrapper_get_loadedLevelName_m618529628,
+	BasePlatformWrapper_get_persistentDataPath_m638006614,
+	BasePlatformWrapper_get_platformName_m420461966,
+	BasePlatformWrapper_get_unityVersion_m1164012115,
+	BasePlatformWrapper_get_deviceModel_m2925353573,
+	BasePlatformWrapper_get_deviceUniqueIdentifier_m154193536,
+	BasePlatformWrapper_get_operatingSystem_m3784082178,
+	BasePlatformWrapper_get_processorType_m3617668190,
+	BasePlatformWrapper_get_systemMemorySize_m2176950260,
+	BasePlatformWrapper_get_randomNumber_m3272706062,
+	CustomEvent__ctor_m2864323170,
+	CustomEvent_SetEventData_m61333782,
+	DeviceInfoEvent__ctor_m1961746707,
+	DeviceInfoEvent_SetDeviceMake_m798647371,
+	DeviceInfoEvent_SetDeviceModel_m1090419712,
+	DeviceInfoEvent_SetOSVersion_m681217631,
+	DeviceInfoEvent_SetGameEngineVersion_m636221295,
+	DeviceInfoEvent_SetProcessorType_m3680211431,
+	DeviceInfoEvent_SetSystemMemorySize_m222389086,
+	DeviceInfoEvent_SetDeviceId_m4062622590,
+	DeviceInfoEvent_SetAdvertisingId_m2052607252,
+	DeviceInfoEvent_SetAdvertisingTracking_m3803708865,
+	DeviceInfoEvent_SetAppVersion_m1997526488,
+	DeviceInfoEvent_SetAppName_m2205964807,
+	DeviceInfoEvent_SetAppInstallMode_m1353046162,
+	DeviceInfoEvent_SetIsRootedOrJailbroken_m1127738631,
+	DeviceInfoEvent_SetIsDebugBuild_m3206917647,
+	DeviceInfoEvent_SetLicenseType_m1849526872,
+	DeviceInfoEvent_SetTimezone_m1368377494,
+	DeviceInfoEvent_SetChanged_m1230280567,
+	GameObserver__ctor_m1427892661,
+	GameObserver_CreateComponent_m836205100,
+	GameObserver_Update_m3041861624,
+	GameObserver_OnLevelWasLoaded_m2719151081,
+	GameObserver_OnClick_m3954484988,
+	GameObserver_OnApplicationPause_m3495924779,
+	GameObserver_OnApplicationQuit_m1429368755,
+	GameObserver_OnDestroy_m3167214638,
+	PlatformWrapper_get_platform_m793351918,
+	SessionConfig__ctor_m4251301107,
+	SessionConfig_get_analyticsEnabled_m4177051233,
+	SessionConfig_get_eventsEndPoint_m1594392135,
+	SessionConfig_get_configEndPoint_m1413366064,
+	SessionConfig_get_requestNumberOfEvents_m449794846,
+	SessionConfig_get_archivedSessionExpiryTimeInSec_m1323515492,
+	SessionConfig_get_maxContinuousRequest_m2403884904,
+	SessionConfig_get_maxContinuousRequestTimeoutInSec_m1995362899,
+	SessionConfig_get_maxNumberOfEventInGroup_m1779588410,
+	SessionConfig_get_maxTimeoutForGrouping_m2621919749,
+	SessionConfig_get_maxNumberOfEventInQueue_m2141332300,
+	SessionConfig_get_resumeTimeoutInMillSeconds_m2892076150,
+	SessionConfig_get_dispatcherWaitTimeInSeconds_m1078480645,
+	SessionConfig_get_customEventMaxEventPerHour_m1982982510,
+	SessionConfig_get_maxAppIdSize_m102819813,
+	SessionConfig_get_maxUserIdSize_m3195239073,
+	SessionConfig_get_maxCustomEventNameSize_m2984292829,
+	SessionConfig_get_maxCurrencySize_m1542413804,
+	SessionConfig_get_maxProductIdSize_m1603780915,
+	SessionConfig_get_customEventMaxNumberOfItems_m119497947,
+	SessionConfig_get_customEventMaxTotalItemsSize_m2836252356,
+	SessionConfig_Restore_m4103451439,
+	SessionConfig_RestoreAnalyticsConfig_m3289985868,
+	SessionConfig_RestoreEventsConfig_m178075489,
+	SessionConfig_RestoreCustomEventConfig_m3567202889,
+	SessionConfig_RestoreSessionConfig_m3483537724,
+	SessionConfig_RestoreGroupingConfig_m1944902711,
+	SessionConfig_RestoreLimitsConfig_m613524226,
+	SessionImpl__ctor_m875766109,
+	SessionImpl_get_state_m2308388883,
+	SessionImpl_set_state_m88015700,
+	SessionImpl_IsAnalyticsSupportedForPlatform_m3243705713,
+	SessionImpl_GetPathName_m501327066,
+	SessionImpl_StartWithAppId_m1254564614,
+	SessionImpl_SetCustomUserId_m3483822185,
+	SessionImpl_SetAdvertisingId_m4087674266,
+	SessionImpl_SetUserGender_m2692467854,
+	SessionImpl_SetUserBirthYear_m3229397986,
+	SessionImpl_Transaction_m1821451428,
+	SessionImpl_SendCustomEvent_m4270375191,
+	SessionImpl_isStringWithinLimit_m3689133106,
+	SessionImpl_OnAppPause_m4241745445,
+	SessionImpl_OnAppQuit_m3508707618,
+	SessionImpl_OnAppResume_m1035676416,
+	SessionImpl_OnClick_m1783341274,
+	SessionImpl_OnKey_m1617985585,
+	SessionImpl_OnLevelWasLoaded_m4156125387,
+	SessionImpl_ResetSessionValues_m3305557978,
+	SessionImpl_SaveSessionValues_m1868356172,
+	SessionImpl_RestoreSessionValues_m3936329915,
+	SessionImpl_Initialize_m3683465516,
+	SessionImpl_GenerateUUID_m1746716286,
+	SessionImpl_GetUserId_m4023501712,
+	SessionImpl_StartSession_m2303195996,
+	SessionImpl_PauseSession_m2669965201,
+	SessionImpl_StopSession_m3035509605,
+	SessionImpl_HandleSessionPause_m2234615065,
+	SessionImpl_SessionElapsedSincePause_m264376381,
+	SessionImpl_QueueEvent_m4013575431,
+	SessionImpl_QueueAppRunningEvent_m1718623213,
+	SessionImpl_GenerateTransactionId_m943759494,
+	SessionImpl_CalculateCustomEventSize_m3049852423,
+	SessionImpl_HandleCustomEventCount_m288932027,
+	SessionImpl_OnAdvertisingIdentifierCallback_m632750171,
+	SessionImpl_IsDebugDevice_m1878304326,
+	SessionImpl_IsPlatformChangedValue_m4090932483,
+	SessionImpl_IsPlatformChangedValue_m217648220,
+	SessionImpl_GetPlatformInfo_m1495499013,
+	SessionImpl_HandleDeviceIdAndAdvertisingId_m1276455689,
+	SessionImpl_LookForVersionChange_m930923887,
+	SessionImpl_PrepareCloudServiceConfig_m2490732922,
+	SessionImpl_RestoreConfig_m3410852769,
+	SessionImpl_UpdateConfigFromServer_m399047977,
+	SessionImpl_OnDoneSaveFileFromServer_m286303552,
+	SessionInfo__ctor_m1747103957,
+	SessionInfo_get_appId_m4198884825,
+	SessionInfo_set_appId_m1875051648,
+	SessionInfo_get_userId_m4197587083,
+	SessionInfo_set_userId_m4026537088,
+	SessionInfo_get_sessionId_m3173239644,
+	SessionInfo_set_sessionId_m3930658697,
+	SessionInfo_get_sdkVersion_m1768762755,
+	SessionInfo_set_sdkVersion_m819500552,
+	SessionInfo_get_debugDevice_m401416057,
+	SessionInfo_set_debugDevice_m294788454,
+	SessionInfo_get_platformName_m562050787,
+	SessionInfo_set_platformName_m3440411240,
+	SessionInfo_ToStringJson_m3099175632,
+	SessionValues__ctor_m1586195,
+	SessionValues__ctor_m4006777323,
+	SessionValues__ctor_m1194183761,
+	SessionValues_PutItems_m1966795416,
+	SessionValues_PutItems_m2117068261,
+	SessionValues_PutItem_m127069567,
+	SessionValues_PutItem_m2670909470,
+	SessionValues_TryGetBool_m1296924381,
+	SessionValues_TryGetInt_m3659547912,
+	SessionValues_TryGetLong_m25919055,
+	SessionValues_TryGetString_m350580258,
+	SessionValues_TryGetStringList_m3634692450,
+	SessionValues_TryGetStringArray_m4073771359,
+	SessionValues_TryGetIntList_m3872360570,
+	SessionValues_TryGetIntArray_m4062138141,
+	SessionValues_TryGetValue_m1484383459,
+	SessionValues_Restore_m1677995279,
+	SessionValues_Restore_m753836243,
+	SessionValues_Save_m419626234,
+	SessionValues_U3CTryGetIntArrayU3Em__0_m2570260981,
+	TransactionEvent__ctor_m1703768401,
+	UnityAnalyticsNotSupportedSession__ctor_m3995550527,
+	UnityAnalyticsNotSupportedSession_GetPathName_m2374670278,
+	UnityAnalyticsNotSupportedSession_StartWithAppId_m22592754,
+	UnityAnalyticsNotSupportedSession_SetCustomUserId_m472853501,
+	UnityAnalyticsNotSupportedSession_SetUserGender_m2431711610,
+	UnityAnalyticsNotSupportedSession_SetUserBirthYear_m218429302,
+	UnityAnalyticsNotSupportedSession_Transaction_m789706128,
+	UnityAnalyticsNotSupportedSession_SendCustomEvent_m1245603243,
+	UnityAnalyticsVersion__cctor_m2598974315,
+	UnityAnalyticsVersion_get_sdkVersion_m2041721254,
+	UserInfoEvent__ctor_m452725960,
+	UserInfoEvent_SetCustomUserId_m3925058915,
+	UserInfoEvent_SetUserGender_m1849938350,
+	UserInfoEvent_SetUserBirthYear_m3670634716,
+	Utils_isJSONPrimitive_m1107769491,
 	U3CPrivateImplementationDetailsU3E__ctor_m2615655811,
 	AbstractEventData__ctor_m3016870691,
 	AbstractEventData_Reset_m663303632,
@@ -23095,6 +24188,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	VerticalLayoutGroup_CalculateLayoutInputVertical_m920247256,
 	VerticalLayoutGroup_SetLayoutHorizontal_m244631242,
 	VerticalLayoutGroup_SetLayoutVertical_m2764536540,
+	AdPoster__ctor_m3433179435,
+	AdPoster_ShowAd_m3414211769,
 	Bubble__ctor_m584369519,
 	Bubble_add_OnPop_m241871832,
 	Bubble_remove_OnPop_m3927358893,
@@ -23955,6 +25050,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	Pump_Pumpit_m2315817461,
 	ScoreManager__ctor_m2871960608,
 	ScoreManager_Start_m1819098400,
+	ScoreManager_VisualStart_m4218078208,
 	ScoreManager_Update_m563327725,
 	ScoreManager_UpdateScoreUI_m1749848219,
 	ScoreManager_IncreaseScore_m2191452671,
@@ -23970,10 +25066,14 @@ extern const Il2CppMethodPointer g_MethodPointers[12086] =
 	U3CHideComplimentU3Ec__Iterator5_MoveNext_m1602775159,
 	U3CHideComplimentU3Ec__Iterator5_Dispose_m3850458714,
 	U3CHideComplimentU3Ec__Iterator5_Reset_m770095114,
+	EventTypes__ctor_m590210296,
 	ScoreTypes__ctor_m884629232,
 	SoundLibrary__ctor_m853430095,
 	SoundLibrary_Start_m4095535183,
 	SoundLibrary_Update_m2413391262,
+	Vibrator__ctor_m3576303746,
+	Vibrator_Start_m2523441538,
+	Vibrator_Update_m923128523,
 	Antialiasing__ctor_m1305359989,
 	Antialiasing_CurrentAAMaterial_m432242682,
 	Antialiasing_CheckResources_m1261455440,

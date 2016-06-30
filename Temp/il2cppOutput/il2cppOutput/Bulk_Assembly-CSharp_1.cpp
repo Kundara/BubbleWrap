@@ -13,10 +13,12 @@
 #include <limits>
 #include <assert.h>
 
-// GS.FBManager/<LoadFPicRoutine>c__Iterator1
-struct U3CLoadFPicRoutineU3Ec__Iterator1_t655308032;
+// GS.FBManager/<GetProfilePicRoutine>c__Iterator2
+struct U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310;
 // System.Object
 struct Il2CppObject;
+// GS.FBManager/<LoadFPicRoutine>c__Iterator1
+struct U3CLoadFPicRoutineU3Ec__Iterator1_t655308032;
 // GS.FBManager/<LoadFriendsAvatar>c__AnonStorey6
 struct U3CLoadFriendsAvatarU3Ec__AnonStorey6_t1977257633;
 // Facebook.Unity.IGraphResult
@@ -65,36 +67,44 @@ struct AudioSource_t3628549054;
 struct IEnumerator_t287207039;
 // ScoreManager/<HideCompliment>c__Iterator5
 struct U3CHideComplimentU3Ec__Iterator5_t699490074;
+// ScoreManager/EventTypes
+struct EventTypes_t2967822879;
 // ScoreManager/ScoreTypes
 struct ScoreTypes_t3567341863;
 // SoundLibrary
 struct SoundLibrary_t1775290572;
+// Vibrator
+struct Vibrator_t1170382393;
+// UnityEngine.RectTransform
+struct RectTransform_t3317474837;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array2840145358.h"
-#include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFPicRoutineU3655308032.h"
-#include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFPicRoutineU3655308032MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GS_FBManager_U3CGetProfilePicRout534892310.h"
+#include "AssemblyU2DCSharp_GS_FBManager_U3CGetProfilePicRout534892310MethodDeclarations.h"
 #include "mscorlib_System_Void2779279689.h"
 #include "mscorlib_System_Object837106420MethodDeclarations.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_Boolean211005341.h"
 #include "UnityEngine_UnityEngine_WWW1522972100MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GS_FBManager_LoadPictureCallback3065091453MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GS_FBManager1944751413MethodDeclarations.h"
 #include "mscorlib_System_UInt32985925326.h"
 #include "mscorlib_System_Int322847414787.h"
 #include "mscorlib_System_String968488902.h"
 #include "UnityEngine_UnityEngine_WWW1522972100.h"
-#include "AssemblyU2DCSharp_GS_FBManager_LoadPictureCallback3065091453.h"
+#include "AssemblyU2DCSharp_GS_FBManager1944751413.h"
 #include "UnityEngine_UnityEngine_Texture2D2509538522.h"
 #include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1374155497.h"
+#include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFPicRoutineU3655308032.h"
+#include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFPicRoutineU3655308032MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GS_FBManager_LoadPictureCallback3065091453MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GS_FBManager_LoadPictureCallback3065091453.h"
 #include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFriendsAvata1977257633.h"
 #include "AssemblyU2DCSharp_GS_FBManager_U3CLoadFriendsAvata1977257633MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GS_FBManager1944751413MethodDeclarations.h"
 #include "AssemblyU2DCSharp_GS_Util2353880582MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GS_FBManager1944751413.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen848712873.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen848712873MethodDeclarations.h"
 #include "AssemblyU2DCSharp_GS_ListItemLeaderboard51753904.h"
@@ -173,23 +183,41 @@ struct SoundLibrary_t1775290572;
 #include "AssemblyU2DCSharp_ScoreManager2519962843.h"
 #include "AssemblyU2DCSharp_ScoreManager2519962843MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_PlayerPrefs3733964924MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_AudioSource3628549054MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioSource3628549054.h"
+#include "UnityEngine_UnityEngine_AudioSource3628549054MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator792326996MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioClip3714538611.h"
+#include "UnityEngine_UnityEngine_Animator792326996.h"
+#include "AssemblyU2DCSharp_AdPoster2565960560MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Slider1468074762.h"
 #include "UnityEngine_UI_UnityEngine_UI_Slider1468074762MethodDeclarations.h"
 #include "mscorlib_System_Int322847414787MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem56787138MethodDeclarations.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt2757337499MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
+#include "UnityEngine_Analytics_UnityEngine_Analytics_Analyt1896853848.h"
 #include "UnityEngine_UnityEngine_Random3963434288MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Mathf1597001355MethodDeclarations.h"
+#include "UnityEngine_ArrayTypes.h"
 #include "AssemblyU2DCSharp_ScoreManager_U3CHideComplimentU3E699490074MethodDeclarations.h"
 #include "AssemblyU2DCSharp_ScoreManager_U3CHideComplimentU3E699490074.h"
 #include "UnityEngine.UI_ArrayTypes.h"
 #include "UnityEngine_UnityEngine_WaitForSeconds1291133240MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WaitForSeconds1291133240.h"
+#include "AssemblyU2DCSharp_ScoreManager_EventTypes2967822879.h"
+#include "AssemblyU2DCSharp_ScoreManager_EventTypes2967822879MethodDeclarations.h"
 #include "AssemblyU2DCSharp_ScoreManager_ScoreTypes3567341863.h"
 #include "AssemblyU2DCSharp_ScoreManager_ScoreTypes3567341863MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SoundLibrary1775290572.h"
 #include "AssemblyU2DCSharp_SoundLibrary1775290572MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vibrator1170382393.h"
+#include "AssemblyU2DCSharp_Vibrator1170382393MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector33525329789.h"
+#include "UnityEngine_UnityEngine_RectTransform3317474837MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransform3317474837.h"
+#include "UnityEngine_UnityEngine_Vector23525329788.h"
+#include "UnityEngine_UnityEngine_Vector23525329788MethodDeclarations.h"
 
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
@@ -210,11 +238,128 @@ extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m2892359027_g
 #define Component_GetComponent_TisImage_t3354615620_m3706520426(__this, method) ((  Image_t3354615620 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
 #define Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, method) ((  AudioSource_t3628549054 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3317474837_m1940403147(__this, method) ((  RectTransform_t3317474837 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void GS.FBManager/<GetProfilePicRoutine>c__Iterator2::.ctor()
+extern "C"  void U3CGetProfilePicRoutineU3Ec__Iterator2__ctor_m4274800597 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object GS.FBManager/<GetProfilePicRoutine>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CGetProfilePicRoutineU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m333459613 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Object GS.FBManager/<GetProfilePicRoutine>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CGetProfilePicRoutineU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1144589873 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Boolean GS.FBManager/<GetProfilePicRoutine>c__Iterator2::MoveNext()
+extern Il2CppClass* WWW_t1522972100_il2cpp_TypeInfo_var;
+extern const uint32_t U3CGetProfilePicRoutineU3Ec__Iterator2_MoveNext_m515387903_MetadataUsageId;
+extern "C"  bool U3CGetProfilePicRoutineU3Ec__Iterator2_MoveNext_m515387903 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CGetProfilePicRoutineU3Ec__Iterator2_MoveNext_m515387903_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		goto IL_006d;
+	}
+
+IL_0021:
+	{
+		String_t* L_2 = __this->get_url_0();
+		WWW_t1522972100 * L_3 = (WWW_t1522972100 *)il2cpp_codegen_object_new(WWW_t1522972100_il2cpp_TypeInfo_var);
+		WWW__ctor_m1985874080(L_3, L_2, /*hidden argument*/NULL);
+		__this->set_U3CwwwU3E__0_1(L_3);
+		WWW_t1522972100 * L_4 = __this->get_U3CwwwU3E__0_1();
+		__this->set_U24current_4(L_4);
+		__this->set_U24PC_3(1);
+		goto IL_006f;
+	}
+
+IL_004a:
+	{
+		FBManager_t1944751413 * L_5 = __this->get_U3CU3Ef__this_7();
+		WWW_t1522972100 * L_6 = __this->get_U3CwwwU3E__0_1();
+		NullCheck(L_6);
+		Texture2D_t2509538522 * L_7 = WWW_get_texture_m2854732303(L_6, /*hidden argument*/NULL);
+		bool L_8 = __this->get_needToSave_2();
+		NullCheck(L_5);
+		FBManager_LoadOrSavePicture_m2724857027(L_5, L_7, L_8, /*hidden argument*/NULL);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_006d:
+	{
+		return (bool)0;
+	}
+
+IL_006f:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0071: ldloc.1
+}
+// System.Void GS.FBManager/<GetProfilePicRoutine>c__Iterator2::Dispose()
+extern "C"  void U3CGetProfilePicRoutineU3Ec__Iterator2_Dispose_m1992921810 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GS.FBManager/<GetProfilePicRoutine>c__Iterator2::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CGetProfilePicRoutineU3Ec__Iterator2_Reset_m1921233538_MetadataUsageId;
+extern "C"  void U3CGetProfilePicRoutineU3Ec__Iterator2_Reset_m1921233538 (U3CGetProfilePicRoutineU3Ec__Iterator2_t534892310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CGetProfilePicRoutineU3Ec__Iterator2_Reset_m1921233538_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
 // System.Void GS.FBManager/<LoadFPicRoutine>c__Iterator1::.ctor()
 extern "C"  void U3CLoadFPicRoutineU3Ec__Iterator1__ctor_m3957527771 (U3CLoadFPicRoutineU3Ec__Iterator1_t655308032 * __this, const MethodInfo* method)
 {
@@ -1473,9 +1618,10 @@ extern "C"  void Pump_Pumpit_m2315817461 (Pump_t2499208 * __this, int32_t ___sco
 extern "C"  void ScoreManager__ctor_m2871960608 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
 {
 	{
-		__this->set_superFillOnPop_17((0.1f));
-		__this->set_superTime_18((3.5f));
-		__this->set_superDropRate_19((0.1f));
+		__this->set_showAdEvery_19((5.0f));
+		__this->set_superFillOnPop_21((0.1f));
+		__this->set_superTime_22((3.5f));
+		__this->set_superDropRate_23((0.1f));
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -1495,20 +1641,42 @@ extern "C"  void ScoreManager_Start_m1819098400 (ScoreManager_t2519962843 * __th
 	}
 	{
 		int32_t L_0 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral154524308, /*hidden argument*/NULL);
-		__this->set_score_24(L_0);
+		__this->set_score_30(L_0);
 		ScoreManager_UpdateScoreUI_m1749848219(__this, /*hidden argument*/NULL);
 		ScoreManager_CalculateNextCompliment_m21871553(__this, /*hidden argument*/NULL);
 		FBManager_t1944751413 * L_1 = Object_FindObjectOfType_TisFBManager_t1944751413_m1795629054(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisFBManager_t1944751413_m1795629054_MethodInfo_var);
-		__this->set_fbManager_14(L_1);
+		__this->set_fbManager_16(L_1);
 		AudioSource_t3628549054 * L_2 = Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var);
-		__this->set_audioSource_26(L_2);
-		AudioSource_t3628549054 * L_3 = __this->get_audioSource_26();
-		AudioClip_t3714538611 * L_4 = __this->get_gameStartSound_8();
+		__this->set_audioSource_32(L_2);
+		float L_3 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_4 = __this->get_showAdEvery_19();
+		__this->set_timeOfAd_20(((float)((float)L_3+(float)L_4)));
+		__this->set_lastPop_33((0.0f));
+		return;
+	}
+}
+// System.Void ScoreManager::VisualStart()
+extern Il2CppCodeGenString* _stringLiteral109757538;
+extern const uint32_t ScoreManager_VisualStart_m4218078208_MetadataUsageId;
+extern "C"  void ScoreManager_VisualStart_m4218078208 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ScoreManager_VisualStart_m4218078208_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AudioSource_t3628549054 * L_0 = __this->get_audioSource_32();
+		AudioClip_t3714538611 * L_1 = __this->get_gameStartSound_10();
+		NullCheck(L_0);
+		AudioSource_set_clip_m19502010(L_0, L_1, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_2 = __this->get_audioSource_32();
+		NullCheck(L_2);
+		AudioSource_Play_m1360558992(L_2, /*hidden argument*/NULL);
+		Animator_t792326996 * L_3 = __this->get_animator_8();
 		NullCheck(L_3);
-		AudioSource_set_clip_m19502010(L_3, L_4, /*hidden argument*/NULL);
-		AudioSource_t3628549054 * L_5 = __this->get_audioSource_26();
-		NullCheck(L_5);
-		AudioSource_Play_m1360558992(L_5, /*hidden argument*/NULL);
+		Animator_SetTrigger_m514363822(L_3, _stringLiteral109757538, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1516,69 +1684,113 @@ extern "C"  void ScoreManager_Start_m1819098400 (ScoreManager_t2519962843 * __th
 extern "C"  void ScoreManager_Update_m563327725 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_isSuperActive_21();
-		if (!L_0)
+		bool L_0 = Application_get_isShowingSplashScreen_m238201170(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
 		{
-			goto IL_0050;
+			goto IL_0022;
 		}
 	}
 	{
-		float L_1 = __this->get_timeOfSuper_22();
-		float L_2 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
-		float L_3 = __this->get_superTime_18();
-		__this->set_superAmount_20(((float)((float)((float)((float)L_1-(float)L_2))/(float)L_3)));
-		float L_4 = __this->get_superAmount_20();
-		if ((!(((float)L_4) <= ((float)(0.001f)))))
+		bool L_1 = __this->get_started_35();
+		if (L_1)
 		{
-			goto IL_003a;
+			goto IL_0022;
+		}
+	}
+	{
+		ScoreManager_VisualStart_m4218078208(__this, /*hidden argument*/NULL);
+		__this->set_started_35((bool)1);
+	}
+
+IL_0022:
+	{
+		bool L_2 = __this->get_isSuperActive_25();
+		if (!L_2)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		float L_3 = __this->get_timeOfSuper_26();
+		float L_4 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_5 = __this->get_superTime_22();
+		__this->set_superAmount_24(((float)((float)((float)((float)L_3-(float)L_4))/(float)L_5)));
+		float L_6 = __this->get_superAmount_24();
+		if ((!(((float)L_6) <= ((float)(0.001f)))))
+		{
+			goto IL_005c;
 		}
 	}
 	{
 		ScoreManager_StopSuper_m3440707863(__this, /*hidden argument*/NULL);
 	}
 
-IL_003a:
+IL_005c:
 	{
-		Slider_t1468074762 * L_5 = __this->get_superSlider_4();
-		float L_6 = __this->get_superAmount_20();
-		NullCheck(L_5);
-		VirtActionInvoker1< float >::Invoke(46 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_5, L_6);
-		goto IL_00b2;
+		Slider_t1468074762 * L_7 = __this->get_superSlider_4();
+		float L_8 = __this->get_superAmount_24();
+		NullCheck(L_7);
+		VirtActionInvoker1< float >::Invoke(46 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_7, L_8);
+		goto IL_00d4;
 	}
 
-IL_0050:
+IL_0072:
 	{
-		float L_7 = __this->get_superAmount_20();
-		if ((!(((float)L_7) > ((float)(0.0f)))))
+		float L_9 = __this->get_superAmount_24();
+		if ((!(((float)L_9) > ((float)(0.0f)))))
 		{
-			goto IL_00b2;
+			goto IL_00d4;
 		}
 	}
 	{
-		float L_8 = __this->get_superAmount_20();
-		float L_9 = __this->get_superDropRate_19();
-		float L_10 = __this->get_superAmount_20();
-		float L_11 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_superAmount_20(((float)((float)L_8-(float)((float)((float)((float)((float)L_9+(float)((float)((float)L_10*(float)(0.02f)))))*(float)L_11)))));
-		float L_12 = __this->get_superAmount_20();
-		if ((!(((float)L_12) < ((float)(0.0f)))))
+		float L_10 = __this->get_superAmount_24();
+		float L_11 = __this->get_superDropRate_23();
+		float L_12 = __this->get_superAmount_24();
+		float L_13 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_superAmount_24(((float)((float)L_10-(float)((float)((float)((float)((float)L_11+(float)((float)((float)L_12*(float)(0.02f)))))*(float)L_13)))));
+		float L_14 = __this->get_superAmount_24();
+		if ((!(((float)L_14) < ((float)(0.0f)))))
 		{
-			goto IL_00a1;
+			goto IL_00c3;
 		}
 	}
 	{
-		__this->set_superAmount_20((0.0f));
+		__this->set_superAmount_24((0.0f));
 	}
 
-IL_00a1:
+IL_00c3:
 	{
-		Slider_t1468074762 * L_13 = __this->get_superSlider_4();
-		float L_14 = __this->get_superAmount_20();
-		NullCheck(L_13);
-		VirtActionInvoker1< float >::Invoke(46 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_13, L_14);
+		Slider_t1468074762 * L_15 = __this->get_superSlider_4();
+		float L_16 = __this->get_superAmount_24();
+		NullCheck(L_15);
+		VirtActionInvoker1< float >::Invoke(46 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_15, L_16);
 	}
 
-IL_00b2:
+IL_00d4:
+	{
+		float L_17 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_18 = __this->get_timeOfAd_20();
+		if ((!(((float)L_17) > ((float)L_18))))
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		float L_19 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_20 = __this->get_lastPop_33();
+		if ((!(((float)L_19) > ((float)((float)((float)L_20+(float)(3.0f)))))))
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		AdPoster_ShowAd_m3414211769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_21 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_22 = __this->get_showAdEvery_19();
+		__this->set_timeOfAd_20(((float)((float)L_21+(float)L_22)));
+	}
+
+IL_0111:
 	{
 		return;
 	}
@@ -1588,7 +1800,7 @@ extern "C"  void ScoreManager_UpdateScoreUI_m1749848219 (ScoreManager_t251996284
 {
 	{
 		Text_t3286458198 * L_0 = __this->get_scoreText_2();
-		int32_t* L_1 = __this->get_address_of_score_24();
+		int32_t* L_1 = __this->get_address_of_score_30();
 		String_t* L_2 = Int32_ToString_m1286526384(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
@@ -1596,7 +1808,13 @@ extern "C"  void ScoreManager_UpdateScoreUI_m1749848219 (ScoreManager_t251996284
 	}
 }
 // System.Void ScoreManager::IncreaseScore(System.Int32)
+extern Il2CppClass* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral154524308;
+extern Il2CppCodeGenString* _stringLiteral2591289926;
+extern Il2CppCodeGenString* _stringLiteral80433;
+extern Il2CppCodeGenString* _stringLiteral79711858;
 extern const uint32_t ScoreManager_IncreaseScore_m2191452671_MetadataUsageId;
 extern "C"  void ScoreManager_IncreaseScore_m2191452671 (ScoreManager_t2519962843 * __this, int32_t ___amount0, const MethodInfo* method)
 {
@@ -1606,32 +1824,50 @@ extern "C"  void ScoreManager_IncreaseScore_m2191452671 (ScoreManager_t251996284
 		il2cpp_codegen_initialize_method (ScoreManager_IncreaseScore_m2191452671_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
+	Dictionary_2_t2474804324 * V_0 = NULL;
 	{
-		int32_t L_0 = __this->get_score_24();
-		int32_t L_1 = ___amount0;
-		__this->set_score_24(((int32_t)((int32_t)L_0+(int32_t)L_1)));
-		Pump_t2499208 * L_2 = __this->get_powerPumper_5();
-		int32_t L_3 = ___amount0;
-		NullCheck(L_2);
-		Pump_Pumpit_m2315817461(L_2, L_3, /*hidden argument*/NULL);
+		float L_0 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastPop_33(L_0);
+		int32_t L_1 = __this->get_score_30();
+		int32_t L_2 = ___amount0;
+		__this->set_score_30(((int32_t)((int32_t)L_1+(int32_t)L_2)));
+		Pump_t2499208 * L_3 = __this->get_powerPumper_5();
+		int32_t L_4 = ___amount0;
+		NullCheck(L_3);
+		Pump_Pumpit_m2315817461(L_3, L_4, /*hidden argument*/NULL);
 		ScoreManager_UpdateScoreUI_m1749848219(__this, /*hidden argument*/NULL);
-		bool L_4 = __this->get_isSuperActive_21();
-		if (L_4)
+		bool L_5 = __this->get_isSuperActive_25();
+		if (L_5)
 		{
-			goto IL_0031;
+			goto IL_0041;
 		}
 	}
 	{
 		ScoreManager_AddToSuper_m2773139715(__this, /*hidden argument*/NULL);
+		goto IL_004d;
 	}
 
-IL_0031:
+IL_0041:
 	{
-		int32_t L_5 = __this->get_score_24();
-		int32_t L_6 = __this->get_nextComplimentMilestone_25();
-		if ((!(((uint32_t)L_5) == ((uint32_t)L_6))))
+		ParticleSystem_t56787138 * L_6 = __this->get_part_27();
+		NullCheck(L_6);
+		ParticleSystem_Emit_m1128282864(L_6, 1, /*hidden argument*/NULL);
+	}
+
+IL_004d:
+	{
+		int32_t L_7 = __this->get_score_30();
+		int32_t L_8 = __this->get_nextComplimentMilestone_31();
+		if ((((int32_t)L_7) < ((int32_t)L_8)))
 		{
-			goto IL_004e;
+			goto IL_0075;
+		}
+	}
+	{
+		bool L_9 = __this->get_isSuperActive_25();
+		if (L_9)
+		{
+			goto IL_0075;
 		}
 	}
 	{
@@ -1639,14 +1875,30 @@ IL_0031:
 		ScoreManager_CalculateNextCompliment_m21871553(__this, /*hidden argument*/NULL);
 	}
 
-IL_004e:
+IL_0075:
 	{
-		int32_t L_7 = __this->get_score_24();
-		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral154524308, L_7, /*hidden argument*/NULL);
-		FBManager_t1944751413 * L_8 = __this->get_fbManager_14();
-		int32_t L_9 = __this->get_score_24();
-		NullCheck(L_8);
-		FBManager_PostScore_m90579949(L_8, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = __this->get_score_30();
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral154524308, L_10, /*hidden argument*/NULL);
+		FBManager_t1944751413 * L_11 = __this->get_fbManager_16();
+		int32_t L_12 = __this->get_score_30();
+		NullCheck(L_11);
+		FBManager_PostScore_m90579949(L_11, L_12, /*hidden argument*/NULL);
+		Dictionary_2_t2474804324 * L_13 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3229349667(L_13, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
+		V_0 = L_13;
+		Dictionary_2_t2474804324 * L_14 = V_0;
+		int32_t L_15 = 1;
+		Il2CppObject * L_16 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_14);
+		VirtActionInvoker2< String_t*, Il2CppObject * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_14, _stringLiteral80433, L_16);
+		Dictionary_2_t2474804324 * L_17 = V_0;
+		int32_t L_18 = __this->get_score_30();
+		int32_t L_19 = L_18;
+		Il2CppObject * L_20 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_19);
+		NullCheck(L_17);
+		VirtActionInvoker2< String_t*, Il2CppObject * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_17, _stringLiteral79711858, L_20);
+		Dictionary_2_t2474804324 * L_21 = V_0;
+		Analytics_CustomEvent_m2355465823(NULL /*static, unused*/, _stringLiteral2591289926, L_21, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1654,11 +1906,11 @@ IL_004e:
 extern "C"  void ScoreManager_CalculateNextCompliment_m21871553 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_score_24();
-		int32_t L_1 = __this->get_minScoreToCompliment_11();
-		int32_t L_2 = __this->get_maxScoreToCompliment_12();
+		int32_t L_0 = __this->get_score_30();
+		int32_t L_1 = __this->get_minScoreToCompliment_13();
+		int32_t L_2 = __this->get_maxScoreToCompliment_14();
 		int32_t L_3 = Random_Range_m75452833(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
-		__this->set_nextComplimentMilestone_25(((int32_t)((int32_t)L_0+(int32_t)L_3)));
+		__this->set_nextComplimentMilestone_31(((int32_t)((int32_t)L_0+(int32_t)L_3)));
 		return;
 	}
 }
@@ -1666,10 +1918,10 @@ extern "C"  void ScoreManager_CalculateNextCompliment_m21871553 (ScoreManager_t2
 extern "C"  void ScoreManager_AddToSuper_m2773139715 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
 {
 	{
-		float L_0 = __this->get_superAmount_20();
-		float L_1 = __this->get_superFillOnPop_17();
-		__this->set_superAmount_20(((float)((float)L_0+(float)L_1)));
-		float L_2 = __this->get_superAmount_20();
+		float L_0 = __this->get_superAmount_24();
+		float L_1 = __this->get_superFillOnPop_21();
+		__this->set_superAmount_24(((float)((float)L_0+(float)L_1)));
+		float L_2 = __this->get_superAmount_24();
 		if ((!(((float)L_2) >= ((float)(1.0f)))))
 		{
 			goto IL_0029;
@@ -1682,13 +1934,14 @@ extern "C"  void ScoreManager_AddToSuper_m2773139715 (ScoreManager_t2519962843 *
 IL_0029:
 	{
 		Slider_t1468074762 * L_3 = __this->get_superSlider_4();
-		float L_4 = __this->get_superAmount_20();
+		float L_4 = __this->get_superAmount_24();
 		NullCheck(L_3);
 		VirtActionInvoker1< float >::Invoke(46 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_3, L_4);
 		return;
 	}
 }
 // System.Void ScoreManager::PublishCompliment()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* Mathf_t1597001355_il2cpp_TypeInfo_var;
 extern const uint32_t ScoreManager_PublishCompliment_m1468336663_MetadataUsageId;
 extern "C"  void ScoreManager_PublishCompliment_m1468336663 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
@@ -1699,31 +1952,89 @@ extern "C"  void ScoreManager_PublishCompliment_m1468336663 (ScoreManager_t25199
 		il2cpp_codegen_initialize_method (ScoreManager_PublishCompliment_m1468336663_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
-	String_t* V_0 = NULL;
-	float V_1 = 0.0f;
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	float V_2 = 0.0f;
 	{
-		StringU5BU5D_t2956870243* L_0 = __this->get_compliments_23();
-		StringU5BU5D_t2956870243* L_1 = __this->get_compliments_23();
-		NullCheck(L_1);
-		int32_t L_2 = Random_Range_m75452833(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
-		NullCheck(L_0);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_2);
-		int32_t L_3 = L_2;
-		V_0 = ((L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3)));
-		Text_t3286458198 * L_4 = __this->get_complimentText_3();
-		String_t* L_5 = V_0;
-		NullCheck(L_4);
-		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_5);
-		float L_6 = __this->get_complimentShowTimePerChar_13();
-		String_t* L_7 = V_0;
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, 1, ((int32_t)20), /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		StringU5BU5D_t2956870243* L_2 = __this->get_rareCompliments_29();
+		StringU5BU5D_t2956870243* L_3 = __this->get_rareCompliments_29();
+		NullCheck(L_3);
+		int32_t L_4 = Random_Range_m75452833(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, L_4);
+		int32_t L_5 = L_4;
+		V_1 = ((L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5)));
+		goto IL_0041;
+	}
+
+IL_002b:
+	{
+		StringU5BU5D_t2956870243* L_6 = __this->get_compliments_28();
+		StringU5BU5D_t2956870243* L_7 = __this->get_compliments_28();
 		NullCheck(L_7);
-		int32_t L_8 = String_get_Length_m2979997331(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = Random_Range_m75452833(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))), /*hidden argument*/NULL);
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_8);
+		int32_t L_9 = L_8;
+		V_1 = ((L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_9)));
+	}
+
+IL_0041:
+	{
+		String_t* L_10 = V_1;
+		String_t* L_11 = __this->get_lastCompliment_34();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		ScoreManager_PublishCompliment_m1468336663(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0059:
+	{
+		Text_t3286458198 * L_13 = __this->get_complimentText_3();
+		String_t* L_14 = V_1;
+		NullCheck(L_13);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_14);
+		float L_15 = __this->get_complimentShowTimePerChar_15();
+		String_t* L_16 = V_1;
+		NullCheck(L_16);
+		int32_t L_17 = String_get_Length_m2979997331(L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_9 = Mathf_Min_m2322067385(NULL /*static, unused*/, ((float)((float)L_6*(float)(((float)((float)L_8))))), (3.0f), /*hidden argument*/NULL);
-		V_1 = L_9;
-		float L_10 = V_1;
-		Il2CppObject * L_11 = ScoreManager_HideCompliment_m3134867187(__this, L_10, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2135303124(__this, L_11, /*hidden argument*/NULL);
+		float L_18 = Mathf_Min_m2322067385(NULL /*static, unused*/, ((float)((float)L_15*(float)(((float)((float)L_17))))), (3.0f), /*hidden argument*/NULL);
+		V_2 = L_18;
+		float L_19 = V_2;
+		Il2CppObject * L_20 = ScoreManager_HideCompliment_m3134867187(__this, L_19, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_20, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_21 = __this->get_audioSource_32();
+		AudioClipU5BU5D_t2889538658* L_22 = __this->get_complimentSounds_9();
+		AudioClipU5BU5D_t2889538658* L_23 = __this->get_complimentSounds_9();
+		NullCheck(L_23);
+		int32_t L_24 = Random_Range_m75452833(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))), /*hidden argument*/NULL);
+		NullCheck(L_22);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, L_24);
+		int32_t L_25 = L_24;
+		NullCheck(L_21);
+		AudioSource_set_clip_m19502010(L_21, ((L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_25))), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_26 = __this->get_audioSource_32();
+		NullCheck(L_26);
+		AudioSource_Play_m1360558992(L_26, /*hidden argument*/NULL);
+		String_t* L_27 = V_1;
+		__this->set_lastCompliment_34(L_27);
 		return;
 	}
 }
@@ -1759,17 +2070,30 @@ extern "C"  Il2CppObject * ScoreManager_HideCompliment_m3134867187 (ScoreManager
 	}
 }
 // System.Void ScoreManager::StartSuper()
+extern Il2CppClass* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2591289926;
+extern Il2CppCodeGenString* _stringLiteral80248667;
+extern const uint32_t ScoreManager_StartSuper_m144841949_MetadataUsageId;
 extern "C"  void ScoreManager_StartSuper_m144841949 (ScoreManager_t2519962843 * __this, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ScoreManager_StartSuper_m144841949_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
 	Image_t3354615620 * V_0 = NULL;
 	ImageU5BU5D_t2279835437* V_1 = NULL;
 	int32_t V_2 = 0;
+	Dictionary_2_t2474804324 * V_3 = NULL;
 	{
 		float L_0 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
-		float L_1 = __this->get_superTime_18();
-		__this->set_timeOfSuper_22(((float)((float)L_0+(float)L_1)));
-		__this->set_superAmount_20((1.0f));
-		__this->set_isSuperActive_21((bool)1);
+		float L_1 = __this->get_superTime_22();
+		__this->set_timeOfSuper_26(((float)((float)L_0+(float)L_1)));
+		__this->set_superAmount_24((1.0f));
+		__this->set_isSuperActive_25((bool)1);
 		Pump_t2499208 * L_2 = __this->get_powerPumper_5();
 		NullCheck(L_2);
 		Pump_Pumpit_m2315817461(L_2, 3, /*hidden argument*/NULL);
@@ -1788,7 +2112,7 @@ IL_003e:
 		int32_t L_6 = L_5;
 		V_0 = ((L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6)));
 		Image_t3354615620 * L_7 = V_0;
-		Color_t1588175760  L_8 = __this->get_backgroundSuperColor_16();
+		Color_t1588175760  L_8 = __this->get_backgroundSuperColor_18();
 		NullCheck(L_7);
 		Graphic_set_color_m1311501487(L_7, L_8, /*hidden argument*/NULL);
 		int32_t L_9 = V_2;
@@ -1806,6 +2130,26 @@ IL_0052:
 		}
 	}
 	{
+		AudioSource_t3628549054 * L_12 = __this->get_audioSource_32();
+		AudioClip_t3714538611 * L_13 = __this->get_superMode_11();
+		NullCheck(L_12);
+		AudioSource_set_clip_m19502010(L_12, L_13, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_14 = __this->get_audioSource_32();
+		NullCheck(L_14);
+		AudioSource_Play_m1360558992(L_14, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_15 = __this->get_swipeInstruction_7();
+		NullCheck(L_15);
+		GameObject_SetActive_m3538205401(L_15, (bool)1, /*hidden argument*/NULL);
+		Dictionary_2_t2474804324 * L_16 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3229349667(L_16, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
+		V_3 = L_16;
+		Dictionary_2_t2474804324 * L_17 = V_3;
+		int32_t L_18 = 1;
+		Il2CppObject * L_19 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_18);
+		NullCheck(L_17);
+		VirtActionInvoker2< String_t*, Il2CppObject * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_17, _stringLiteral80248667, L_19);
+		Dictionary_2_t2474804324 * L_20 = V_3;
+		Analytics_CustomEvent_m2355465823(NULL /*static, unused*/, _stringLiteral2591289926, L_20, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1816,41 +2160,51 @@ extern "C"  void ScoreManager_StopSuper_m3440707863 (ScoreManager_t2519962843 * 
 	ImageU5BU5D_t2279835437* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		__this->set_isSuperActive_21((bool)0);
-		__this->set_superAmount_20((0.0f));
-		ImageU5BU5D_t2279835437* L_0 = __this->get_backgrounds_6();
-		V_1 = L_0;
+		AudioSource_t3628549054 * L_0 = __this->get_audioSource_32();
+		AudioClip_t3714538611 * L_1 = __this->get_superModeFinishSound_12();
+		NullCheck(L_0);
+		AudioSource_set_clip_m19502010(L_0, L_1, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_2 = __this->get_audioSource_32();
+		NullCheck(L_2);
+		AudioSource_Play_m1360558992(L_2, /*hidden argument*/NULL);
+		__this->set_isSuperActive_25((bool)0);
+		__this->set_superAmount_24((0.0f));
+		ImageU5BU5D_t2279835437* L_3 = __this->get_backgrounds_6();
+		V_1 = L_3;
 		V_2 = 0;
-		goto IL_0034;
+		goto IL_0050;
 	}
 
-IL_0020:
+IL_003c:
 	{
-		ImageU5BU5D_t2279835437* L_1 = V_1;
-		int32_t L_2 = V_2;
-		NullCheck(L_1);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
-		int32_t L_3 = L_2;
-		V_0 = ((L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3)));
-		Image_t3354615620 * L_4 = V_0;
-		Color_t1588175760  L_5 = __this->get_backgroundColor_15();
+		ImageU5BU5D_t2279835437* L_4 = V_1;
+		int32_t L_5 = V_2;
 		NullCheck(L_4);
-		Graphic_set_color_m1311501487(L_4, L_5, /*hidden argument*/NULL);
-		int32_t L_6 = V_2;
-		V_2 = ((int32_t)((int32_t)L_6+(int32_t)1));
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
+		int32_t L_6 = L_5;
+		V_0 = ((L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6)));
+		Image_t3354615620 * L_7 = V_0;
+		Color_t1588175760  L_8 = __this->get_backgroundColor_17();
+		NullCheck(L_7);
+		Graphic_set_color_m1311501487(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
 	}
 
-IL_0034:
+IL_0050:
 	{
-		int32_t L_7 = V_2;
-		ImageU5BU5D_t2279835437* L_8 = V_1;
-		NullCheck(L_8);
-		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		int32_t L_10 = V_2;
+		ImageU5BU5D_t2279835437* L_11 = V_1;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
 		{
-			goto IL_0020;
+			goto IL_003c;
 		}
 	}
 	{
+		GameObject_t4012695102 * L_12 = __this->get_swipeInstruction_7();
+		NullCheck(L_12);
+		GameObject_SetActive_m3538205401(L_12, (bool)0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1968,6 +2322,14 @@ extern "C"  void U3CHideComplimentU3Ec__Iterator5_Reset_m770095114 (U3CHideCompl
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
+// System.Void ScoreManager/EventTypes::.ctor()
+extern "C"  void EventTypes__ctor_m590210296 (EventTypes_t2967822879 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void ScoreManager/ScoreTypes::.ctor()
 extern "C"  void ScoreTypes__ctor_m884629232 (ScoreTypes_t3567341863 * __this, const MethodInfo* method)
 {
@@ -1995,6 +2357,63 @@ extern "C"  void SoundLibrary_Start_m4095535183 (SoundLibrary_t1775290572 * __th
 extern "C"  void SoundLibrary_Update_m2413391262 (SoundLibrary_t1775290572 * __this, const MethodInfo* method)
 {
 	{
+		return;
+	}
+}
+// System.Void Vibrator::.ctor()
+extern "C"  void Vibrator__ctor_m3576303746 (Vibrator_t1170382393 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_vel_3(L_0);
+		__this->set_smoothTime_4((0.01f));
+		__this->set_powerMultiplier_5((1.2f));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vibrator::Start()
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3317474837_m1940403147_MethodInfo_var;
+extern const uint32_t Vibrator_Start_m2523441538_MetadataUsageId;
+extern "C"  void Vibrator_Start_m2523441538 (Vibrator_t1170382393 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Vibrator_Start_m2523441538_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		RectTransform_t3317474837 * L_0 = Component_GetComponent_TisRectTransform_t3317474837_m1940403147(__this, /*hidden argument*/Component_GetComponent_TisRectTransform_t3317474837_m1940403147_MethodInfo_var);
+		__this->set_ourRect_6(L_0);
+		RectTransform_t3317474837 * L_1 = __this->get_ourRect_6();
+		NullCheck(L_1);
+		Vector2_t3525329788  L_2 = RectTransform_get_anchoredPosition_m2318455998(L_1, /*hidden argument*/NULL);
+		__this->set_startPos_2(L_2);
+		return;
+	}
+}
+// System.Void Vibrator::Update()
+extern "C"  void Vibrator_Update_m923128523 (Vibrator_t1170382393 * __this, const MethodInfo* method)
+{
+	{
+		RectTransform_t3317474837 * L_0 = __this->get_ourRect_6();
+		RectTransform_t3317474837 * L_1 = __this->get_ourRect_6();
+		NullCheck(L_1);
+		Vector2_t3525329788  L_2 = RectTransform_get_anchoredPosition_m2318455998(L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_3 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_4 = __this->get_startPos_2();
+		Vector2_t3525329788  L_5 = Random_get_insideUnitCircle_m3455477774(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_6 = __this->get_powerMultiplier_5();
+		Vector2_t3525329788  L_7 = Vector2_op_Multiply_m1738245082(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_4, L_7, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_9 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Vector3_t3525329789 * L_10 = __this->get_address_of_vel_3();
+		float L_11 = __this->get_smoothTime_4();
+		Vector3_t3525329789  L_12 = Vector3_SmoothDamp_m3121209633(NULL /*static, unused*/, L_3, L_9, L_10, L_11, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_13 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		RectTransform_set_anchoredPosition_m1498949997(L_0, L_13, /*hidden argument*/NULL);
 		return;
 	}
 }

@@ -10,7 +10,7 @@ public class Bubble : MonoBehaviour {
 
 	[Header("Configuration")]
 	public int value;
-
+	public AudioSource popVoicesAudioSource;
 	public bool isPopped = false;
 
 	[HideInInspector]
@@ -24,6 +24,7 @@ public class Bubble : MonoBehaviour {
 	public event System.Action<int> OnPop = (i) => {};
 	AudioSource audiosource;
 	AudioClip clip;
+	AudioClip voiceClip;
 	SoundLibrary soundLibrary;
 	float timeOfPop;
 
@@ -42,7 +43,9 @@ public class Bubble : MonoBehaviour {
 		audiosource = GetComponent<AudioSource>();
 		soundLibrary = FindObjectOfType<SoundLibrary>();
 		clip = soundLibrary.popSounds[Random.Range(0,soundLibrary.popSounds.Length)];
+		voiceClip = soundLibrary.popVoices[Random.Range(0,soundLibrary.popVoices.Length)];
 		audiosource.clip = clip;
+		popVoicesAudioSource.clip = voiceClip;
 	}
 	
 	// Update is called once per frame
@@ -68,8 +71,11 @@ public class Bubble : MonoBehaviour {
 
 	public void Swiped(){
 
-		if (scoreManager.isSuperActive)
+		if (scoreManager.isSuperActive){
 			Pop();
+			popVoicesAudioSource.Play();
+		}
+			
 	}
 
 

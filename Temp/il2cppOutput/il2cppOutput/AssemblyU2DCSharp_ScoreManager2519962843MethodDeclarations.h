@@ -23,6 +23,8 @@ struct IEnumerator_t287207039;
 extern "C"  void ScoreManager__ctor_m2871960608 (ScoreManager_t2519962843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScoreManager::Start()
 extern "C"  void ScoreManager_Start_m1819098400 (ScoreManager_t2519962843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void ScoreManager::VisualStart()
+extern "C"  void ScoreManager_VisualStart_m4218078208 (ScoreManager_t2519962843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScoreManager::Update()
 extern "C"  void ScoreManager_Update_m563327725 (ScoreManager_t2519962843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScoreManager::UpdateScoreUI()

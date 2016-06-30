@@ -12,8 +12,11 @@
 #include <assert.h>
 #include <exception>
 
+// System.Random
+struct Random_t922188920;
 
 #include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Random922188920.h"
 
 // System.Void UnityEngine.Mathf::.cctor()
 extern "C"  void Mathf__cctor_m1875403730 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -71,6 +74,8 @@ extern "C"  float Mathf_SmoothDamp_m779170481 (Il2CppObject * __this /* static, 
 extern "C"  float Mathf_Repeat_m3424250200 (Il2CppObject * __this /* static, unused */, float ___t0, float ___length1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::InverseLerp(System.Single,System.Single,System.Single)
 extern "C"  float Mathf_InverseLerp_m152689993 (Il2CppObject * __this /* static, unused */, float ___a0, float ___b1, float ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.Mathf::RandomToLong(System.Random)
+extern "C"  int64_t Mathf_RandomToLong_m3848472910 (Il2CppObject * __this /* static, unused */, Random_t922188920 * ___r0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct Mathf_t1597001355;

@@ -17,6 +17,8 @@
 struct String_t;
 // System.Object[]
 struct ObjectU5BU5D_t11523773;
+// System.CodeDom.Compiler.GeneratedCodeAttribute
+struct GeneratedCodeAttribute_t785805933;
 // System.Collections.Specialized.HybridDictionary
 struct HybridDictionary_t370358365;
 // System.Collections.IEnumerator
@@ -245,9 +247,12 @@ struct CostDelegate_t3008899218;
 #include "mscorlib_ArrayTypes.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_String968488902MethodDeclarations.h"
+#include "System_System_CodeDom_Compiler_GeneratedCodeAttribu785805933.h"
+#include "System_System_CodeDom_Compiler_GeneratedCodeAttribu785805933MethodDeclarations.h"
+#include "mscorlib_System_Void2779279689.h"
+#include "mscorlib_System_Attribute498693649MethodDeclarations.h"
 #include "System_System_Collections_Specialized_HybridDiction370358365.h"
 #include "System_System_Collections_Specialized_HybridDiction370358365MethodDeclarations.h"
-#include "mscorlib_System_Void2779279689.h"
 #include "mscorlib_System_Int322847414787.h"
 #include "mscorlib_System_Boolean211005341.h"
 #include "mscorlib_System_Object837106420MethodDeclarations.h"
@@ -308,7 +313,6 @@ struct CostDelegate_t3008899218;
 #include "System_System_ComponentModel_EditorBrowsableAttrib1786040349.h"
 #include "System_System_ComponentModel_EditorBrowsableAttrib1786040349MethodDeclarations.h"
 #include "System_System_ComponentModel_EditorBrowsableState1882002962.h"
-#include "mscorlib_System_Attribute498693649MethodDeclarations.h"
 #include "mscorlib_System_Enum2778772662MethodDeclarations.h"
 #include "mscorlib_System_Enum2778772662.h"
 #include "System_System_ComponentModel_EditorBrowsableState1882002962MethodDeclarations.h"
@@ -679,6 +683,18 @@ extern "C"  String_t* Locale_GetText_m946430094 (Il2CppObject * __this /* static
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Format_m4050103162(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
+	}
+}
+// System.Void System.CodeDom.Compiler.GeneratedCodeAttribute::.ctor(System.String,System.String)
+extern "C"  void GeneratedCodeAttribute__ctor_m3690080601 (GeneratedCodeAttribute_t785805933 * __this, String_t* ___tool0, String_t* ___version1, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___tool0;
+		__this->set_tool_0(L_0);
+		String_t* L_1 = ___version1;
+		__this->set_version_1(L_1);
+		return;
 	}
 }
 // System.Void System.Collections.Specialized.HybridDictionary::.ctor()
@@ -37296,70 +37312,6 @@ extern "C"  Il2CppObject * IntervalCollection_GetEnumerator_m4242145148 (Interva
 		Enumerator__ctor_m218362154(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
-}
-// System.Void System.Text.RegularExpressions.IntervalCollection/CostDelegate::.ctor(System.Object,System.IntPtr)
-extern "C"  void CostDelegate__ctor_m731467895 (CostDelegate_t3008899218 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
-{
-	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->method);
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::Invoke(System.Text.RegularExpressions.Interval)
-extern "C"  double CostDelegate_Invoke_m212988972 (CostDelegate_t3008899218 * __this, Interval_t63637216  ___i0, const MethodInfo* method)
-{
-	if(__this->get_prev_9() != NULL)
-	{
-		CostDelegate_Invoke_m212988972((CostDelegate_t3008899218 *)__this->get_prev_9(),___i0, method);
-	}
-	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
-	{
-		typedef double (*FunctionPointerType) (Il2CppObject *, void* __this, Interval_t63637216  ___i0, const MethodInfo* method);
-		return ((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___i0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	}
-	else
-	{
-		typedef double (*FunctionPointerType) (void* __this, Interval_t63637216  ___i0, const MethodInfo* method);
-		return ((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___i0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	}
-}
-extern "C" double pinvoke_delegate_wrapper_CostDelegate_t3008899218(Il2CppObject* delegate, Interval_t63637216  ___i0)
-{
-	typedef double (STDCALL *native_function_ptr_type)(Interval_t63637216_marshaled_pinvoke);
-	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
-	// Marshaling of parameter '___i0' to native representation
-	Interval_t63637216_marshaled_pinvoke ____i0_marshaled = { };
-	Interval_t63637216_marshal_pinvoke(___i0, ____i0_marshaled);
-
-	// Native function invocation and marshaling of return value back from native representation
-	double _return_value = _il2cpp_pinvoke_func(____i0_marshaled);
-
-	// Marshaling cleanup of parameter '___i0' native representation
-	Interval_t63637216_marshal_pinvoke_cleanup(____i0_marshaled);
-
-	return _return_value;
-}
-// System.IAsyncResult System.Text.RegularExpressions.IntervalCollection/CostDelegate::BeginInvoke(System.Text.RegularExpressions.Interval,System.AsyncCallback,System.Object)
-extern Il2CppClass* Interval_t63637216_il2cpp_TypeInfo_var;
-extern const uint32_t CostDelegate_BeginInvoke_m1041332600_MetadataUsageId;
-extern "C"  Il2CppObject * CostDelegate_BeginInvoke_m1041332600 (CostDelegate_t3008899218 * __this, Interval_t63637216  ___i0, AsyncCallback_t1363551830 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (CostDelegate_BeginInvoke_m1041332600_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(Interval_t63637216_il2cpp_TypeInfo_var, &___i0);
-	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
-}
-// System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::EndInvoke(System.IAsyncResult)
-extern "C"  double CostDelegate_EndInvoke_m917297514 (CostDelegate_t3008899218 * __this, Il2CppObject * ___result0, const MethodInfo* method)
-{
-	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(double*)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

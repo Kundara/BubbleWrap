@@ -29,6 +29,8 @@ public:
 	AudioClipU5BU5D_t2889538658* ___popSounds_2;
 	// UnityEngine.AudioClip[] SoundLibrary::releaseSounds
 	AudioClipU5BU5D_t2889538658* ___releaseSounds_3;
+	// UnityEngine.AudioClip[] SoundLibrary::popVoices
+	AudioClipU5BU5D_t2889538658* ___popVoices_4;
 
 public:
 	inline static int32_t get_offset_of_popSounds_2() { return static_cast<int32_t>(offsetof(SoundLibrary_t1775290572, ___popSounds_2)); }
@@ -47,6 +49,15 @@ public:
 	{
 		___releaseSounds_3 = value;
 		Il2CppCodeGenWriteBarrier(&___releaseSounds_3, value);
+	}
+
+	inline static int32_t get_offset_of_popVoices_4() { return static_cast<int32_t>(offsetof(SoundLibrary_t1775290572, ___popVoices_4)); }
+	inline AudioClipU5BU5D_t2889538658* get_popVoices_4() const { return ___popVoices_4; }
+	inline AudioClipU5BU5D_t2889538658** get_address_of_popVoices_4() { return &___popVoices_4; }
+	inline void set_popVoices_4(AudioClipU5BU5D_t2889538658* value)
+	{
+		___popVoices_4 = value;
+		Il2CppCodeGenWriteBarrier(&___popVoices_4, value);
 	}
 };
 

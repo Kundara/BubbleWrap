@@ -30,6 +30,7 @@ struct Vector2U5BU5D_t2741383957;
 #include "UnityEngine_UnityEngine_Matrix4x4277289660.h"
 #include "UnityEngine_UnityEngine_MeshTopology761116649.h"
 #include "UnityEngine_UnityEngine_ComputeBuffer2382190468.h"
+#include "UnityEngine_UnityEngine_InternalDrawTextureArgumen3136253609.h"
 #include "UnityEngine_UnityEngine_Texture1769722184.h"
 #include "UnityEngine_UnityEngine_RenderTexture12905170.h"
 #include "UnityEngine_UnityEngine_Material1886596500.h"
@@ -44,6 +45,8 @@ extern "C"  void Graphics_Internal_DrawMeshNow2_m1490231000 (Il2CppObject * __th
 extern "C"  void Graphics_INTERNAL_CALL_Internal_DrawMeshNow2_m3606840651 (Il2CppObject * __this /* static, unused */, Mesh_t1525280346 * ___mesh0, Matrix4x4_t277289660 * ___matrix1, int32_t ___materialIndex2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Graphics::DrawProceduralIndirect(UnityEngine.MeshTopology,UnityEngine.ComputeBuffer,System.Int32)
 extern "C"  void Graphics_DrawProceduralIndirect_m2816657261 (Il2CppObject * __this /* static, unused */, int32_t ___topology0, ComputeBuffer_t2382190468 * ___bufferWithArgs1, int32_t ___argsOffset2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Graphics::DrawTexture(UnityEngine.InternalDrawTextureArguments&)
+extern "C"  void Graphics_DrawTexture_m2938050632 (Il2CppObject * __this /* static, unused */, InternalDrawTextureArguments_t3136253609 * ___arguments0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Graphics::Blit(UnityEngine.Texture,UnityEngine.RenderTexture)
 extern "C"  void Graphics_Blit_m3408836917 (Il2CppObject * __this /* static, unused */, Texture_t1769722184 * ___source0, RenderTexture_t12905170 * ___dest1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Graphics::Blit(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)

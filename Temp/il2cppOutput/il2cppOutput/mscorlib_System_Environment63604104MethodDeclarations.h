@@ -34,6 +34,8 @@ extern "C"  int32_t Environment_get_Platform_m977128040 (Il2CppObject * __this /
 extern "C"  String_t* Environment_GetOSVersionString_m2885926456 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.OperatingSystem System.Environment::get_OSVersion()
 extern "C"  OperatingSystem_t602923589 * Environment_get_OSVersion_m2506362029 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Environment::get_TickCount()
+extern "C"  int32_t Environment_get_TickCount_m2991349545 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.Environment::GetCommandLineArgs()
 extern "C"  StringU5BU5D_t2956870243* Environment_GetCommandLineArgs_m1382561293 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::internalGetEnvironmentVariable(System.String)

@@ -6,6 +6,7 @@ public class SoundLibrary : MonoBehaviour {
 	public AudioClip[] popSounds;
 
 	public AudioClip[] releaseSounds;
+	public AudioClip[] popVoices;
 
 	// Use this for initialization
 	void Start () {

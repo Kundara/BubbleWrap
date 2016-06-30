@@ -190,8 +190,10 @@ public:
 	int32_t ___lastScore_69;
 	// System.Boolean GS.FBManager::isLogged
 	bool ___isLogged_70;
+	// System.Boolean GS.FBManager::askedHim
+	bool ___askedHim_71;
 	// System.String GS.FBManager::FILE_NAME
-	String_t* ___FILE_NAME_71;
+	String_t* ___FILE_NAME_72;
 
 public:
 	inline static int32_t get_offset_of_stateSprites_2() { return static_cast<int32_t>(offsetof(FBManager_t1944751413, ___stateSprites_2)); }
@@ -801,13 +803,21 @@ public:
 		___isLogged_70 = value;
 	}
 
-	inline static int32_t get_offset_of_FILE_NAME_71() { return static_cast<int32_t>(offsetof(FBManager_t1944751413, ___FILE_NAME_71)); }
-	inline String_t* get_FILE_NAME_71() const { return ___FILE_NAME_71; }
-	inline String_t** get_address_of_FILE_NAME_71() { return &___FILE_NAME_71; }
-	inline void set_FILE_NAME_71(String_t* value)
+	inline static int32_t get_offset_of_askedHim_71() { return static_cast<int32_t>(offsetof(FBManager_t1944751413, ___askedHim_71)); }
+	inline bool get_askedHim_71() const { return ___askedHim_71; }
+	inline bool* get_address_of_askedHim_71() { return &___askedHim_71; }
+	inline void set_askedHim_71(bool value)
 	{
-		___FILE_NAME_71 = value;
-		Il2CppCodeGenWriteBarrier(&___FILE_NAME_71, value);
+		___askedHim_71 = value;
+	}
+
+	inline static int32_t get_offset_of_FILE_NAME_72() { return static_cast<int32_t>(offsetof(FBManager_t1944751413, ___FILE_NAME_72)); }
+	inline String_t* get_FILE_NAME_72() const { return ___FILE_NAME_72; }
+	inline String_t** get_address_of_FILE_NAME_72() { return &___FILE_NAME_72; }
+	inline void set_FILE_NAME_72(String_t* value)
+	{
+		___FILE_NAME_72 = value;
+		Il2CppCodeGenWriteBarrier(&___FILE_NAME_72, value);
 	}
 };
 

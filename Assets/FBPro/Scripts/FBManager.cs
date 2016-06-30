@@ -71,6 +71,7 @@ namespace GS
 		float lastUpdate = 0f;
 		int lastScore;
 		bool isLogged = false;
+		bool askedHim = false;
 
         void Awake()
         {
@@ -251,18 +252,22 @@ namespace GS
 	            Each time you'll post score, It'll prompt user to grant publish_actions unless your app is 
 	            approved by facebook for publish actions.
 	            */
-	            if (!AccessToken.CurrentAccessToken.Permissions.Contains(publishPermission[0]))
+				if (!AccessToken.CurrentAccessToken.Permissions.Contains("publish_actions"))
 	            {
 	                // As A good Practice, You should tell your users that why you need publish permission so
 	                // show a dialog telling about it. or else simply go to facebook permission prompt.
 	                //sm.publish_permissionDialog.SetActive(true);
-	                GetPublishPermission();
+					if (askedHim == false){
+						GetPublishPermission();
+						askedHim = true;
+					}
+
 	            }
 	            else
 	            {
 					PostOnlyIfPermitted(scoreInt);
 	            }
-				if (isLogged = false){
+				if (isLogged == false){
 					SetUILoggedIn();
 				}
 				LoadLeaderboard();
@@ -802,6 +807,12 @@ namespace GS
                 PrintLog("Failed to Initialize the Facebook SDK!");
                 //InitFB();//Try Again!
             }
+
+			if (FB.IsLoggedIn)
+			{
+				SetUILoggedIn();
+				PrintLog("Logged In !");
+			}
         }
 
         void LoginFB()
