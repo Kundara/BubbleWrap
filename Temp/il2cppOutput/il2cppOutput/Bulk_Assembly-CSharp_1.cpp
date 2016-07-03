@@ -1778,7 +1778,7 @@ IL_00d4:
 	{
 		float L_19 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_20 = __this->get_lastPop_33();
-		if ((!(((float)L_19) > ((float)((float)((float)L_20+(float)(3.0f)))))))
+		if ((!(((float)L_19) > ((float)((float)((float)L_20+(float)(5.0f)))))))
 		{
 			goto IL_0111;
 		}

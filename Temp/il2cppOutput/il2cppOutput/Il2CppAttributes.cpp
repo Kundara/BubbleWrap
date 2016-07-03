@@ -19172,7 +19172,21 @@ static void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_g
 		CompilerGeneratedAttribute__ctor_m2546676106(tmp, NULL);
 	}
 }
+static void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_resultCallback_m2662556856(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t853953138 * tmp = (CompilerGeneratedAttribute_t853953138 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m2546676106(tmp, NULL);
+	}
+}
 static void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_gamerSid_m4250760004(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t853953138 * tmp = (CompilerGeneratedAttribute_t853953138 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m2546676106(tmp, NULL);
+	}
+}
+static void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965(CustomAttributesCache* cache)
 {
 	{
 		CompilerGeneratedAttribute_t853953138 * tmp = (CompilerGeneratedAttribute_t853953138 *)cache->attributes[0];
@@ -25983,7 +25997,7 @@ static void Vortex_t3534108302_CustomAttributesCacheGenerator(CustomAttributesCa
 		AddComponentMenu__ctor_m1521317712(tmp, il2cpp_codegen_string_new_wrapper("Image Effects/Displacement/Vortex"), NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3169] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3171] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -28344,7 +28358,9 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3169] =
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_U3CresultCallbackU3Ek__BackingField,
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_U3CgamerSidU3Ek__BackingField,
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_resultCallback_m2703960527,
+	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_resultCallback_m2662556856,
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_gamerSid_m4250760004,
+	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965,
 	UnityAdsEditor_t3418119343_CustomAttributesCacheGenerator_UnityAdsEditor_GetAdPlan_m2752032585,
 	U3CGetAdPlanU3Ec__Iterator0_t3216485943_CustomAttributesCacheGenerator,
 	U3CGetAdPlanU3Ec__Iterator0_t3216485943_CustomAttributesCacheGenerator_U3CGetAdPlanU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2234575127,

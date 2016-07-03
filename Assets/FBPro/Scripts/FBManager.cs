@@ -861,7 +861,7 @@ namespace GS
 			LoadPlayerPic();
 			btnLogin.gameObject.SetActive(false);
 
-			btnCustomInvite.gameObject.SetActive(true);
+			//btnCustomInvite.gameObject.SetActive(true);
 
 			LoadLeaderboard();
 			isLogged = true;
@@ -874,7 +874,7 @@ namespace GS
 			playerInfo.SetActive(false);
 			btnLogin.gameObject.SetActive(true);
 			btnLeaderboard.gameObject.SetActive(false);
-			btnCustomInvite.gameObject.SetActive(false);
+			//btnCustomInvite.gameObject.SetActive(false);
 			isLogged = false;
 		}
 

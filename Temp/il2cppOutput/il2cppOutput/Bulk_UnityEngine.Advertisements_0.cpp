@@ -98,6 +98,7 @@ struct UnityAdsUnsupported_t2797285473;
 #include "UnityEngine_UnityEngine_HideFlags62234258.h"
 #include "UnityEngine_UnityEngine_Coroutine2246592261.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
+#include "mscorlib_System_Object837106420MethodDeclarations.h"
 #include "UnityEngine_Advertisements_UnityEngine_Advertiseme1700490209MethodDeclarations.h"
 #include "UnityEngine_Advertisements_UnityEngine_Advertisemen667067442MethodDeclarations.h"
 #include "UnityEngine_Advertisements_UnityEngine_Advertisemen667067442.h"
@@ -115,7 +116,6 @@ struct UnityAdsUnsupported_t2797285473;
 #include "mscorlib_System_Int322847414787.h"
 #include "System_Core_System_Collections_Generic_HashSet_1_g3667177573MethodDeclarations.h"
 #include "System_Core_System_Collections_Generic_HashSet_1_g3667177573.h"
-#include "mscorlib_System_Object837106420MethodDeclarations.h"
 #include "mscorlib_System_UInt32985925326.h"
 #include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1374155497.h"
@@ -1093,6 +1093,14 @@ extern "C"  Coroutine_t2246592261 * AsyncExec_StartCoroutine_m137798441 (Il2CppO
 		return L_2;
 	}
 }
+// System.Void UnityEngine.Advertisements.ShowOptions::.ctor()
+extern "C"  void ShowOptions__ctor_m3301059642 (ShowOptions_t4067882760 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Action`1<UnityEngine.Advertisements.ShowResult> UnityEngine.Advertisements.ShowOptions::get_resultCallback()
 extern "C"  Action_1_t1848942914 * ShowOptions_get_resultCallback_m2703960527 (ShowOptions_t4067882760 * __this, const MethodInfo* method)
 {
@@ -1101,12 +1109,30 @@ extern "C"  Action_1_t1848942914 * ShowOptions_get_resultCallback_m2703960527 (S
 		return L_0;
 	}
 }
+// System.Void UnityEngine.Advertisements.ShowOptions::set_resultCallback(System.Action`1<UnityEngine.Advertisements.ShowResult>)
+extern "C"  void ShowOptions_set_resultCallback_m2662556856 (ShowOptions_t4067882760 * __this, Action_1_t1848942914 * ___value0, const MethodInfo* method)
+{
+	{
+		Action_1_t1848942914 * L_0 = ___value0;
+		__this->set_U3CresultCallbackU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
 // System.String UnityEngine.Advertisements.ShowOptions::get_gamerSid()
 extern "C"  String_t* ShowOptions_get_gamerSid_m4250760004 (ShowOptions_t4067882760 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = __this->get_U3CgamerSidU3Ek__BackingField_1();
 		return L_0;
+	}
+}
+// System.Void UnityEngine.Advertisements.ShowOptions::set_gamerSid(System.String)
+extern "C"  void ShowOptions_set_gamerSid_m3140541965 (ShowOptions_t4067882760 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CgamerSidU3Ek__BackingField_1(L_0);
+		return;
 	}
 }
 // System.Void UnityEngine.Advertisements.UnityAdsEditor::.ctor()

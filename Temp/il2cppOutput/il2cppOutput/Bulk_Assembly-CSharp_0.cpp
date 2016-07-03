@@ -28492,11 +28492,6 @@ extern "C"  void FBManager_SetUILoggedIn_m3649594983 (FBManager_t1944751413 * __
 		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m3538205401(L_2, (bool)0, /*hidden argument*/NULL);
-		Button_t990034267 * L_3 = __this->get_btnCustomInvite_40();
-		NullCheck(L_3);
-		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		GameObject_SetActive_m3538205401(L_4, (bool)1, /*hidden argument*/NULL);
 		FBManager_LoadLeaderboard_m1135443329(__this, /*hidden argument*/NULL);
 		__this->set_isLogged_70((bool)1);
 		return;
@@ -28521,11 +28516,6 @@ extern "C"  void FBManager_SetUILoggedOut_m1474117486 (FBManager_t1944751413 * _
 		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m3538205401(L_4, (bool)0, /*hidden argument*/NULL);
-		Button_t990034267 * L_5 = __this->get_btnCustomInvite_40();
-		NullCheck(L_5);
-		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1170635899(L_5, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		GameObject_SetActive_m3538205401(L_6, (bool)0, /*hidden argument*/NULL);
 		__this->set_isLogged_70((bool)0);
 		return;
 	}

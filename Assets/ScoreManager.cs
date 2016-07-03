@@ -107,7 +107,7 @@ public class ScoreManager : MonoBehaviour {
 			}
 		}
 
-		if (Time.time > timeOfAd && Time.time > lastPop + 3f){
+		if (Time.time > timeOfAd && Time.time > lastPop + 5f){
 			AdPoster.ShowAd();
 			timeOfAd = Time.time + showAdEvery;
 		}

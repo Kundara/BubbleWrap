@@ -9862,8 +9862,11 @@ extern "C" void Advertisement_DeliverResult_m1423967449 ();
 extern "C" void AsyncExec__cctor_m2666769919 ();
 extern "C" void AsyncExec_get_coroutineHost_m2018533427 ();
 extern "C" void AsyncExec_StartCoroutine_m137798441 ();
+extern "C" void ShowOptions__ctor_m3301059642 ();
 extern "C" void ShowOptions_get_resultCallback_m2703960527 ();
+extern "C" void ShowOptions_set_resultCallback_m2662556856 ();
 extern "C" void ShowOptions_get_gamerSid_m4250760004 ();
+extern "C" void ShowOptions_set_gamerSid_m3140541965 ();
 extern "C" void UnityAdsEditor__ctor_m3976139971 ();
 extern "C" void UnityAdsEditor_RegisterNative_m4194002087 ();
 extern "C" void UnityAdsEditor_Init_m1629594092 ();
@@ -12647,7 +12650,7 @@ extern "C" void VignetteAndChromaticAberration_CheckResources_m1342019752 ();
 extern "C" void VignetteAndChromaticAberration_OnRenderImage_m1469756449 ();
 extern "C" void Vortex__ctor_m1814024315 ();
 extern "C" void Vortex_OnRenderImage_m411427587 ();
-extern const Il2CppMethodPointer g_MethodPointers[12636] = 
+extern const Il2CppMethodPointer g_MethodPointers[12639] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -22500,8 +22503,11 @@ extern const Il2CppMethodPointer g_MethodPointers[12636] =
 	AsyncExec__cctor_m2666769919,
 	AsyncExec_get_coroutineHost_m2018533427,
 	AsyncExec_StartCoroutine_m137798441,
+	ShowOptions__ctor_m3301059642,
 	ShowOptions_get_resultCallback_m2703960527,
+	ShowOptions_set_resultCallback_m2662556856,
 	ShowOptions_get_gamerSid_m4250760004,
+	ShowOptions_set_gamerSid_m3140541965,
 	UnityAdsEditor__ctor_m3976139971,
 	UnityAdsEditor_RegisterNative_m4194002087,
 	UnityAdsEditor_Init_m1629594092,
